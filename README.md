@@ -2,9 +2,6 @@
 
 This working flow runs on `epyc` node on `clust1-sub`
 
-# Call the function
-check_install_packages(packages)
-```
 
 # UNITE workflow
 
@@ -103,6 +100,9 @@ packages <- c(
   "MultiAssayExperiment", "nord", "plotly", "htmlwidgets", "ggpubr"
 )
 
+# Call the function
+check_install_packages(packages)
+```
 
 
 ## Demisfying ref genomes
