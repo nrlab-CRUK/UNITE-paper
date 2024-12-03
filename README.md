@@ -1,17 +1,13 @@
-# Workflow
 
 This working flow runs on `epyc` node on `clust1-sub`
 
 
-# UNITE workflow
-
-
-## index bam files (when needed)
+## Step 1: index bam files (when needed)
 ```bash
 for i in *.bam; do sbatch --time=0-1:00:00 --mem=4G --partition=epyc -J index --wrap="source ~/.bashrc; conda activate projectx; samtools index ${i}"; done
 ```
 
-## calculate bam stats (e.g., number of reads, and coverage.)
+## Step 2: calculate bam stats (e.g., number of reads, and coverage.)
 ```bash
 for i in *.bam
 do
@@ -19,7 +15,7 @@ sbatch --time=0-10 --mem=128G  -J "count" -p "epyc" --wrap="source ~/.bashrc; co
 ```
 
 
-## downsample the bam file to target_depth (modify the variables below when needed) 
+## Step 3: downsample the bam file to target_depth (modify the variables below when needed) 
 ```bash
 downsampled_dir="../downsampled_bam"
 #the unit of target_depth is "x"
@@ -31,13 +27,13 @@ sbatch --time=0-20 --mem=32G  -J "downsamp" -p "epyc" --wrap="source ~/.bashrc; 
 done
 ```
 
-## run UNITE
+## Step 4: run UNITE
 ```bash
 working_dir=""
 /home/nrlab/wang04/ulyses/ulyses_scale_up_scripts/run_ulyses.sh ${working_dir}
 ```
 
-## UNITE plots
+## Step 5: UNITE plots
 
 In last step, for each bam file, there will be "*ulyses_image.rds" files generated.
 The code below will generate corresponding plots for each rds file generated.
@@ -57,7 +53,7 @@ sbatch --time=0-00:15:00 \
 done
 ```
 
-## Quality Control the UNITE results
+## Step 6: Quality Control the UNITE results
 This step checks if the result files for each samples are successfully generated.
 Enter the directory containing the UNITE result files, then run the code below:
 ```bash
