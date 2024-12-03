@@ -1,0 +1,155 @@
+cohort,patient_id,specimen_id,timepoint,bam_id,author,sample_type,stage,library_kit,extraction_kit,seq_platform,age,gender,clinical_tf,data_source,seq_depth,mito_frac,ichorcna_tf,ichorcna_ploidy,ichorcna_gender
+Breast,B33,B33_1,1,SLX-15332.D707-D505,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Breast,B34,B34_1,1,SLX-15332.D707-D506,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Breast,B35,B35_1,1,SLX-15332.D707-D508,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Breast,B36,B36_1,1,SLX-15332.D708-D505,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Breast,B37,B37_1,1,SLX-15332.D708-D506,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Breast,B38,B38_1,1,SLX-15332.D708-D507,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Breast,B39,B39_1,1,SLX-15332.D709-D502,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Breast,B40,B40_1,1,SLX-15332.D708-D508,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Breast,B41,B41_1,1,SLX-15332.D709-D501,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Breast,B42,B42_1,1,SLX-15332.D709-D503,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Breast,B43,B43_1,1,SLX-15332.D709-D504,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl1,batch2_ctl1,1,SLX-13222.D701-D501,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl10,batch2_ctl10,1,SLX-13222.D703-D502,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl11,batch2_ctl11,1,SLX-13222.D703-D503,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl12,batch2_ctl12,1,SLX-13222.D703-D504,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl13,batch2_ctl13,1,SLX-13222.D704-D505,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl14,batch2_ctl14,1,SLX-13222.D704-D506,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl15,batch2_ctl15,1,SLX-13222.D704-D507,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl16,batch2_ctl16,1,SLX-13222.D704-D508,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl17,batch2_ctl17,1,SLX-13222.D705-D505,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl18,batch2_ctl18,1,SLX-13222.D705-D506,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl19,batch2_ctl19,1,SLX-13222.D705-D507,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl2,batch2_ctl2,1,SLX-13222.D701-D502,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl20,batch2_ctl20,1,SLX-13222.D705-D508,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl21,batch2_ctl21,1,SLX-13222.D706-D505,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl22,batch2_ctl22,1,SLX-13222.D706-D506,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl23,batch2_ctl23,1,SLX-13222.D706-D507,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl24,batch2_ctl24,1,SLX-13222.D706-D508,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl3,batch2_ctl3,1,SLX-13222.D701-D503,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl4,batch2_ctl4,1,SLX-13222.D701-D504,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl5,batch2_ctl5,1,SLX-13222.D702-D501,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl6,batch2_ctl6,1,SLX-13222.D702-D502,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl7,batch2_ctl7,1,SLX-13222.D702-D503,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl8,batch2_ctl8,1,SLX-13222.D702-D504,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Healthy,batch2_ctl9,batch2_ctl9,1,SLX-13222.D703-D501,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Bladder,Bl14,Bl14_1,1,SLX-11986.D709-D504,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+Bladder,Bl3,Bl3_1,1,SLX-11094.D708-D501,F.M. et al,plasma,NA,NA,QIAamp Circulating Nucleic Acid Kit,NA,NA,NA,NA,NRLAB,NA,NA,NA,NA,NA
+NA,CGPLH35,CGPLH35_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,48,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH36,CGPLH36_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,36,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH37,CGPLH37_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,39,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH42,CGPLH42_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,54,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH43,CGPLH43_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,49,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH45,CGPLH45_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,58,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH46,CGPLH46_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,35,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH47,CGPLH47_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,50,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH48,CGPLH48_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,38,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH49,CGPLH49_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,39,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH496,CGPLH496_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,74,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH497,CGPLH497_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,68,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH50,CGPLH50_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH51,CGPLH51_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,48,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH52,CGPLH52_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,40,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH54,CGPLH54_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,47,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH55,CGPLH55_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,46,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH56,CGPLH56_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,42,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH57,CGPLH57_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,39,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH59,CGPLH59_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,34,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH63,CGPLH63_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,47,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH64,CGPLH64_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH75,CGPLH75_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,46,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH76,CGPLH76_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,53,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH77,CGPLH77_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,46,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH78,CGPLH78_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,34,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH79,CGPLH79_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,37,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH80,CGPLH80_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,37,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH81,CGPLH81_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,54,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH82,CGPLH82_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,38,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH83,CGPLH83_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,60,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH84,CGPLH84_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,45,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU13,CGPLLU13_1,1,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,72,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU13,CGPLLU13_2,2,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,72,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU13,CGPLLU13_3,3,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,72,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU13,CGPLLU13_4,4,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,72,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU14,CGPLLU14_1,1,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU14,CGPLLU14_2,2,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU14,CGPLLU14_3,3,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU14,CGPLLU14_4,4,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU14,CGPLLU14_5,5,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU14,CGPLLU14_6,6,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU147,CGPLLU147_1,1,NA,Stephen Cristiano,plasma,III,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,60,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU165,CGPLLU165_1,1,NA,Stephen Cristiano,plasma,II,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,68,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU175,CGPLLU175_1,1,NA,Stephen Cristiano,plasma,I,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,47,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU180,CGPLLU180_1,1,NA,Stephen Cristiano,plasma,I,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,57,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU198,CGPLLU198_1,1,NA,Stephen Cristiano,plasma,I,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,49,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU202,CGPLLU202_1,1,NA,Stephen Cristiano,plasma,I,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,68,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU206,CGPLLU206_1,1,NA,Stephen Cristiano,plasma,III,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU209,CGPLLU209_1,1,NA,Stephen Cristiano,plasma,II,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,65,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU244,CGPLLU244_1,1,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,66,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU244,CGPLLU244_2,2,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,66,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU244,CGPLLU244_3,3,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,66,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU244,CGPLLU244_4,4,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,66,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU245,CGPLLU245_1,1,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,49,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU245,CGPLLU245_2,2,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,49,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU245,CGPLLU245_3,3,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,49,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU245,CGPLLU245_4,4,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,49,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU246,CGPLLU246_1,1,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,65,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU246,CGPLLU246_2,2,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,65,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU246,CGPLLU246_3,3,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,65,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU246,CGPLLU246_4,4,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,65,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU264,CGPLLU264_1,1,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,84,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU264,CGPLLU264_2,2,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,84,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU264,CGPLLU264_3,3,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,84,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU264,CGPLLU264_4,4,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,84,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU265,CGPLLU265_1,1,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,71,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU265,CGPLLU265_2,2,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,71,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU265,CGPLLU265_3,3,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,71,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU265,CGPLLU265_4,4,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,71,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU266,CGPLLU266_1,1,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,78,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU266,CGPLLU266_2,2,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,78,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU266,CGPLLU266_3,3,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,78,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU266,CGPLLU266_4,4,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,78,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU267,CGPLLU267_1,1,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU267,CGPLLU267_2,2,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU267,CGPLLU267_3,3,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU269,CGPLLU269_1,1,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,52,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU269,CGPLLU269_2,2,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,52,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU269,CGPLLU269_3,3,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,52,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU271,CGPLLU271_1,1,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,73,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU271,CGPLLU271_2,2,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,73,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU271,CGPLLU271_3,3,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,73,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU271,CGPLLU271_4,4,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,73,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU271,CGPLLU271_5,5,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,73,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU43,CGPLLU43_1,1,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,57,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU43,CGPLLU43_2,2,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,57,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU43,CGPLLU43_3,3,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,57,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU43,CGPLLU43_4,4,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,57,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU86,CGPLLU86_1,1,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU86,CGPLLU86_2,2,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU86,CGPLLU86_3,3,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU86,CGPLLU86_4,4,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU88,CGPLLU88_1,1,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,59,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU88,CGPLLU88_2,2,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,59,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU88,CGPLLU88_3,3,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,59,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU89,CGPLLU89_1,1,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,54,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU89,CGPLLU89_2,2,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,54,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLLU89,CGPLLU89_3,3,NA,Stephen Cristiano,plasma,IV,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,54,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGH14,CGH14_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,NA,M,NA,EGA,NA,NA,NA,NA,NA
+NA,CGH15,CGH15_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,NA,F,NA,EGA,NA,NA,NA,NA,NA
+Healthy,CGPLH314_Rep,CGPLH314_Rep_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,59,M,NA,EGA,NA,NA,NA,NA,NA
+Healthy,CGPLH328_Rep,CGPLH328_Rep_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,68,F,NA,EGA,NA,NA,NA,NA,NA
+Healthy,CGPLH331_Rep,CGPLH331_Rep_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,M,NA,EGA,NA,NA,NA,NA,NA
+Healthy,CGPLH369_Rep,CGPLH369_Rep_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,F,NA,EGA,NA,NA,NA,NA,NA
+Healthy,CGPLH386_Rep,CGPLH386_Rep_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,62,M,NA,EGA,NA,NA,NA,NA,NA
+Healthy,CGPLH391_Rep,CGPLH391_Rep_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,58,M,NA,EGA,NA,NA,NA,NA,NA
+Healthy,CGPLH395_Rep,CGPLH395_Rep_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,56,F,NA,EGA,NA,NA,NA,NA,NA
+Healthy,CGPLH400_Rep,CGPLH400_Rep_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,64,M,NA,EGA,NA,NA,NA,NA,NA
+Healthy,CGPLH401_Rep,CGPLH401_Rep_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,50,M,NA,EGA,NA,NA,NA,NA,NA
+Healthy,CGPLH455_Rep,CGPLH455_Rep_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,55,F,NA,EGA,NA,NA,NA,NA,NA
+Healthy,CGPLH466_Rep,CGPLH466_Rep_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,50,F,NA,EGA,NA,NA,NA,NA,NA
+NA,CGPLH497_Rep,CGPLH497_Rep_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,68,F,NA,EGA,NA,NA,NA,NA,NA
+Healthy,CGPLH504_Rep,CGPLH504_Rep_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,57,F,NA,EGA,NA,NA,NA,NA,NA
+Healthy,CGPLH508_Rep,CGPLH508_Rep_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,54,F,NA,EGA,NA,NA,NA,NA,NA
+Healthy,CGPLH517_Rep,CGPLH517_Rep_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,54,F,NA,EGA,NA,NA,NA,NA,NA
+Healthy,CGPLH625_Rep,CGPLH625_Rep_1,1,NA,Stephen Cristiano,plasma,NA,NEBNext DNA Library Prep Kit,QIAamp Circulating Nucleic Acid Kit,HiSeq 2000/2500,53,F,NA,EGA,NA,NA,NA,NA,NA

@@ -1,0 +1,264 @@
+Sample type,Patient,Sample,Center,Sequencing Run,Gender,Age at diagnosis (years),Age at sample collection (years),Time after diagnosis (days),Sample timepoint,Metastases at diagnosis,Patient has relapsed,Sample collected before/after relapse,Dead/alive,Death time from diagnosis (days),Relapse-1 time from diagnosis,Days since diagnosis at last follow up,Clinical tumor evidence at last follow up,Tumor location general,Primary tumor location,"Clinical data indicating presence of tumor (PET-SCAN, MRI, CT)",Response to neo-adjuvant therapy,Tumor volume (ml)
+EwS,EwS_1,EwS_1_1,AUT,Novaseq_1,female,15.15,16.5,489,therapy,no_metastases,yes,after,dead,1116,480,1116,dead,N/A,lower_extremity,N/A,poor,N/A
+EwS,EwS_1,EwS_1_2,AUT,Novaseq_1,female,15.15,16.6,511,therapy,no_metastases,yes,after,dead,1116,480,1116,dead,N/A,lower_extremity,N/A,poor,N/A
+EwS,EwS_1,EwS_1_3,AUT,Novaseq_3,female,15.15,16.6,537,therapy,no_metastases,yes,after,dead,1116,480,1116,dead,N/A,lower_extremity,N/A,poor,N/A
+EwS,EwS_1,EwS_1_4,AUT,Novaseq_3,female,15.15,16.7,573,therapy,no_metastases,yes,after,dead,1116,480,1116,dead,N/A,lower_extremity,yes,poor,N/A
+EwS,EwS_1,EwS_1_5,AUT,Novaseq_3,female,15.15,16.8,603,therapy,no_metastases,yes,after,dead,1116,480,1116,dead,N/A,lower_extremity,N/A,poor,N/A
+EwS,EwS_1,EwS_1_6,AUT,Novaseq_3,female,15.15,17.4,825,relapse,no_metastases,yes,after,dead,1116,480,1116,dead,N/A,lower_extremity,yes,poor,N/A
+EwS,EwS_1,EwS_1_7,AUT,Novaseq_1,female,15.15,17.5,844,therapy,no_metastases,yes,after,dead,1116,480,1116,dead,N/A,lower_extremity,N/A,poor,N/A
+EwS,EwS_1,EwS_1_8,AUT,Novaseq_3,female,15.15,17.6,883,therapy,no_metastases,yes,after,dead,1116,480,1116,dead,N/A,lower_extremity,N/A,poor,N/A
+EwS,EwS_1,EwS_1_9,AUT,Novaseq_1,female,15.15,18.2,1106,therapy,no_metastases,yes,after,dead,1116,480,1116,dead,N/A,lower_extremity,N/A,poor,N/A
+EwS,EwS_1,EwS_1_10,AUT,Novaseq_3,female,15.15,18.2,1113,therapy,no_metastases,yes,after,dead,1116,480,1116,dead,N/A,lower_extremity,N/A,poor,N/A
+EwS,EwS_2,EwS_2_1,GER,Novaseq_2,male,20.87,20.9,16,diagnosis,no_metastases,yes,before,dead,515,314,515,dead,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,good,58
+EwS,EwS_2,EwS_2_2,GER,Novaseq_3,male,20.87,21,42,therapy,no_metastases,yes,before,dead,515,314,515,dead,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,good,59
+EwS,EwS_2,EwS_2_3,GER,Novaseq_3,male,20.87,21,64,therapy,no_metastases,yes,before,dead,515,314,515,dead,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,N/A,good,N/A
+EwS,EwS_2,EwS_2_4,GER,Novaseq_2,male,20.87,21.2,138,therapy,no_metastases,yes,before,dead,515,314,515,dead,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,good,37
+EwS,EwS_2,EwS_2_5,GER,Novaseq_3,male,20.87,21.6,251,N/A,no_metastases,yes,before,dead,515,314,515,dead,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,N/A,good,N/A
+EwS,EwS_2,EwS_2_6,GER,Novaseq_3,male,20.87,21.8,341,relapse,no_metastases,yes,after,dead,515,314,515,dead,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,N/A,good,N/A
+EwS,EwS_3,EwS_3_1,GER,Novaseq_2,female,9.74,9.8,6,diagnosis,metastases,yes,before,alive,N/A,580,1370,no,osseous_lesion_with_or_without_soft_tissue_component,spine,yes,N/A,166
+EwS,EwS_3,EwS_3_2,GER,Novaseq_2,female,9.74,9.9,75,therapy,metastases,yes,before,alive,N/A,580,1370,no,osseous_lesion_with_or_without_soft_tissue_component,spine,no,N/A,0
+EwS,EwS_3,EwS_3_3,GER,Novaseq_3,female,9.74,11.3,567,N/A,metastases,yes,before,alive,N/A,580,1370,no,osseous_lesion_with_or_without_soft_tissue_component,spine,yes,N/A,3.2
+EwS,EwS_3,EwS_3_4,GER,Novaseq_2,female,9.74,11.3,580,relapse,metastases,yes,after,alive,N/A,580,1370,no,osseous_lesion_with_or_without_soft_tissue_component,spine,N/A,N/A,N/A
+EwS,EwS_3,EwS_3_5,GER,Novaseq_2,female,9.74,11.6,669,remission,metastases,yes,after,alive,N/A,580,1370,no,osseous_lesion_with_or_without_soft_tissue_component,spine,no,N/A,0
+EwS,EwS_3,EwS_3_6,GER,Novaseq_2,female,9.74,13.1,1236,relapse,metastases,yes,after,alive,N/A,580,1370,no,osseous_lesion_with_or_without_soft_tissue_component,spine,yes,N/A,18.5
+EwS,EwS_3,EwS_3_7,GER,Novaseq_3,female,9.74,13.2,1254,N/A,metastases,yes,after,alive,N/A,580,1370,no,osseous_lesion_with_or_without_soft_tissue_component,spine,N/A,N/A,N/A
+EwS,EwS_4,EwS_4_1,GER,Novaseq_2,female,13.22,13.2,5,diagnosis,metastases,no,N/A,alive,N/A,N/A,838,no,osseous_lesion_with_or_without_soft_tissue_component,spine,yes,N/A,17
+EwS,EwS_4,EwS_4_2,GER,Novaseq_2,female,13.22,13.3,39,therapy,metastases,no,N/A,alive,N/A,N/A,838,no,osseous_lesion_with_or_without_soft_tissue_component,spine,N/A,N/A,N/A
+EwS,EwS_4,EwS_4_3,GER,Novaseq_3,female,13.22,13.6,123,therapy,metastases,no,N/A,alive,N/A,N/A,838,no,osseous_lesion_with_or_without_soft_tissue_component,spine,N/A,N/A,N/A
+EwS,EwS_4,EwS_4_4,GER,Novaseq_3,female,13.22,14.6,517,remission,metastases,no,N/A,alive,N/A,N/A,838,no,osseous_lesion_with_or_without_soft_tissue_component,spine,N/A,N/A,N/A
+EwS,EwS_5,EwS_5_1,GER,Novaseq_2,male,15.93,16,8,diagnosis,no_metastases,yes,before,dead,654,312,654,dead,extra-osseous_lession,head_and_neck,yes,N/A,23
+EwS,EwS_5,EwS_5_2,GER,Novaseq_2,male,15.93,16,43,therapy,no_metastases,yes,before,dead,654,312,654,dead,extra-osseous_lession,head_and_neck,N/A,N/A,N/A
+EwS,EwS_5,EwS_5_3,GER,Novaseq_3,male,15.93,16.2,90,therapy,no_metastases,yes,before,dead,654,312,654,dead,extra-osseous_lession,head_and_neck,no,N/A,0
+EwS,EwS_5,EwS_5_4,GER,Novaseq_2,male,15.93,16.8,312,relapse,no_metastases,yes,after,dead,654,312,654,dead,extra-osseous_lession,head_and_neck,yes,N/A,131
+EwS,EwS_5,EwS_5_5,GER,Novaseq_3,male,15.93,17.2,459,therapy,no_metastases,yes,after,dead,654,312,654,dead,extra-osseous_lession,head_and_neck,yes,N/A,33.8
+EwS,EwS_5,EwS_5_6,GER,Novaseq_3,male,15.93,17.5,567,therapy,no_metastases,yes,after,dead,654,312,654,dead,extra-osseous_lession,head_and_neck,yes,N/A,399
+EwS,EwS_6,EwS_6_1,GER,Novaseq_2,male,18.61,18.6,6,diagnosis,metastases,yes,before,dead,597,430,597,dead,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,good,1021
+EwS,EwS_6,EwS_6_2,GER,Novaseq_2,male,18.61,18.7,50,therapy,metastases,yes,before,dead,597,430,597,dead,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,good,38
+EwS,EwS_6,EwS_6_3,GER,Novaseq_3,male,18.61,18.9,117,therapy,metastases,yes,before,dead,597,430,597,dead,osseous_lesion_with_or_without_soft_tissue_component,pelvis,N/A,good,N/A
+EwS,EwS_6,EwS_6_4,GER,Novaseq_2,male,18.61,19.1,192,therapy,metastases,yes,before,dead,597,430,597,dead,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,good,1.23
+EwS,EwS_6,EwS_6_5,GER,Novaseq_3,male,18.61,19.8,430,relapse,metastases,yes,after,dead,597,430,597,dead,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,good,13
+EwS,EwS_6,EwS_6_6,GER,Novaseq_3,male,18.61,20.2,597,therapy,metastases,yes,after,dead,597,430,597,dead,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,good,215
+EwS,EwS_7,EwS_7_1,AUT (Biobank),Novaseq_6,male,15.7,19.9,1530,relapse,no_metastases,yes,after,dead,N/A,1530,2019,dead,N/A,upper_extremity,yes,N/A,N/A
+EwS,EwS_7,EwS_7_2,AUT (Biobank),Novaseq_6,male,15.7,20.2,1637,therapy,no_metastases,yes,after,dead,N/A,1530,2019,dead,N/A,upper_extremity,yes,N/A,N/A
+EwS,EwS_7,EwS_7_3,AUT (Biobank),Novaseq_6,male,15.7,20.8,1859,therapy,no_metastases,yes,after,dead,N/A,1530,2019,dead,N/A,upper_extremity,yes,N/A,N/A
+EwS,EwS_7,EwS_7_4,AUT,Novaseq_2 + HighSeq_1,male,15.7,20.9,1909,therapy,no_metastases,yes,after,dead,N/A,1530,2019,dead,N/A,upper_extremity,yes,N/A,N/A
+EwS,EwS_7,EwS_7_5,AUT,Novaseq_2 + HighSeq_1,male,15.7,21,1944,therapy,no_metastases,yes,after,dead,N/A,1530,2019,dead,N/A,upper_extremity,yes,N/A,N/A
+EwS,EwS_7,EwS_7_6,AUT,Novaseq_2 + HighSeq_1,male,15.7,21.1,1978,therapy,no_metastases,yes,after,dead,N/A,1530,2019,dead,N/A,upper_extremity,N/A,N/A,N/A
+EwS,EwS_7,EwS_7_7,AUT (Biobank),Novaseq_6,male,15.7,21.2,2013,therapy,no_metastases,yes,after,dead,N/A,1530,2019,dead,N/A,upper_extremity,N/A,N/A,N/A
+EwS,EwS_8,EwS_8_1,AUT (Biobank),Novaseq_1,female,11.25,11.3,0,diagnosis,metastases,N/A,N/A,dead,669,N/A,669,dead,osseous_lesion_with_or_without_soft_tissue_component,N/A,yes,N/A,N/A
+EwS,EwS_8,EwS_8_2,AUT (Biobank),Novaseq_1,female,11.25,11.3,12,therapy,metastases,N/A,N/A,dead,669,N/A,669,dead,osseous_lesion_with_or_without_soft_tissue_component,N/A,N/A,N/A,N/A
+EwS,EwS_8,EwS_8_3,AUT (Biobank),Novaseq_1,female,11.25,11.3,24,therapy,metastases,N/A,N/A,dead,669,N/A,669,dead,osseous_lesion_with_or_without_soft_tissue_component,N/A,N/A,N/A,N/A
+EwS,EwS_8,EwS_8_4,AUT (Biobank),Novaseq_3,female,11.25,12,256,therapy,metastases,N/A,N/A,dead,669,N/A,669,dead,osseous_lesion_with_or_without_soft_tissue_component,N/A,N/A,N/A,N/A
+EwS,EwS_8,EwS_8_5,AUT (Biobank),Novaseq_3,female,11.25,12,280,therapy,metastases,N/A,N/A,dead,669,N/A,669,dead,osseous_lesion_with_or_without_soft_tissue_component,N/A,N/A,N/A,N/A
+EwS,EwS_8,EwS_8_6,AUT (Biobank),Novaseq_3,female,11.25,12.1,298,therapy,metastases,N/A,N/A,dead,669,N/A,669,dead,osseous_lesion_with_or_without_soft_tissue_component,N/A,N/A,N/A,N/A
+EwS,EwS_8,EwS_8_7,AUT (Biobank),Novaseq_3,female,11.25,12.2,328,therapy,metastases,N/A,N/A,dead,669,N/A,669,dead,osseous_lesion_with_or_without_soft_tissue_component,N/A,N/A,N/A,N/A
+EwS,EwS_9,EwS_9_1,AUT,Novaseq_1,male,14.27,14.6,116,therapy,no_metastases,yes,before,alive,N/A,337,386,yes,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,N/A,N/A
+EwS,EwS_9,EwS_9_2,AUT,Novaseq_3,male,14.27,14.8,197,therapy,no_metastases,yes,before,alive,N/A,337,386,yes,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,N/A,N/A
+EwS,EwS_9,EwS_9_3,AUT,Novaseq_4,male,14.27,14.9,229,therapy,no_metastases,yes,before,alive,N/A,337,386,yes,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,N/A,N/A
+EwS,EwS_9,EwS_9_4,AUT,Novaseq_6,male,14.27,15.2,337,relapse,no_metastases,yes,after,alive,N/A,337,386,yes,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,N/A,N/A
+EwS,EwS_10,EwS_10_1,FR,Novaseq_2 + HighSeq_2,female,3.9,9.9,2188,relapse,metastases,yes,after,dead,2285,N/A,2285,dead,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,good,N/A
+EwS,EwS_11,EwS_11_1,FR,Novaseq_2 + HighSeq_2,male,16.2,17.5,465,relapse,metastases,yes,after,alive,N/A,465,498,yes,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,N/A,N/A
+EwS,EwS_12,EwS_12_1,FR,Novaseq_2 + HighSeq_2,male,14.9,16,N/A,relapse,no_metastases,yes,after,alive,N/A,127,458,yes,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,N/A,N/A
+EwS,EwS_13,EwS_13_1,FR,Novaseq_2 + HighSeq_1,female,10.2,10.3,18,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,1887,yes,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,good,N/A
+EwS,EwS_13,EwS_13_2,FR,Novaseq_1,female,10.2,11.4,413,therapy,no_metastases,no,N/A,alive,N/A,N/A,1887,N/A,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,N/A,good,N/A
+EwS,EwS_13,EwS_13_3,FR,Novaseq_2 + HighSeq_2,female,10.2,10,20,therapy,no_metastases,no,N/A,alive,N/A,N/A,1887,N/A,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,N/A,good,N/A
+EwS,EwS_13,EwS_13_4,FR,Novaseq_1,female,10.2,10,82,therapy,no_metastases,no,N/A,alive,N/A,N/A,1887,N/A,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,N/A,good,N/A
+EwS,EwS_13,EwS_13_5,FR,Novaseq_1,female,10.2,10,168,therapy,no_metastases,no,N/A,alive,N/A,N/A,1887,N/A,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,N/A,good,N/A
+EwS,EwS_14,EwS_14_1,FR,Novaseq_2 + HighSeq_1,male,3.6,3.6,7,diagnosis,metastases,yes,before,dead,912,294,912,dead,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,N/A,9
+EwS,EwS_15,EwS_15_1,FR,Novaseq_2 + HighSeq_1,male,5.4,5.4,10,diagnosis,metastases,yes,before,alive,N/A,236,507,N/A,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,N/A,38
+EwS,EwS_16,EwS_16_1,AUT,Novaseq_1,male,11.59,18.6,2577,relapse,no_metastases,yes,after,alive,N/A,2035,2735,yes,osseous_lesion_with_or_without_soft_tissue_component,spine,yes,N/A,N/A
+EwS,EwS_17,EwS_17_1,FR,Novaseq_1,female,17.4,17.5,27,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,669,N/A,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,good,36
+EwS,EwS_18,EwS_18_1,FR,Novaseq_1,female,6,6.1,33,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,1534,N/A,extra-osseous_lession,pelvis,yes,good,8.2
+EwS,EwS_19,EwS_19_1,FR,Novaseq_2 + HighSeq_2,female,14.9,14.9,9,diagnosis,no_metastases,yes,before,dead,751,460,751,N/A,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,poor,389
+EwS,EwS_20,EwS_20_1,FR,Novaseq_2 + HighSeq_2,female,10.9,10.9,10,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,1472,N/A,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,good,996
+EwS,EwS_21,EwS_21_1,FR,Novaseq_1,male,18.3,18.4,18,diagnosis,metastases,yes,before,dead,1300,498,1300,dead,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,good,188
+EwS,EwS_22,EwS_22_1,FR,Novaseq_2 + HighSeq_2,female,3.6,3.6,6,diagnosis,metastases,no,N/A,alive,N/A,N/A,1493,N/A,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,poor,98
+EwS,EwS_23,EwS_23_1,FR,Novaseq_1,male,12.2,12.2,7,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,1422,N/A,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,good,25
+EwS,EwS_24,EwS_24_1,FR,Novaseq_1,male,15.6,15.6,14,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,1107,N/A,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,N/A,54
+EwS,EwS_25,EwS_25_1,FR,Novaseq_2 + HighSeq_1,male,9.9,9.9,7,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,1043,N/A,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,good,200
+EwS,EwS_25,EwS_25_2,FR,Novaseq_2 + HighSeq_1,male,9.9,10.3,166,therapy,no_metastases,no,N/A,alive,N/A,N/A,1043,N/A,osseous_lesion_with_or_without_soft_tissue_component,thorax,N/A,good,N/A
+EwS,EwS_26,EwS_26_1,FR,Novaseq_1,female,15.1,15.1,20,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,1176,N/A,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,good,27
+EwS,EwS_27,EwS_27_1,FR,Novaseq_1,female,4.1,4.2,22,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,1148,N/A,osseous_lesion_with_or_without_soft_tissue_component,head_and_neck,yes,good,9
+EwS,EwS_28,EwS_28_1,FR,Novaseq_1,male,14.9,14.9,7,diagnosis,no_metastases,yes,before,alive,N/A,388,1134,N/A,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,poor,284
+EwS,EwS_29,EwS_29_1,FR,Novaseq_1,male,10.7,10.8,29,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,949,N/A,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,good,105
+EwS,EwS_30,EwS_30_1,AUT (Biobank),Novaseq_3,male,15.65,17.7,735,therapy,metastases,yes,after,dead,N/A,555,1385,yes,osseous_lesion_with_or_without_soft_tissue_component,upper_extremity,N/A,N/A,N/A
+EwS,EwS_30,EwS_30_2,AUT (Biobank),Novaseq_3,male,15.65,17.8,773,relapse,metastases,yes,after,dead,N/A,555,1385,yes,osseous_lesion_with_or_without_soft_tissue_component,upper_extremity,yes,N/A,N/A
+EwS,EwS_30,EwS_30_3,AUT,Novaseq_2 + HighSeq_1,male,15.65,17.8,785,relapse,metastases,yes,after,dead,N/A,555,1385,yes,osseous_lesion_with_or_without_soft_tissue_component,upper_extremity,yes,N/A,N/A
+EwS,EwS_30,EwS_30_4,AUT,Novaseq_1,male,15.65,17.9,812,therapy,metastases,yes,after,dead,N/A,555,1385,yes,osseous_lesion_with_or_without_soft_tissue_component,upper_extremity,N/A,N/A,N/A
+EwS,EwS_30,EwS_30_4rep,AUT,Novaseq_3,male,15.65,17.9,812,therapy,metastases,yes,after,dead,N/A,555,1385,yes,osseous_lesion_with_or_without_soft_tissue_component,upper_extremity,N/A,N/A,N/A
+EwS,EwS_30,EwS_30_5,AUT,Novaseq_1,male,15.65,18,856,therapy,metastases,yes,after,dead,N/A,555,1385,yes,osseous_lesion_with_or_without_soft_tissue_component,upper_extremity,N/A,N/A,N/A
+EwS,EwS_30,EwS_30_6,AUT,Novaseq_1,male,15.65,18,868,therapy,metastases,yes,after,dead,N/A,555,1385,yes,osseous_lesion_with_or_without_soft_tissue_component,upper_extremity,N/A,N/A,N/A
+EwS,EwS_30,EwS_30_7,AUT,Novaseq_1,male,15.65,18.1,896,therapy,metastases,yes,after,dead,N/A,555,1385,yes,osseous_lesion_with_or_without_soft_tissue_component,upper_extremity,N/A,N/A,N/A
+EwS,EwS_30,EwS_30_8,AUT,Novaseq_2,male,15.65,18.2,945,therapy,metastases,yes,after,dead,N/A,555,1385,yes,osseous_lesion_with_or_without_soft_tissue_component,upper_extremity,N/A,N/A,N/A
+EwS,EwS_30,EwS_30_9,AUT,Novaseq_4,male,15.65,18.5,1037,relapse,metastases,yes,after,dead,N/A,555,1385,yes,osseous_lesion_with_or_without_soft_tissue_component,upper_extremity,yes,N/A,N/A
+EwS,EwS_31,EwS_31_1,GER,Novaseq_4,male,52.31,52.3,14,diagnosis,no_metastases,yes,before,alive,N/A,694,1010,N/A,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,N/A,206
+EwS,EwS_32,EwS_32_1,NO,Novaseq_5,male,8,8,5,diagnosis,no_metastases,yes,before,alive,N/A,1469,1733,N/A,extra-osseous_lession,lower_extremity,yes,poor,N/A
+EwS,EwS_33,EwS_33_1,NO,Novaseq_5,female,1,1,3,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,1509,no,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,good,N/A
+EwS,EwS_34,EwS_34_1,NO,Novaseq_5,male,6,6,4,diagnosis,no_metastases,yes,before,alive,N/A,497,1375,N/A,osseous_lesion_with_or_without_soft_tissue_component,upper_extremity,yes,poor,N/A
+EwS,EwS_35,EwS_35_1,NO,Novaseq_5,female,6,6,2,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,1247,no,osseous_lesion_with_or_without_soft_tissue_component,upper_extremity,yes,good,N/A
+EwS,EwS_36,EwS_36_1,NO,Novaseq_5,female,9,9,8,diagnosis,no_metastases,yes,before,dead,534,309,534,dead,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,good,N/A
+EwS,EwS_37,EwS_37_1,NO,Novaseq_5,female,11,11,15,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,597,no,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,good,N/A
+EwS,EwS_38,EwS_38_1,NO,Novaseq_5,male,24,24,0,diagnosis,no_metastases,yes,before,dead,457,302,457,dead,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,poor,N/A
+EwS,EwS_39,EwS_39_1,NO,Novaseq_5,male,23,23,7,diagnosis,no_metastases,yes,before,alive,N/A,1196,1880,N/A,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,poor,N/A
+EwS,EwS_40,EwS_40_1,NO,Novaseq_5,male,25,25,77,therapy,no_metastases,no,N/A,N/A,N/A,N/A,573,N/A,osseous_lesion_with_or_without_soft_tissue_component,upper_extremity,N/A,N/A,N/A
+EwS,EwS_41,EwS_41_1,NO,Novaseq_5,male,22,22,10,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,758,no,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,poor,N/A
+EwS,EwS_41,EwS_41_2,NO,Novaseq_5,male,22,22,11,therapy,no_metastases,no,N/A,alive,N/A,N/A,758,no,osseous_lesion_with_or_without_soft_tissue_component,thorax,N/A,poor,N/A
+EwS,EwS_41,EwS_41_3,NO,Novaseq_5,male,22,22,93,therapy,no_metastases,no,N/A,alive,N/A,N/A,758,no,osseous_lesion_with_or_without_soft_tissue_component,thorax,N/A,poor,N/A
+EwS,EwS_41,EwS_41_4,NO,Novaseq_5,male,22,23,106,therapy,no_metastases,no,N/A,alive,N/A,N/A,758,no,osseous_lesion_with_or_without_soft_tissue_component,thorax,N/A,poor,N/A
+EwS,EwS_41,EwS_41_5,NO,Novaseq_5,male,22,23,185,therapy,no_metastases,no,N/A,alive,N/A,N/A,758,no,osseous_lesion_with_or_without_soft_tissue_component,thorax,N/A,poor,N/A
+EwS,EwS_41,EwS_41_6,NO,Novaseq_5,male,22,23,253,remission,no_metastases,no,N/A,alive,N/A,N/A,758,no,osseous_lesion_with_or_without_soft_tissue_component,thorax,no,poor,N/A
+EwS,EwS_42,EwS_42_1,NO,Novaseq_5,male,23,23,15,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,757,no,osseous_lesion_with_or_without_soft_tissue_component,head_and_neck,yes,N/A,N/A
+EwS,EwS_42,EwS_42_2,NO,Novaseq_5,male,23,23,17,therapy,no_metastases,no,N/A,alive,N/A,N/A,757,no,osseous_lesion_with_or_without_soft_tissue_component,head_and_neck,N/A,N/A,N/A
+EwS,EwS_42,EwS_42_3,NO,Novaseq_5,male,23,23,18,therapy,no_metastases,no,N/A,alive,N/A,N/A,757,no,osseous_lesion_with_or_without_soft_tissue_component,head_and_neck,N/A,N/A,N/A
+EwS,EwS_42,EwS_42_4,NO,Novaseq_5,male,23,23,35,therapy,no_metastases,no,N/A,alive,N/A,N/A,757,no,osseous_lesion_with_or_without_soft_tissue_component,head_and_neck,N/A,N/A,N/A
+EwS,EwS_42,EwS_42_5,NO,Novaseq_5,male,23,24,190,therapy,no_metastases,no,N/A,alive,N/A,N/A,757,no,osseous_lesion_with_or_without_soft_tissue_component,head_and_neck,N/A,N/A,N/A
+EwS,EwS_42,EwS_42_6,NO,Novaseq_5,male,23,24,264,remission,no_metastases,no,N/A,alive,N/A,N/A,757,no,osseous_lesion_with_or_without_soft_tissue_component,head_and_neck,no,N/A,N/A
+EwS,EwS_42,EwS_42_7,NO,Novaseq_5,male,23,24,357,remission,no_metastases,no,N/A,alive,N/A,N/A,757,no,osseous_lesion_with_or_without_soft_tissue_component,head_and_neck,no,N/A,N/A
+EwS,EwS_43,EwS_43_1,NO,Novaseq_5,male,37,37,12,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,1510,no,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,N/A,N/A
+EwS,EwS_44,EwS_44_1,NO,Novaseq_5,male,22,22,0,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,600,N/A,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,poor,N/A
+EwS,EwS_45,EwS_45_1,NO,Novaseq_5,female,41,41,3,diagnosis,no_metastases,yes,before,dead,981,702,981,dead,extra-osseous_lession,lower_extremity,yes,poor,N/A
+EwS,EwS_45,EwS_45_2,NO,Novaseq_5,female,41,43,702,relapse,no_metastases,yes,after,dead,981,702,981,dead,extra-osseous_lession,lower_extremity,yes,poor,N/A
+EwS,EwS_45,EwS_45_3,NO,Novaseq_5,female,41,43,764,therapy,no_metastases,yes,after,dead,981,702,981,dead,extra-osseous_lession,lower_extremity,yes,poor,N/A
+EwS,EwS_45,EwS_45_4,NO,Novaseq_5,female,41,43,876,therapy,no_metastases,yes,after,dead,981,702,981,dead,extra-osseous_lession,lower_extremity,yes,poor,N/A
+EwS,EwS_45,EwS_45_5,NO,Novaseq_5,female,41,44,912,therapy,no_metastases,yes,after,dead,981,702,981,dead,extra-osseous_lession,lower_extremity,yes,poor,N/A
+EwS,EwS_46,EwS_46_1,NO,Novaseq_5,female,27,27,7,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,1654,no,extra-osseous_lession,abdomen,yes,poor,N/A
+EwS,EwS_47,EwS_47_1,NO,Novaseq_6,female,25,25,14,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,527,no,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,good,N/A
+EwS,EwS_47,EwS_47_2,NO,Novaseq_6,female,25,25,16,therapy,no_metastases,no,N/A,alive,N/A,N/A,527,no,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,N/A,good,N/A
+EwS,EwS_47,EwS_47_3,NO,Novaseq_6,female,25,25,17,therapy,no_metastases,no,N/A,alive,N/A,N/A,527,no,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,N/A,good,N/A
+EwS,EwS_47,EwS_47_4,NO,Novaseq_6,female,25,25,35,therapy,no_metastases,no,N/A,alive,N/A,N/A,527,no,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,N/A,good,N/A
+EwS,EwS_48,EwS_48_1,GER,Novaseq_3,male,17.73,17,N/A,diagnosis,no_metastases,yes,before,alive,N/A,798,1211,no,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,good,328
+EwS,EwS_48,EwS_48_2,GER,Novaseq_3,male,17.73,17,N/A,therapy,no_metastases,yes,before,alive,N/A,798,1211,no,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,good,5
+EwS,EwS_48,EwS_48_3,GER,Novaseq_3,male,17.73,19.9,798,relapse,no_metastases,yes,after,alive,N/A,798,1211,no,osseous_lesion_with_or_without_soft_tissue_component,thorax,N/A,good,N/A
+EwS,EwS_48,EwS_48_4,GER,Novaseq_3,male,17.73,19.9,806,therapy,no_metastases,yes,after,alive,N/A,798,1211,no,osseous_lesion_with_or_without_soft_tissue_component,thorax,N/A,good,N/A
+EwS,EwS_49,EwS_49_1,GER,Novaseq_4,male,8.72,8.7,8,diagnosis,metastases,yes,before,dead,938,188,938,dead,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,poor,215
+EwS,EwS_49,EwS_49_2,GER,Novaseq_4,male,8.72,8.8,13,therapy,metastases,yes,before,dead,938,188,938,dead,osseous_lesion_with_or_without_soft_tissue_component,pelvis,N/A,poor,N/A
+EwS,EwS_49,EwS_49_3,GER,Novaseq_4,male,8.72,8.8,32,therapy,metastases,yes,before,dead,938,188,938,dead,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,poor,41
+EwS,EwS_49,EwS_49_4,GER,Novaseq_4,male,8.72,8.9,55,therapy,metastases,yes,before,dead,938,188,938,dead,osseous_lesion_with_or_without_soft_tissue_component,pelvis,N/A,poor,N/A
+EwS,EwS_49,EwS_49_5,GER,Novaseq_4,male,8.72,9.1,131,therapy,metastases,yes,before,dead,938,188,938,dead,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,poor,13
+EwS,EwS_49,EwS_49_6,GER,Novaseq_4,male,8.72,9.2,188,relapse,metastases,yes,after,dead,938,188,938,dead,osseous_lesion_with_or_without_soft_tissue_component,pelvis,N/A,poor,N/A
+EwS,EwS_50,EwS_50_1,GER,Novaseq_4,female,9.53,9.5,4,diagnosis,metastases,yes,before,dead,554,309,554,dead,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,N/A,414
+EwS,EwS_50,EwS_50_2,GER,Novaseq_4,female,9.53,9.8,109,therapy,metastases,yes,before,dead,554,309,554,dead,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,N/A,92.25
+EwS,EwS_50,EwS_50_3,GER,Novaseq_4,female,9.53,10.8,462,relapse,metastases,yes,after,dead,554,309,554,dead,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,N/A,95
+EwS,EwS_50,EwS_50_4,GER,Novaseq_4,female,9.53,11,541,relapse,metastases,yes,after,dead,554,309,554,dead,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,N/A,425
+EwS,EwS_51,EwS_51_1,AUT (Biobank),Novaseq_6,female,0.82,16.3,5633,remission,no_metastases,N/A,N/A,alive,N/A,N/A,5633,no,extra-osseous_lession,head_and_neck,no,N/A,N/A
+EwS,EwS_52,EwS_52_1,AUT (Biobank),Novaseq_6,female,12.15,15.2,1118,remission,no_metastases,no,N/A,alive,N/A,N/A,1118,no,N/A,thorax,no,N/A,N/A
+EwS,EwS_53,EwS_53_1,AUT (Biobank),Novaseq_6,female,17.74,27.2,3443,remission,N/A,N/A,N/A,alive,N/A,N/A,3443,no,N/A,N/A,no,N/A,N/A
+EwS,EwS_54,EwS_54_1,AUT (Biobank),Novaseq_6,male,7.73,11.6,1406,remission,no_metastases,no,N/A,alive,N/A,N/A,1406,no,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,no,N/A,N/A
+EwS,EwS_55,EwS_55_1,AUT (Biobank),Novaseq_6,male,13.99,15.7,621,remission,no_metastases,no,N/A,alive,N/A,N/A,621,no,N/A,upper_extremity,no,N/A,N/A
+EwS,EwS_56,EwS_56_1,GER,Novaseq_4,male,22,22.1,22,diagnosis,no_metastases,yes,before,alive,N/A,419,419,N/A,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,N/A,380
+EwS,EwS_57,EwS_57_1,AUT (Biobank),Novaseq_6,female,7.33,7.4,13,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,1383,no,N/A,upper_extremity,yes,N/A,N/A
+EwS,EwS_57,EwS_57_2,AUT (Biobank),Novaseq_6,female,7.33,7.4,27,therapy,no_metastases,no,N/A,alive,N/A,N/A,1383,no,N/A,upper_extremity,N/A,N/A,N/A
+EwS,EwS_57,EwS_57_3,AUT (Biobank),Novaseq_6,female,7.33,7.5,70,therapy,no_metastases,no,N/A,alive,N/A,N/A,1383,no,N/A,upper_extremity,N/A,N/A,N/A
+EwS,EwS_57,EwS_57_4,AUT (Biobank),Novaseq_6,female,7.33,7.6,105,therapy,no_metastases,no,N/A,alive,N/A,N/A,1383,no,N/A,upper_extremity,N/A,N/A,N/A
+EwS,EwS_57,EwS_57_5,AUT (Biobank),Novaseq_6,female,7.33,7.9,223,therapy,no_metastases,no,N/A,alive,N/A,N/A,1383,no,N/A,upper_extremity,N/A,N/A,N/A
+EwS,EwS_57,EwS_57_6,AUT (Biobank),Novaseq_6,female,7.33,8.7,508,remission,no_metastases,no,N/A,alive,N/A,N/A,1383,no,N/A,upper_extremity,N/A,N/A,N/A
+EwS,EwS_57,EwS_57_7,AUT (Biobank),Novaseq_6,female,7.33,9.5,802,remission,no_metastases,no,N/A,alive,N/A,N/A,1383,no,N/A,upper_extremity,no,N/A,N/A
+EwS,EwS_58,EwS_58_1,AUT (Biobank),Novaseq_6,male,8.82,8.8,4,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,1267,no,extra-osseous_lession,spine,yes,N/A,N/A
+EwS,EwS_58,EwS_58_2,AUT (Biobank),Novaseq_6,male,8.82,8.9,32,therapy,no_metastases,no,N/A,alive,N/A,N/A,1267,no,extra-osseous_lession,spine,N/A,N/A,N/A
+EwS,EwS_58,EwS_58_3,AUT (Biobank),Novaseq_6,male,8.82,9,62,therapy,no_metastases,no,N/A,alive,N/A,N/A,1267,no,extra-osseous_lession,spine,N/A,N/A,N/A
+EwS,EwS_58,EwS_58_4,AUT (Biobank),Novaseq_6,male,8.82,9.1,91,therapy,no_metastases,no,N/A,alive,N/A,N/A,1267,no,extra-osseous_lession,spine,N/A,N/A,N/A
+EwS,EwS_58,EwS_58_5,AUT (Biobank),Novaseq_6,male,8.82,10.4,566,remission,no_metastases,no,N/A,alive,N/A,N/A,1267,no,extra-osseous_lession,spine,no,N/A,N/A
+EwS,EwS_58,EwS_58_6,AUT (Biobank),Novaseq_6,male,8.82,11.5,971,remission,no_metastases,no,N/A,alive,N/A,N/A,1267,no,extra-osseous_lession,spine,no,N/A,N/A
+EwS,EwS_59,EwS_59_1,AUT (Biobank),Novaseq_6,male,14.03,14.1,21,diagnosis,no_metastases,no,N/A,N/A,N/A,N/A,N/A,N/A,N/A,lower_extremity,yes,N/A,N/A
+EwS,EwS_60,EwS_60_1,AUT (Biobank),Novaseq_6,female,9,9.2,0,diagnosis,metastases,N/A,N/A,dead,301,N/A,301,dead,N/A,pelvis,yes,N/A,N/A
+EwS,EwS_61,EwS_61_1,AUT (Biobank),Novaseq_6,female,6.74,6.8,6,therapy,no_metastases,no,N/A,alive,N/A,N/A,326,N/A,N/A,head_and_neck,N/A,N/A,N/A
+EwS,EwS_62,EwS_62_1,AUT (Biobank),Novaseq_6,male,15.56,15.6,20,therapy,metastases,no,N/A,alive,N/A,N/A,1145,N/A,N/A,pelvis,N/A,N/A,N/A
+EwS,EwS_63,EwS_63_1,AUT,Novaseq_3,male,14.2,14.2,10,diagnosis,metastases,yes,before,alive,N/A,363,467,yes,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,good,N/A
+EwS,EwS_63,EwS_63_2,AUT,Novaseq_4,male,14.2,14.3,32,therapy,metastases,yes,before,alive,N/A,363,467,yes,osseous_lesion_with_or_without_soft_tissue_component,pelvis,N/A,good,N/A
+EwS,EwS_63,EwS_63_3,AUT,Novaseq_4,male,14.2,14.4,74,therapy,metastases,yes,before,alive,N/A,363,467,yes,osseous_lesion_with_or_without_soft_tissue_component,pelvis,N/A,good,N/A
+EwS,EwS_63,EwS_63_4,AUT,Novaseq_6,male,14.2,14.6,136,therapy,metastases,yes,before,alive,N/A,363,467,yes,osseous_lesion_with_or_without_soft_tissue_component,pelvis,N/A,good,N/A
+EwS,EwS_64,EwS_64_1,GER,Novaseq_4,male,4.52,4.6,24,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,686,N/A,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,N/A,58.5
+EwS,EwS_65,EwS_65_1,GER,Novaseq_4,female,17.49,17.5,14,diagnosis,metastases,yes,before,dead,749,358,749,dead,extra-osseous_lession,kidney,yes,N/A,461
+EwS,EwS_66,EwS_66_1,GER,Novaseq_4,female,7.27,7.4,45,therapy,no_metastases,no,N/A,alive,N/A,N/A,833,N/A,osseous_lesion_with_or_without_soft_tissue_component,head_and_neck,yes,N/A,195
+EwS,EwS_67,EwS_67_1,GER,Novaseq_4,male,16.02,16.1,14,diagnosis,metastases,no,N/A,alive,N/A,N/A,1175,no,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,N/A,N/A
+EwS,EwS_68,EwS_68_1,GER,Novaseq_4,male,19.47,19.5,N/A,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,937,N/A,extra-osseous_lession,pelvis,yes,N/A,233
+EwS,EwS_69,EwS_69_1,GER,Novaseq_4,male,13.21,13.2,13,diagnosis,no_metastases,yes,before,dead,748,616,748,dead,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,N/A,73
+EwS,EwS_70,EwS_70_1,GER,Novaseq_4,male,14.67,14.7,27,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,510,N/A,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,N/A,230
+EwS,EwS_71,EwS_71_1,GER,Novaseq_4,male,19,19.1,33,therapy,metastases,no,N/A,alive,N/A,N/A,353,N/A,N/A,upper_extremity,yes,N/A,40
+EwS,EwS_72,EwS_72_1,GER,Novaseq_4,male,17.36,17.5,39,therapy,no_metastases,no,N/A,alive,N/A,N/A,469,no,osseous_lesion_with_or_without_soft_tissue_component,spine,yes,N/A,60
+EwS,EwS_73,EwS_73_1,GER,Novaseq_4,male,22.97,23.1,30,diagnosis,metastases,no,N/A,alive,N/A,N/A,507,N/A,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,N/A,1115
+EwS,EwS_74,EwS_74_1,GER,Novaseq_7,male,8.64,8.6,0,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,263,N/A,osseous_lesion_with_or_without_soft_tissue_component,upper_extremity,yes,good,N/A
+EwS,EwS_75,EwS_75_1,GER,Novaseq_7,male,N/A,N/A,N/A,diagnosis,metastases,no,N/A,alive,N/A,N/A,N/A,N/A,osseous_lesion_with_or_without_soft_tissue_component,spine,yes,N/A,N/A
+EwS,EwS_76,EwS_76_1,GER,Novaseq_7,female,15.85,15.9,0,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,343,no,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,good,N/A
+EwS,EwS_77,EwS_77_1,GER,Novaseq_7,female,15.01,15,0,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,31,N/A,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,N/A,N/A
+EwS,EwS_78,EwS_78_1,GER,Novaseq_7,male,34.59,34.6,0,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,536,no,extra-osseous_lession,abdomen,yes,N/A,N/A
+EwS,EwS_79,EwS_79_1,GER,Novaseq_7,female,19.79,19.8,0,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,485,no,osseous_lesion_with_or_without_soft_tissue_component,pelvis,yes,good,N/A
+EwS,EwS_80,EwS_80_1,GER,Novaseq_7,female,13.4,13.4,0,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,782,no,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,good,N/A
+EwS,EwS_81,EwS_81_1,GER,Novaseq_7,male,21.21,21.2,N/A,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,518,no,osseous_lesion_with_or_without_soft_tissue_component,spine,yes,N/A,N/A
+EwS,EwS_82,EwS_82_1,GER,Novaseq_7,male,20.53,20.5,0,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,1301,no,osseous_lesion_with_or_without_soft_tissue_component,upper_extremity,yes,good,N/A
+EwS,EwS_83,EwS_83_1,GER,Novaseq_7,female,N/A,N/A,N/A,N/A,metastases,yes,N/A,N/A,N/A,N/A,N/A,yes,extra-osseous_lession,pelvis,N/A,N/A,N/A
+EwS,EwS_84,EwS_84_1,GER,Novaseq_7,male,14.29,14.3,0,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,992,no,osseous_lesion_with_or_without_soft_tissue_component,upper_extremity,yes,good,N/A
+EwS,EwS_85,EwS_85_1,GER,Novaseq_7,male,N/A,N/A,N/A,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,N/A,N/A,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,N/A,N/A
+EwS,EwS_86,EwS_86_1,GER,Novaseq_7,female,37.01,N/A,N/A,N/A,no_metastases,no,N/A,alive,N/A,N/A,207,N/A,extra-osseous_lession,thorax,N/A,poor,N/A
+EwS,EwS_87,EwS_87_1,GER,Novaseq_7,female,6.86,6.9,0,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,363,no,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,good,N/A
+EwS,EwS_88,EwS_88_1,GER,Novaseq_7,male,18.91,18.9,0,diagnosis,metastases,no,N/A,alive,N/A,N/A,300,no,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,N/A,N/A
+EwS,EwS_89,EwS_89_1,GER,Novaseq_7,male,14.97,15,0,diagnosis,no_metastases,yes,before,alive,N/A,732,912,no,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,good,N/A
+EwS,EwS_90,EwS_90_1,GER,Novaseq_7,female,16.32,16.3,0,diagnosis,metastases,no,N/A,alive,N/A,N/A,334,no,osseous_lesion_with_or_without_soft_tissue_component,head_and_neck,yes,good,N/A
+EwS,EwS_91,EwS_91_1,GER,Novaseq_7,male,11.23,11.2,338,relapse,no_metastases,yes,after,N/A,N/A,336,460,N/A,extra-osseous_lession,pelvis_spine,yes,N/A,N/A
+EwS,EwS_92,EwS_92_1,GER,Novaseq_7,male,14.27,14.3,0,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,223,N/A,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,N/A,N/A
+EwS,EwS_93,EwS_93_1,GER,Novaseq_7,male,16.84,16.8,0,diagnosis,N/A,no,N/A,alive,N/A,N/A,114,N/A,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,N/A,N/A
+EwS,EwS_94,EwS_94_1,GER,Novaseq_7,female,16.21,16.2,0,diagnosis,metastases,no,N/A,alive,N/A,N/A,228,N/A,osseous_lesion_with_or_without_soft_tissue_component,thorax,yes,good,N/A
+EwS,EwS_95,EwS_95_1,GER,Novaseq_7,male,15.54,15.5,0,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,391,no,osseous_lesion_with_or_without_soft_tissue_component,head_and_neck,yes,good,N/A
+Healthy control,Ctrl_1,Ctrl_1,AUT,Novaseq_2 + HighSeq_1,female,N/A,37,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_2,Ctrl_2,AUT,Novaseq_1,male,N/A,44,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_3,Ctrl_3,AUT,Novaseq_1,female,N/A,48,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_4,Ctrl_4,AUT,Novaseq_4,male,N/A,40,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_5,Ctrl_5,AUT,Novaseq_4,male,N/A,50,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_6,Ctrl_6,AUT,Novaseq_4,female,N/A,25,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_7,Ctrl_7,AUT,Novaseq_4,female,N/A,24,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_8,Ctrl_8,AUT (Red Cross),Novaseq_5,male,N/A,32,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_9,Ctrl_9,AUT (Red Cross),Novaseq_5,female,N/A,37,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_10,Ctrl_10,AUT (Red Cross),Novaseq_5,female,N/A,29,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_11,Ctrl_11,AUT (Red Cross),Novaseq_5,male,N/A,31,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_12,Ctrl_12,AUT (Red Cross),Novaseq_5,male,N/A,27,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_13,Ctrl_13,AUT (Red Cross),Novaseq_5,male,N/A,30,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_14,Ctrl_14,AUT (Red Cross),Novaseq_5,female,N/A,27,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_15,Ctrl_15,AUT (Red Cross),Novaseq_6,female,N/A,36,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_16,Ctrl_16,AUT (Red Cross),Novaseq_6,male,N/A,25,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_17,Ctrl_17,AUT (Red Cross),Novaseq_6,male,N/A,39,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_18,Ctrl_18,AUT (Red Cross),Novaseq_6,male,N/A,34,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_19,Ctrl_19,AUT (Red Cross),Novaseq_6,female,N/A,40,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_20,Ctrl_20,AUT (Red Cross),Novaseq_6,male,N/A,30,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_21,Ctrl_21,AUT (Red Cross),Novaseq_6,male,N/A,32,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Healthy control,Ctrl_22,Ctrl_22,AUT (Red Cross),Novaseq_6,male,N/A,31,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Non-EwS sarcoma,AdSarc_1,AdSarc_1_1,AUT,Novaseq_2,male,41.27,41.3,0,diagnosis,no_metastases,no,N/A,dead,N/A,N/A,269,yes,N/A,N/A,yes,N/A,N/A
+Non-EwS sarcoma,AdSarc_1,AdSarc_1_2,AUT,Novaseq_4,male,41.27,41.6,114,therapy,no_metastases,no,N/A,dead,N/A,N/A,269,yes,N/A,N/A,yes,N/A,N/A
+Non-EwS sarcoma,EwSLike_1,EwSLike_1_1,GER,Novaseq_2,female,N/A,25.8,N/A,N/A,metastases,yes,before,dead,N/A,N/A,N/A,dead,extra-osseous_lession,thorax,N/A,N/A,N/A
+Non-EwS sarcoma,EwSLike_1,EwSLike_1_2,GER,Novaseq_2,female,N/A,26.3,N/A,N/A,metastases,yes,before,dead,N/A,N/A,N/A,dead,extra-osseous_lession,thorax,N/A,N/A,N/A
+Non-EwS sarcoma,EwSLike_1,EwSLike_1_3,GER,Novaseq_2,female,N/A,29.3,N/A,therapy,metastases,yes,after,dead,N/A,N/A,N/A,dead,extra-osseous_lession,thorax,N/A,N/A,N/A
+Non-EwS sarcoma,EwSLike_2,EwSLike_2_1,FR,Novaseq_1,female,6.6,6.6,12,diagnosis,no_metastases,no,N/A,alive,N/A,N/A,727,N/A,extra-osseous_lession,lower_extremity,yes,poor,435
+Non-EwS sarcoma,EwSLike_3,EwSLike_3_1,AUT,Novaseq_1,female,19.72,30.8,4059,therapy,no_metastases,yes,after,dead,N/A,3973,N/A,dead,N/A,head_and_neck,N/A,N/A,N/A
+Non-EwS sarcoma,EwSLike_3,EwSLike_3_2,AUT,Novaseq_3,female,19.72,30.9,4098,therapy,no_metastases,yes,after,dead,N/A,3973,N/A,dead,N/A,head_and_neck,N/A,N/A,N/A
+Non-EwS sarcoma,Ost_1,Ost_1_1,AUT,Novaseq_1,male,8.99,9,0,diagnosis,no_metastases,N/A,N/A,alive,N/A,N/A,280,yes,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,N/A,N/A
+Non-EwS sarcoma,Ost_1,Ost_1_2,AUT,Novaseq_4,male,8.99,9.1,57,therapy,no_metastases,N/A,N/A,alive,N/A,N/A,280,yes,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,N/A,N/A
+Non-EwS sarcoma,Ost_1,Ost_1_3,AUT,Novaseq_6,male,8.99,9.8,283,therapy,no_metastases,N/A,N/A,alive,N/A,N/A,280,yes,osseous_lesion_with_or_without_soft_tissue_component,lower_extremity,yes,N/A,N/A
+Non-EwS sarcoma,Ost_2,Ost_2_1,AUT,Novaseq_5,male,14.24,14.2,0,diagnosis,no_metastases,N/A,N/A,alive,N/A,N/A,159,yes,N/A,pelvis,yes,N/A,N/A
+Non-EwS sarcoma,Ost_3,Ost_3_1,AUT,Novaseq_5,male,19.61,19.6,0,diagnosis,no_metastases,N/A,N/A,alive,N/A,N/A,85,yes,N/A,lower_extremity,yes,N/A,N/A
+Non-EwS sarcoma,Ost_4,Ost_4_1,GER,Novaseq_7,female,14.09,14.1,8,diagnosis,N/A,yes,before,N/A,N/A,N/A,N/A,N/A,N/A,N/A,yes,N/A,N/A
+Non-EwS sarcoma,Ost_5,Ost_5_1,GER,Novaseq_7,male,15.54,15.5,1,diagnosis,N/A,yes,before,N/A,N/A,N/A,N/A,N/A,N/A,N/A,yes,N/A,N/A
+Non-EwS sarcoma,Ost_6,Ost_6_1,GER,Novaseq_7,female,17.06,17.2,36,N/A,N/A,no,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Non-EwS sarcoma,Ost_7,Ost_7_1,GER,Novaseq_7,N/A,16.68,16.7,7,diagnosis,N/A,no,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,yes,N/A,N/A
+Non-EwS sarcoma,Ost_8,Ost_8_1,GER,Novaseq_7,N/A,10.66,10.7,13,diagnosis,N/A,no,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,yes,N/A,N/A
+Non-EwS sarcoma,OtherSarc_1,OtherSarc_1_1,GER,Novaseq_7,male,14.53,19.4,1783,relapse,N/A,yes,after,N/A,N/A,N/A,N/A,N/A,N/A,N/A,yes,N/A,N/A
+Non-EwS sarcoma,OtherSarc_2,OtherSarc_2_1,GER,Novaseq_7,male,0.79,1.6,286,N/A,N/A,yes,after,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Non-EwS sarcoma,OtherSarc_3,OtherSarc_3_1,GER,Novaseq_7,male,N/A,0.3,128,N/A,N/A,no,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Non-EwS sarcoma,OtherSarc_4,OtherSarc_4_1,GER,Novaseq_7,male,16.22,16.3,39,N/A,N/A,no,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Non-EwS sarcoma,RMS_1,RMS_1_1,AUT,HighSeq_1,male,16.28,16.9,238,therapy,metastases,yes,before,alive,N/A,429,567,yes,N/A,head_and_neck,no,N/A,N/A
+Non-EwS sarcoma,RMS_1,RMS_1_2,AUT,Novaseq_3,male,16.28,17.5,429,relapse,metastases,yes,after,alive,N/A,429,567,yes,N/A,head_and_neck,yes,N/A,N/A
+Non-EwS sarcoma,RMS_1,RMS_1_3,AUT,Novaseq_6,male,16.28,17.8,542,therapy,metastases,yes,after,alive,N/A,429,567,yes,N/A,head_and_neck,N/A,N/A,N/A
+Non-EwS sarcoma,RMS_10,RMS_10_1,GER,Novaseq_7,male,3.84,3.9,8,diagnosis,N/A,no,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,yes,N/A,N/A
+Non-EwS sarcoma,RMS_11,RMS_11_1,GER,Novaseq_7,female,8.32,8.4,15,relapse,N/A,yes,after,N/A,N/A,N/A,N/A,N/A,N/A,N/A,yes,N/A,N/A
+Non-EwS sarcoma,RMS_12,RMS_12_1,GER,Novaseq_7,female,0.97,1,6,diagnosis,N/A,yes,after,N/A,N/A,N/A,N/A,N/A,N/A,N/A,yes,N/A,N/A
+Non-EwS sarcoma,RMS_2,RMS_2_1,AUT,Novaseq_3,female,9.14,9.7,207,therapy,no_metastases,yes,N/A,alive,N/A,N/A,537,N/A,N/A,head_and_neck,N/A,N/A,N/A
+Non-EwS sarcoma,RMS_2,RMS_2_2,AUT,Novaseq_3,female,9.14,10.1,364,therapy,no_metastases,yes,N/A,alive,N/A,N/A,537,N/A,N/A,head_and_neck,yes,N/A,N/A
+Non-EwS sarcoma,RMS_3,RMS_3_1,AUT,Novaseq_5,male,5.39,5.4,10,diagnosis,metastases,N/A,N/A,alive,N/A,N/A,144,N/A,N/A,prostate,yes,poor,N/A
+Non-EwS sarcoma,RMS_4,RMS_4_1,AUT,Novaseq_3,male,15.15,17.2,744,therapy,N/A,yes,after,alive,N/A,607,794,yes,N/A,N/A,yes,N/A,N/A
+Non-EwS sarcoma,RMS_5,RMS_5_1,AUT,Novaseq_3,female,17.35,18.2,325,relapse,no_metastases,yes,after,alive,N/A,325,466,yes,N/A,vaginal_introitus,yes,N/A,N/A
+Non-EwS sarcoma,RMS_5,RMS_5_2,AUT,Novaseq_3,female,17.35,18.2,328,relapse,no_metastases,yes,after,alive,N/A,325,466,yes,N/A,vaginal_introitus,yes,N/A,N/A
+Non-EwS sarcoma,RMS_6,RMS_6_1,GER,Novaseq_7,male,0.95,1,14,diagnosis,N/A,no,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,yes,N/A,N/A
+Non-EwS sarcoma,RMS_7,RMS_7_1,GER,Novaseq_7,female,11.82,11.9,14,diagnosis,N/A,no,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,yes,N/A,N/A
+Non-EwS sarcoma,RMS_8,RMS_8_1,GER,Novaseq_7,male,12.52,13.3,294,N/A,N/A,no,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Non-EwS sarcoma,RMS_9,RMS_9_1,GER,Novaseq_7,male,6.88,25.6,6826,relapse,N/A,yes,after,N/A,N/A,N/A,N/A,N/A,N/A,N/A,yes,N/A,N/A
+Non-EwS sarcoma,Syn_1,Syn_1_1,GER,Novaseq_7,male,13.59,13.6,6,diagnosis,N/A,no,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,yes,N/A,N/A
+Non-EwS sarcoma,Syn_2,Syn_2_1,GER,Novaseq_7,female,N/A,12.3,N/A,N/A,N/A,no,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Non-EwS sarcoma,Syn_3,Syn_3_1,GER,Novaseq_7,male,7.73,14.7,2559,N/A,N/A,yes,after,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A

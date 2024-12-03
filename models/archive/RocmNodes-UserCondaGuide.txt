@@ -1,0 +1,97 @@
+Overview
+========
+
+AMD have very kindly given us 10 ROME CPU based nodes, each containing 8 Mi50 GPUs, to use for COVID-19 and more general medical research.
+We have installed the ROCM compilers, libraries  and utilities on these nodes and incorporated them into our existing cluster as the partition rocmnodes.
+
+The ROCM nodes are named clust1-rocm-[1-10]
+There is a dedicated Lustre file system mounted on each node at /mnt/scratchc
+There is local NVMe scratch storage on each node at /nvme 
+
+The ROCM installation directory, /opt/rocm and /opt/rocm/bin should be added to the users PATH environment variable
+
+
+Submitting an interactive job to obtaining a node session
+==========================================================
+
+ssh -Y <user>@clust1-headnode-1.cri.camres.org
+$ sinteractive -c 2 --mem 12g --time 30 --gres gpu:<n> -p rocmnodes
+
+Note:
+sinteractive opens your session within 'screen' on the node.
+If you find that text you are entering does not wrap correctly,
+you can amend the 'screen' window width by typing:
+
+<CTRL>a
+:width -d 300
+
+
+Anaconda
+========
+
+It is necessary for users to create separate conda environments for the ROCM and CUDA nodes. And recommended for individual applications, PyTorch and TensorFlow, etc.
+
+Miniconda3 can be installed from:
+
+/mnt/scratchc/sharedconda/Miniconda3-latest-Linux-x86_64.sh
+
+A test PyTorch program
+======================
+
+A shared conda environment with the torch, torchvision and matplotlib packages installed.
+
+And PyTorch test program has been setup for users to try:
+
+$ conda activate /mnt/scratchc/rocm/sharedtorch/meeting
+$ export LD_LIBRARY_PATH=/mnt/scratchc/rocm/sharedtorch/meeting/lib
+$ python /mnt/scratchc/rocm/sharedtorch/tl-general.py turme
+
+ 
+Creating a new conda environment and installing PyTorch from a repository
+=========================================================================
+
+$ mkdir /<Your Directory Path>>/pkgtorch
+conda create --prefix /<Your Directory Path>/pkgtorch
+conda activate /<Your Directory Path>/pkgtorch
+conda install matplotlib
+pip install torch torchvision==0.10.1 -f https://download.pytorch.org/whl/rocm4.2/torch_stable.html
+export LD_LIBRARY_PATH=/<Your Directory Path>/pkgtorch/lib
+
+Creating a new conda environment and installing TensorFlow from a repository (Broken as of time of writing)
+===========================================================================================================
+
+$ mkdir /mnt/scratchc/<Your Directory Path>/tflowrocm
+$ conda create --prefix /mnt/scratchc/<Your Directory Path>/tflowrocm python=3.8
+$ conda activate /mnt/scratchc/<Your Directory Path>/tflowrocm
+$ conda install -c rocm tensorflow-rocm
+
+NOTE: This installs cleanly, but currently gives a libhc-am.so not found runtime error (hcc depreciated?).
+
+MOFA
+====
+
+cupy with mofapy2 (ROCM version still latest stable)
+====================================================
+
+$ mkdir /mnt/scratchc/<Your Directory Path>/cupy
+$ conda create --prefix /mnt/scratchc/<Your Directory Path>/cupy
+$ conda activate /mnt/scratchc/<Your Directory Path>/cupy
+$ conda install pip
+$ pip install cupy-rocm-4-0
+
+mofapy2
+-------
+$ pip install mofapy2
+
+The mofapy2 test script runs correctly. 
+
+Remember to reset use GPU to True in the script and if the script gives a code depreciation error, just delete the '.value' part of the dataset object calls.
+
+A copy of the amended script exists in the /mnt/scratchc/mofapy2 directory.
+
+The first iteration is slow as the GPU is setup and loaded, but subsequent iterations were twice as fast as using the CPU.
+
+
+
+
+

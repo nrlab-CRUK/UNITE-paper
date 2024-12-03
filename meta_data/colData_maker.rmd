@@ -1,0 +1,596 @@
+```{r lib and path setup}
+
+library(tidyverse)
+#ulyses_package_dir <- "/Users/wang04/Documents/libs/github/ulyses"
+ulyses_package_dir <- "/home/nrlab/wang04/ulyses"
+#out_dir <- "/Users/wang04/Documents/libs/github/ulyses/meta_data"
+out_dir <- file.path(ulyses_package_dir, "meta_data")
+
+colData_cols <- c("cohort",
+                  "patient_id",
+                  "specimen_id",
+                  "timepoint",
+                  "bam_id",
+                  "author",
+                  "sample_type",
+                  "ichorcna_tf",
+                  "ichorcna_ploidy",
+                  "ichorcna_gender",
+                  "stage",
+                  "library_kit",
+                  "extraction_kit",
+                  "seq_platform",
+                  "age",
+                  "gender",
+                  "seq_depth",
+                  "clinical_tf",
+                  "data_source",
+                  "mito_frac"
+                  )
+
+```
+
+
+
+```{r helper functions}
+
+add_missing_cols <- function(cohort_colData, colData_cols) {
+  
+  tmp <- setdiff(colData_cols, colnames(cohort_colData)) 
+  tmp_named <- setNames(tmp, tmp)
+  cols_to_add <- dplyr::bind_rows(tmp_named)[0, ]
+  cols_to_add[seq_len(nrow(cohort_colData)), ] <- NA
+  print("Missing cols:")
+  print(tmp)
+  
+  ans <- dplyr::mutate(cohort_colData, cols_to_add) %>%
+    dplyr::select(all_of(colData_cols))
+  return(ans)
+}
+
+```
+
+
+```{r DBS, message=FALSE}
+
+dbs_meta_file <- file.path(ulyses_package_dir, "meta_data", "DBS", "final", "dbs_meta_mannual.csv")
+
+dbs_colData <- read_csv(dbs_meta_file)
+
+
+# add missing cols 
+dbs_colData <- add_missing_cols(cohort_colData = dbs_colData,
+                 colData_cols = colData_cols)
+
+
+
+```
+
+
+```{r urine, message=FALSE, warning=FALSE}
+
+urine_meta_file <- file.path(ulyses_package_dir, "meta_data", "internal_urine", "internal_urine_all.csv")
+
+urine_meta <- read_csv(urine_meta_file)
+
+urine_rename_vec <- c(
+                "sample_type" = "specimen",
+                "seq_platform" = "sequencer",
+                "bam_id" = "raw_file_fullname",
+                "patient_id" = "patient",
+                "seq_depth" = "depth"
+                )
+
+urine_colData <- urine_meta %>%
+  dplyr::filter( specimen == "urine" & raw_data == "y" & target_depth == 0.1) %>%
+  dplyr::select(all_of(c("cohort", "specimen", "library_kit", "sequencer", "raw_file_fullname", "patient", "depth"))) %>%
+  dplyr::rename(all_of(urine_rename_vec)) %>%
+  dplyr::mutate(author = "H.W. et al") %>%
+  dplyr::mutate(data_source = "NRLAB") %>%
+  dplyr::mutate(cohort = case_when(
+    cohort == "NSD" ~ "Brain Disorder",
+    TRUE ~ cohort
+  )) 
+
+urine_colData <- urine_colData %>%
+  dplyr::mutate(bam_id = basename(bam_id))
+
+# add missing cols 
+urine_colData <- add_missing_cols(cohort_colData = urine_colData,
+                 colData_cols = colData_cols)
+
+```
+
+
+```{r liquorice, message=FALSE, warning=FALSE}
+
+liquorice_meta_file <- file.path(ulyses_package_dir, "meta_data", "liquorice", "samples.csv")
+liquorice_tap_file <- file.path(ulyses_package_dir, "meta_data", "liquorice", "liquorice_tap_alignment.csv")
+liquorice_tf_file <- file.path(ulyses_package_dir, "meta_data", "liquorice", "liquorice_tf.csv")
+
+liquorice_meta <- read_csv(liquorice_meta_file) %>%
+  dplyr::filter(!is.na(`Patient`))
+
+liquorice_tap <- read_csv(liquorice_tap_file) %>%
+  dplyr::select(SampleName, SLXId, Barcode, `Index Type`) %>%
+  dplyr::rename(`Sample` = `SampleName`) %>%
+  dplyr::rename(`library_kit` = `Index Type`) %>%
+  dplyr::mutate(bam_id = paste(SLXId, Barcode, sep = '.')) %>%
+  dplyr::select(-c(SLXId, Barcode))
+
+liquorice_tf <- read_csv(liquorice_tf_file) %>%
+  dplyr::mutate(ichorcna_tf = as.numeric(ichorcna_tf)/100) %>%
+  dplyr::mutate(clinical_tf = as.numeric(clinical_tf)/100)
+  
+
+liquorice_meta2 <- purrr::reduce(list(liquorice_meta, liquorice_tap, liquorice_tf), left_join, by = "Sample")
+
+# for colData
+liquorice_meta3 <- liquorice_meta2 %>%
+  dplyr::rename(results.sample.disease = `Sample type`) %>%
+  dplyr::mutate(results.sample.disease = str_replace(results.sample.disease, "Healthy control", "healthy")) %>%
+  dplyr::mutate(results.sample.disease = str_to_lower(results.sample.disease)) %>%
+  dplyr::mutate(timepoint = case_when(
+    results.sample.disease == "healthy" ~ as.numeric(1),
+    TRUE ~ as.numeric(str_extract(Sample, pattern = "_(\\d+)(rep)?$", group = 1))
+  ))
+
+liquorice_colData<- liquorice_meta3 %>%
+  dplyr::rename(`cohort` = results.sample.disease) %>%
+  dplyr::rename(`gender` = Gender) %>%
+  dplyr::select(`Patient`, 
+         `cohort`, 
+         `gender`, 
+         `Age at sample collection (years)`, 
+         `Sequencing Run`, 
+         `Sample`, 
+         `timepoint`, 
+         `library_kit`, 
+         `bam_id`,
+         `ichorcna_tf`,
+         `clinical_tf`
+         ) %>%
+  dplyr::rename(`specimen_id` = `Sample`) %>%
+  dplyr::rename(`age` = `Age at sample collection (years)`) %>%
+  dplyr::rename(`seq_platform` = `Sequencing Run`) %>%
+  dplyr::rename(`patient_id` = `Patient`) %>%
+  dplyr::mutate(`author` = "P.P. et al") %>%
+  dplyr::mutate(`seq_depth` = as.numeric(10)) %>%
+  dplyr::mutate(`sample_type` = "plasma") %>%
+  dplyr::mutate(`data_source` = "EGA") %>%
+  dplyr::mutate(`extraction_kit` = "QIAamp Circulating Nucleic Acid Kit")
+
+# add missing cols 
+liquorice_colData <- add_missing_cols(cohort_colData = liquorice_colData,
+                 colData_cols = colData_cols)
+
+
+```
+
+```{r stm, message=FALSE, warning=FALSE}
+
+stm_meta_file <- file.path(ulyses_package_dir, "meta_data", "stm", "stm_sample_hand_curated.csv")
+stm_tap_file <- file.path(ulyses_package_dir, "meta_data", "stm", "tap_alignment.csv")
+
+
+stm_meta <- read_csv(stm_meta_file)  %>%
+  # there were two bladder samples missing barcodes
+  dplyr::filter(!is.na(barcode)) %>%
+  dplyr::mutate(Library = paste(SLX, barcode, sep = "."))
+
+stm_tap <- read_csv(stm_tap_file) %>%
+  dplyr::select(Library, PlatformModel, `Index Type`) %>%
+  dplyr::rename(`seq_platform` = PlatformModel) %>%
+  dplyr::rename(`library_kit` = `Index Type`) %>%
+  # in the original records generated by TAP, sample sequenced with different chip shown in multiple rows
+  distinct()
+
+stm_meta2 <- purrr::reduce(list(stm_meta, stm_tap), left_join, by = "Library") %>%
+  dplyr::select(-Library)
+
+
+stm_colData <- stm_meta2 %>%
+  dplyr::mutate(bam_id = paste(SLX, barcode, sep  = ".")) %>%
+  dplyr::select(cancer, patient, bam_id, sample, library_kit, seq_platform, timepoint) %>%
+  dplyr::rename(`patient_id` = patient) %>%
+  dplyr::rename(`specimen_id` = sample) %>%
+  dplyr::rename(cohort = cancer) %>%
+  dplyr::mutate(author = "F.M. et al") %>%
+  dplyr::mutate(sample_type  = "plasma") %>%
+  dplyr::mutate(cohort = case_when(
+    cohort == "esophageal junction" ~ "esophageal",
+    TRUE ~ cohort
+  )) %>%
+  dplyr::mutate(data_source = "NRLAB") %>%
+  dplyr::mutate(extraction_kit = "QIAamp Circulating Nucleic Acid Kit")
+  
+  
+
+# add missing cols 
+stm_colData <- add_missing_cols(cohort_colData = stm_colData,
+                 colData_cols = colData_cols)
+
+
+```
+
+```{r delfi, message=FALSE, warning=TRUE}
+
+
+finaleDB_meta_file <- file.path(ulyses_package_dir, "meta_data", "finaledb", "finaleDB_meta.rds")
+delfi_tap_file <- file.path(ulyses_package_dir, "meta_data", "delfi", "delfi_tap_alignment.csv")
+delfi_github_file <- file.path(ulyses_package_dir, "meta_data", "delfi", "delfi_github_sample_reference.csv")
+delfi_paper_file <- file.path(ulyses_package_dir, "meta_data", "delfi", "delfi_paper.csv")
+
+# read in finaleDB data
+finaleDB_meta <- readRDS(finaleDB_meta_file)
+# one sample are duplicated due to unknow reason, remove it
+finaleDB_meta[finaleDB_meta$frag_hg19 == "EE88324.hg19.frag.tsv.bgz", "results.sample.name"] <- "CGPLPA95_D10000"
+finaleDB_meta$results.publication.author <- unlist(finaleDB_meta$results.publication.author)
+
+
+delfi_tap <- read_csv(delfi_tap_file, show_col_types = FALSE) %>%
+  dplyr::select(SampleName, SLXId, Barcode, `Index Type`) %>%
+  dplyr::rename('WGS ID' = SampleName) %>%
+  dplyr::rename(library_kit = `Index Type`) %>%
+  dplyr::mutate(bam_id = paste(SLXId, Barcode, sep = '.')) %>%
+  dplyr::select(-c(SLXId, Barcode))
+
+delfi_github <- read_csv(delfi_github_file)
+
+join_github_tap <- right_join(delfi_github,delfi_tap, by = 'WGS ID') %>%
+  dplyr::select(-starts_with("Z Score")) %>%
+  dplyr::rename(`stage_github_tap` = stage)
+
+anti <- anti_join(delfi_tap, delfi_github, by = 'WGS ID')
+
+anti2 <- anti_join(delfi_github, delfi_tap, by = 'WGS ID')
+
+delfi_paper <- read_csv(delfi_paper_file) %>%
+  dplyr::select(patient_id, age, gender, stage) %>%
+  distinct()
+
+
+
+
+u_finaledb <- finaleDB_meta |> 
+  dplyr::filter(results.publication.author == 'Stephen Cristiano') |>
+  dplyr::mutate(patient_id = str_remove(results.sample.name, pattern = "(_D-?\\d+\\.\\d+$)|(_D-?\\d+$)")) %>%
+  dplyr::mutate(timepoint = str_extract(results.sample.name, pattern = "_D(.*)$", group = 1) %>% as.numeric() ) 
+
+u_finaledb_tp <- u_finaledb %>%
+  group_by(patient_id) %>%
+  arrange(timepoint) %>%
+  dplyr::mutate(timpepoint_new = 1:n()) %>%
+  ungroup() %>%
+  arrange(patient_id) %>%
+  dplyr::select(-timepoint) %>%
+  dplyr::rename(`timepoint` = timpepoint_new) %>%
+  dplyr::mutate(`specimen_id` = paste(patient_id, timepoint, sep = "_"))
+
+join_finaledb_paper <- right_join(delfi_paper, u_finaledb_tp, by = "patient_id")
+
+final <- right_join(join_github_tap, join_finaledb_paper, by = "patient_id") %>% 
+  dplyr::rename(`author` = results.publication.author ) %>%
+  dplyr::mutate(data_source = "EGA") %>%
+  dplyr::mutate(sample_type = "plasma") %>%
+  dplyr::select(patient_id, specimen_id, timepoint, timepoint_id, bam_id, age, gender, cohort, library_kit,  author, stage) %>% 
+  dplyr::mutate(sample_type = "plasma") %>%
+  dplyr::mutate(seq_platform = 'HiSeq 2000/2500') %>%
+  dplyr::mutate(data_source = 'EGA') %>%
+  dplyr::mutate(extraction_kit = 'QIAamp Circulating Nucleic Acid Kit')
+
+
+# get the rep files
+reps <- final %>%
+  dplyr::filter(str_detect(patient_id, pattern = "Rep")) %>%
+  pull(patient_id)
+
+reps_base <- str_remove(reps, "_Rep")
+
+for (i in seq_len(length(reps))) {
+  final[final$patient_id == reps[i], ][["gender"]] <- final[final$patient_id == reps_base[i], ][["gender"]]
+  # print(final[final$patient_id == reps[i], ][["gender"]])
+  final[final$patient_id == reps[i], ][["age"]] <- final[final$patient_id == reps_base[i], ][["age"]]
+  # print(final[final$patient_id == reps[i], ][["age"]])
+  final[final$patient_id == reps[i], ][["cohort"]] <- final[final$patient_id == reps_base[i], ][["cohort"]]
+}
+
+
+final <- final %>%
+  dplyr::mutate(library_kit = 'NEBNext DNA Library Prep Kit')
+
+# add missing cols 
+delfi_colData <- add_missing_cols(cohort_colData = final,
+                                  colData_cols = colData_cols)
+
+# due to incomplete meta information, 
+# CGPLPA95_2 and CGPLPA95_1 have the same bam_id, remove CGPLPA95_2 
+
+delfi_colData <- dplyr::filter(delfi_colData, specimen_id != "CGPLPA95_2")
+ 
+
+```
+
+
+```{r finaleDB, message=FALSE, warning=FALSE}
+
+
+
+finaleDB_colData_pre <- finaleDB_meta %>%
+  dplyr::mutate(results.sample.disease = str_replace(results.sample.disease, " cancer$", "")) %>% 
+  dplyr::mutate(results.sample.disease = str_to_lower(results.sample.disease))  %>%
+  dplyr::mutate(results.publication.author = case_when(
+    results.publication.author == "Stephen Cristiano" ~ "S.C. et al",
+    results.publication.author == "Viktor A. Adalsteinsson" ~ "V.A. et al",
+    results.publication.author == "Snyder" ~ "M.S. et al",
+    results.publication.author == "Peiyong Jiang" ~ "P.J. et al",
+    results.publication.author == "Kun Sun" ~ "K.S. et al",
+    TRUE ~ results.publication.author)) %>%
+  dplyr::mutate(results.sample.disease = case_when(
+    results.sample.disease == "kidney" ~ "renal",
+    results.sample.disease == "liver" ~ "hepatocellular",
+    results.sample.disease == "skin" ~ "melanoma",
+    TRUE ~ results.sample.disease)) %>%
+  dplyr::mutate(bam_id = str_remove(frag_hg19, "\\.hg\\d\\d\\.frag\\.tsv\\.bgz$")) %>%
+  dplyr::select(results.sample.disease, 
+         results.publication.author, 
+         results.sample.name, 
+         results.sample.age, 
+         results.sample.gender, 
+         results.seqConfig.instrument, 
+         bam_id ) %>%
+  dplyr::mutate(sample_type = "plasma") %>%
+  dplyr::rename(cohort = results.sample.disease ) %>%
+  dplyr::rename(author = results.publication.author ) %>%
+  dplyr::rename(patient_id = results.sample.name) %>%
+  dplyr::mutate(specimen_id = patient_id) %>%
+  dplyr::mutate(data_source = "FINALEDB") %>%
+  dplyr::rename(age = results.sample.age) %>%
+  dplyr::rename(gender = results.sample.gender) %>%
+  dplyr::rename(seq_platform = results.seqConfig.instrument) 
+
+
+#############################################################################
+# handle VA et al paper data
+#############################################################################
+
+va_paper_file <- file.path(ulyses_package_dir, "meta_data", "finaledb", "VA_paper_data.csv")
+va_paper <- read_csv(va_paper_file)
+va_paper_tidy <- va_paper %>%
+  dplyr::rename(`timepoint` = "First.time.point") %>%
+  dplyr::rename(`seq_depth` = "ulp_wgs_coverage") %>%
+  dplyr::rename(`ichorcna_tf` ="tumor_fraction") %>%
+  dplyr::rename(`specimen_id` = "sample_id") %>%
+  dplyr::select(patient_id, specimen_id, timepoint, seq_depth, ichorcna_tf, timepoint) %>%
+  dplyr::mutate(extraction_kit = "Qiagen Circulating DNA kit") %>%
+  dplyr::mutate(library_kit = "Kapa Hyper Prep kit")
+
+# two samples have naming problem
+
+va_paper_tidy[va_paper_tidy$specimen_id == "MBC_1206_1",]$specimen_id <- "MBC_1206"
+va_paper_tidy[va_paper_tidy$specimen_id == "MBC_1396_1",]$specimen_id <- "MBC_1396"
+va_paper_tidy[va_paper_tidy$specimen_id == "MBC_1104_1",]$specimen_id <- "MBC_1104"
+va_paper_tidy[va_paper_tidy$specimen_id == "MBC_1220_1",]$specimen_id <- "MBC_1220"
+
+
+
+finaleDB_VA <- finaleDB_colData_pre %>%
+  dplyr::filter(author == "V.A. et al")
+
+finaleDB_VA <- left_join(finaleDB_VA, va_paper_tidy, by = "specimen_id") %>%
+  dplyr::select(-ends_with(".x"))
+
+colnames(finaleDB_VA) <- str_remove(colnames(finaleDB_VA), pattern = "\\.y")
+finaleDB_VA <- add_column(finaleDB_VA, stage = "IV")
+
+
+# add missing cols 
+finaleDB_VA <- add_missing_cols(cohort_colData = finaleDB_VA,
+                 colData_cols = colData_cols)
+
+
+#############################################################################
+# handle P.J et al paper data
+#############################################################################
+pj_sequencer <- "HiSeq 2000"
+pj_extraction_kit <- "QIAamp DSP DNA Blood Mini Kit"
+pj_library_kit <- "Kapa Library Preparation Kit"
+
+finaleDB_PJ <- finaleDB_colData_pre %>%
+  dplyr::filter(author == "P.J. et al") %>%
+  dplyr::mutate(seq_platform = pj_sequencer) %>%
+  dplyr::mutate(extraction_kit = pj_extraction_kit) %>%
+  dplyr::mutate(library_kit = pj_library_kit)
+
+# add missing cols 
+finaleDB_PJ <- add_missing_cols(cohort_colData = finaleDB_PJ,
+                 colData_cols = colData_cols)
+
+
+
+#############################################################################
+# handle K.S. et al paper data
+#############################################################################
+ks_sequencer <- "HiSeq 2000"
+ks_library_kit <- "Kapa Library Preparation Kit"
+
+finaleDB_KS <- finaleDB_colData_pre %>%
+  dplyr::filter(author == "K.S. et al") %>%
+  dplyr::mutate(seq_platform = ks_sequencer) %>%
+  dplyr::mutate(library_kit = ks_library_kit)
+
+# add missing cols 
+finaleDB_KS <- add_missing_cols(cohort_colData = finaleDB_KS,
+                 colData_cols = colData_cols)
+
+#############################################################################
+# handle M.S. et al paper data
+#############################################################################
+ms_sequencer <- "HiSeq 2000 or NextSeq 500"
+ms_extraction_kit <- "QIAamp Circulating Nucleic Acid Kit"
+ms_library_kit_dsp <- "ThruPLEX-FD or ThruPLEX DNA-seq"
+ms_library_kit_ssp <- NA 
+
+finaleDB_MS <- finaleDB_colData_pre %>%
+  dplyr::filter(author == "M.S. et al") %>%
+  dplyr::mutate(seq_platform = ms_sequencer) %>%
+  dplyr::mutate(extraction_kit = ms_extraction_kit)
+
+# add missing cols 
+finaleDB_MS <- add_missing_cols(cohort_colData = finaleDB_MS,
+                 colData_cols = colData_cols)
+
+
+#############################################################################
+# handle S.C et al paper data
+#############################################################################
+
+
+finaleDB_SC_pre <- finaleDB_colData_pre %>%
+  dplyr::filter(author == "S.C. et al") %>%
+  dplyr::rename(results.sample.name = specimen_id)
+
+tmp <- join_finaledb_paper %>%
+  dplyr::select(results.sample.name, specimen_id)
+
+finaleDB_SC_pre2 <- inner_join(finaleDB_SC_pre, tmp, by = "results.sample.name") %>%
+  dplyr::select(-results.sample.name)
+
+delfi_colData2 <- delfi_colData %>%
+  dplyr::select(-c(author, bam_id, data_source, cohort ))
+
+finaleDB_SC <- left_join(finaleDB_SC_pre2, delfi_colData2, by = "specimen_id") %>%
+  dplyr::select(-ends_with(".x"))
+colnames(finaleDB_SC) <- str_remove(colnames(finaleDB_SC), pattern = "\\.y")
+
+
+# add missing cols 
+finaleDB_SC <- add_missing_cols(cohort_colData = finaleDB_SC,
+                 colData_cols = colData_cols)
+
+
+
+#############################################################################
+# bind all sub-dataframes 
+#############################################################################
+finaleDB_colData <- rbind(finaleDB_SC, finaleDB_VA, finaleDB_KS, finaleDB_PJ, finaleDB_MS)
+
+
+```
+
+```{r consolidate}
+
+#colData
+ulyses_colData <- rbind(liquorice_colData, 
+  stm_colData, 
+  finaleDB_colData,
+  delfi_colData,
+  urine_colData) %>%
+  dplyr::mutate(cohort = str_to_title(cohort))
+
+# add missing cols
+ulyses_colData <- add_missing_cols(cohort_colData = ulyses_colData,
+                 colData_cols = colData_cols)
+```
+
+```{r add seq_depth}
+
+# bam depth 
+#depth_file <- file.path(ulyses_package_dir, "meta_data", "metrics_depth" ,"all_bam_stats_summary.csv")
+# if the file does not exist, stop
+#if (!file.exists(depth_file)) {
+#  stop("The file does not exist.")
+#}
+#depth_dt <- read_csv(depth_file, show_col_types = FALSE)
+
+depth_fl <- list.files(path = "/scratchc/nrlab/wang04/ulyses/data/", pattern = ".bam.summary.csv", recursive=TRUE, full.names = TRUE)
+depth_dt <- purrr::map_df(depth_fl, read_csv, show_col_types = FALSE)
+
+depth_dt_tidy <- depth_dt %>%
+  mutate(bam_id = str_extract(file, "(^[^.]+\\.[^.]+)")) %>%
+  select(all_of(c("bam_id", "n_read", "n_read_mapped", "n_read_duplicate", "n_read_mapped_chrM"))) %>%
+  mutate(n_read_mapped_unique = n_read_mapped - n_read_duplicate) %>% 
+  mutate(n_frag_unique = floor(n_read_mapped_unique / 2)) %>%
+  mutate(seq_depth = n_frag_unique / 1E7) %>%
+  mutate(mito_frac = n_read_mapped_chrM / n_read_mapped) %>%
+  select(all_of(c("bam_id", "seq_depth", "mito_frac")))
+
+# calculate finaleDB n_frag
+
+finaleDB_files <- list.files(path = "/scratchc/nrlab/wang04/ulyses/data/external/finaledb/hg19",
+  pattern = "EE\\d+\\.hg19.frag.tsv.bgz.GRanges.rds.summary.csv",
+  full.names = TRUE)
+  # join the depth_dt_tidy to the ulyses_colData
+  # remove the seq_depth and mito_frac col from ulyses_colData
+
+finaleDB_seq_depth <- purrr::map_df(finaleDB_files, read_csv, show_col_types = FALSE) %>%
+  mutate(bam_id = str_extract(file, "^EE\\d+")) %>%
+  mutate(seq_depth = n_frag / 1E7) %>%
+  add_column(mito_frac = NA_real_) %>%
+  select(all_of(c("bam_id", "seq_depth", "mito_frac")))
+
+seq_depth_dt <- rbind(depth_dt_tidy, finaleDB_seq_depth)
+
+ulyses_colData <- left_join(ulyses_colData %>% select(-c("seq_depth", "mito_frac")), 
+  seq_depth_dt, by = "bam_id")
+
+```
+
+```{r add ichorcna_tf}
+
+# a path containing all ichorcna results
+ichorcna_path <- "/scratchc/nrlab/wang04/ulyses/data/ichorCNA_outdir"
+#ichorcna_tf_file <- file.path(ulyses_package_dir, "meta_data", "metrics_ichorcna_tf" ,"ichor_results.csv")
+
+# if the file does not exist, stop
+#if (!file.exists(ichorcna_tf_file)) {
+#  stop("The file does not exist.")
+#}
+
+read_param <- function(x) {
+    if(file.exists(x)) {
+    #file.copy(x, "./tmp")
+    a <- read.delim(x, header = TRUE, nrows = 1) %>%
+        as_tibble()
+
+    gender <- readLines(x, n = 6, warn = FALSE)[[6]] %>%
+    stringr::str_remove(pattern = "^Gender:\t")
+
+    ans <- a %>%
+    add_column(`gender` = gender)
+    return(ans)
+
+    } else {
+        message(paste(x, "does not exist!"))
+    }
+
+}
+
+
+
+ichorcna_fl <- list.files(path = ichorcna_path, pattern = ".ichor.params.txt", recursive = TRUE, full.names = TRUE)
+
+ichorcna_tf_dt <- purrr::map_df(ichorcna_fl, read_param )
+
+
+
+ichorcna_tf_dt_tidy <- ichorcna_tf_dt %>%
+  dplyr::mutate(bam_basename = str_remove(Sample, ".ichor$")) %>% 
+  dplyr::rename(`ichorcna_tf` = `Tumor.Fraction`) %>% 
+  dplyr::rename(`ichorcna_ploidy` = `Ploidy`) %>%
+  dplyr::rename(`ichorcna_gender` = `gender`) %>% 
+  dplyr::mutate(bam_id = str_extract(bam_basename, "(^(SLX|DL)\\-\\d+\\.[^.]+)|(^EE\\d+)")) %>%
+  dplyr::select(all_of(c("bam_id", "ichorcna_tf", "ichorcna_ploidy", "ichorcna_gender"))) 
+
+ulyses_colData <- left_join(ulyses_colData %>% select(-c("ichorcna_tf", "ichorcna_ploidy", "ichorcna_gender")), 
+  ichorcna_tf_dt_tidy, by = "bam_id")
+
+
+```
+
+
+```{r save result}
+saveRDS(ulyses_colData, file = file.path(out_dir,"colData.rds"))
+write_csv(ulyses_colData, file = file.path(out_dir, "colData.csv"))
+
+```

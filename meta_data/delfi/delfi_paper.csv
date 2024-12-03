@@ -1,0 +1,555 @@
+patient_id,cohort,Sample Type,timepoint,age,gender,stage,TNM Staging,Site of Primary Tumor,Histopathological Diagnosis,Degree of Differentiation,Location of Metastases at Diagnosis,Volume of Plasma (ml),cfDNA Extracted (ng/ml),cfDNA Input (ng/ml),Whole Genome Fragment Profile  Analysis,Targeted Fragment Profile Analysis,Targeted Mutation Analysis
+CGCRC291,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,69,F,IV,T3N2M1,Coecum,Adenocarcinoma,Moderate,Synchronous Liver,7.9,7.80,7.80,Y,Y,Y
+CGCRC292,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,51,M,IV,T3N2M1,Sigmoid Colon,Adenocarcinoma,Moderate,"Synchronous Liver, Lung",7.9,6.73,6.73,Y,Y,Y
+CGCRC293,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,55,M,IV,T3N2M1,Rectum,Adenocarcinoma,Moderate,Synchronous Liver,7.2,3.83,3.83,Y,Y,Y
+CGCRC294,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,67,F,II,T3N0M0,Sigmoid Colon,Adenocarcinoma,Moderate,None,8.4,18.87,18.87,Y,Y,Y
+CGCRC296,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,76,F,II,T4N0M0,Coecum,Adenocarcinoma,Poor,None,4.3,31.24,31.24,Y,Y,Y
+CGCRC299,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,71,M,I,T1N0M0,Rectum,Adenocarcinoma,Moderate,None,8.8,10.18,10.18,Y,Y,Y
+CGCRC300,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,65,M,I,T2N0M0,Rectum,Adenocarcinoma,Moderate,None,4.3,10.48,10.48,Y,Y,Y
+CGCRC301,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,76,F,I,T2N0M0,Rectum,Adenocarcinoma,Moderate,None,4.1,6.51,6.51,Y,Y,Y
+CGCRC302,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,73,M,II,T3N0M0,Transverse Colon,Adenocarcinoma,Moderate,None,4.3,52.13,52.13,Y,Y,Y
+CGCRC304,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,86,F,II,T3N0M0,Rectum,Adenocarcinoma,Moderate,None,4.1,30.19,30.19,Y,Y,Y
+CGCRC305,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,83,F,II,T3N0M0,Transverse Colon,Adenocarcinoma,Moderate,None,8.6,9.10,9.10,Y,Y,Y
+CGCRC306,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,80,F,II,T4N0M0,Ascending Colon,Adenocarcinoma,Moderate,None,4.5,24.31,24.31,Y,Y,Y
+CGCRC307,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,78,F,II,T3N0M0,Ascending Colon,Adenocarcinoma,Moderate,None,8.5,14.26,14.26,Y,Y,Y
+CGCRC308,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,72,F,III,T4N2M0,Ascending Colon,Adenocarcinoma,Moderate,None,4.3,46.87,46.87,Y,Y,Y
+CGCRC311,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,59,M,I,T2N0M0,Sigmoid Colon,Adenocarcinoma,Moderate,None,8.5,3.91,3.91,Y,Y,Y
+CGCRC315,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,74,M,III,T3N1M0,Sigmoid Colon,Adenocarcinoma,Moderate,None,8.6,9.67,9.67,Y,Y,Y
+CGCRC316,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,80,M,III,T3N2M0,Transverse Colon,Adenocarcinoma,Moderate,None,4.9,52.16,52.16,Y,Y,Y
+CGCRC317,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,74,M,III,T3N2M0,Descending Colon,Adenocarcinoma,Moderate,None,8.8,16.08,16.08,Y,Y,Y
+CGCRC318,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,81,M,I,T2N0M0,Coecum,Adenocarcinoma,Moderate,None,9.8,18.24,18.24,Y,Y,Y
+CGCRC319,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,80,F,III,T2N1M0,Descending Colon,Adenocarcinoma,Moderate,None,4.2,53.54,53.54,Y,N,Y
+CGCRC320,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,73,F,I,T2N0M0,Ascending Colon,Adenocarcinoma,Moderate,None,4.5,30.37,30.37,Y,Y,Y
+CGCRC321,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,68,M,I,T2N0M0,Rectum,Adenocarcinoma,Moderate,None,9.3,4.25,4.25,Y,Y,Y
+CGCRC333,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,NA,F,IV,NA,Colon/Rectum,Adenocarcinoma,NA,Liver,4.0,113.88,113.88,Y,Y,Y
+CGCRC336,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,NA,M,IV,NA,Colon/Rectum,Adenocarcinoma,NA,Liver,4.4,211.74,211.74,Y,Y,Y
+CGCRC338,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,NA,F,IV,NA,Colon/Rectum,Adenocarcinoma,NA,Liver,2.3,109.76,109.76,Y,Y,Y
+CGCRC341,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,NA,F,IV,NA,Colon/Rectum,Adenocarcinoma,NA,Liver,4.6,156.62,156.62,Y,N,Y
+CGCRC342,Colorectal Cancer,cfDNA,Preoperative treatment na夫e,NA,M,IV,NA,Colon/Rectum,Adenocarcinoma,NA,Liver,3.9,56.09,56.09,Y,N,Y
+CGLU316,Lung Cancer,cfDNA,"Pre-treatment, Day -53",50,F,IV,T3N2M0,Left Upper Lobe of Lung,"Adeno, Squamous, Small Cell Carcinoma",Poor,Lung,5.0,2.38,2.38,Y,N,Y
+CGLU316,Lung Cancer,cfDNA,"Pre-treatment, Day -4",50,F,IV,T3N2M0,Left Upper Lobe of Lung,"Adeno, Squamous, Small Cell Carcinoma",Poor,Lung,5.0,2.11,2.11,Y,N,Y
+CGLU316,Lung Cancer,cfDNA,"Post-treatment, Day 18",50,F,IV,T3N2M0,Left Upper Lobe of Lung,"Adeno, Squamous, Small Cell Carcinoma",Poor,Lung,5.0,0.87,1.07,Y,N,Y
+CGLU316,Lung Cancer,cfDNA,"Post-treatment, Day 87",50,F,IV,T3N2M0,Left Upper Lobe of Lung,"Adeno, Squamous, Small Cell Carcinoma",Poor,Lung,2.0,8.74,8.75,Y,N,Y
+CGLU344,Lung Cancer,cfDNA,"Pre-treatment, Day -21",65,F,IV,T2N2M1,Right Upper Lobe of Lung,Adenocarcinoma,NA,"Pleura, Liver, Peritoneum",5.0,34.77,25.00,Y,N,Y
+CGLU344,Lung Cancer,cfDNA,"Pre-treatment, Day 0",65,F,IV,T2N2M1,Right Upper Lobe of Lung,Adenocarcinoma,NA,"Pleura, Liver, Peritoneum",5.0,15.63,15.64,Y,N,Y
+CGLU344,Lung Cancer,cfDNA,"Post-treatment, Day 0.1875",65,F,IV,T2N2M1,Right Upper Lobe of Lung,Adenocarcinoma,NA,"Pleura, Liver, Peritoneum",5.0,9.22,9.22,Y,N,Y
+CGLU344,Lung Cancer,cfDNA,"Post-treatment, Day 59",65,F,IV,T2N2M1,Right Upper Lobe of Lung,Adenocarcinoma,NA,"Pleura, Liver, Peritoneum",5.0,5.31,5.32,Y,N,Y
+CGLU369,Lung Cancer,cfDNA,"Pre-treatment, Day -2",48,F,IV,T2NxM1,Right Upper Lobe of Lung,Adenocarcinoma,NA,Brain,2.0,11.28,11.28,Y,N,Y
+CGLU369,Lung Cancer,cfDNA,"Post-treatment, Day 12",48,F,IV,T2NxM1,Right Upper Lobe of Lung,Adenocarcinoma,NA,Brain,5.0,10.09,10.09,Y,N,Y
+CGLU369,Lung Cancer,cfDNA,"Post-treatment, Day 68",48,F,IV,T2NxM1,Right Upper Lobe of Lung,Adenocarcinoma,NA,Brain,5.0,6.69,6.70,Y,N,Y
+CGLU369,Lung Cancer,cfDNA,"Post-treatment, Day 110",48,F,IV,T2NxM1,Right Upper Lobe of Lung,Adenocarcinoma,NA,Brain,5.0,8.41,8.42,Y,N,Y
+CGLU373,Lung Cancer,cfDNA,"Pre-treatment, Day -2",56,F,IV,T3N1M0,Right Upper Lobe of Lung,Adenocarcinoma,Moderate,None,5.0,6.35,6.35,Y,N,Y
+CGLU373,Lung Cancer,cfDNA,"Post-treatment, Day 0.125",56,F,IV,T3N1M0,Right Upper Lobe of Lung,Adenocarcinoma,Moderate,None,5.0,6.28,6.28,Y,N,Y
+CGLU373,Lung Cancer,cfDNA,"Post-treatment, Day 7",56,F,IV,T3N1M0,Right Upper Lobe of Lung,Adenocarcinoma,Moderate,None,5.0,3.82,3.82,Y,N,Y
+CGLU373,Lung Cancer,cfDNA,"Post-treatment, Day 47",56,F,IV,T3N1M0,Right Upper Lobe of Lung,Adenocarcinoma,Moderate,None,3.5,5.55,5.55,Y,N,Y
+CGPLBR100,Breast Cancer,cfDNA,Preoperative treatment na夫e,44,F,III,T2N2M0,Left Breast,Infiltrating Ductal Carcinoma,NA,None,4.0,4.25,4.25,Y,N,Y
+CGPLBR101,Breast Cancer,cfDNA,Preoperative treatment na夫e,46,F,II,T2N1M0,Left Breast,Infiltrating Lobular Carcinoma,Moderate,None,4.0,37.88,37.88,Y,N,Y
+CGPLBR102,Breast Cancer,cfDNA,Preoperative treatment na夫e,47,F,II,T2N1M0,Right Breast,Infiltrating Ductal Carcinoma,Moderate,None,3.6,13.67,13.67,Y,N,Y
+CGPLBR103,Breast Cancer,cfDNA,Preoperative treatment na夫e,48,F,II,T2N1M0,Left Breast,Infiltrating Ductal Carcinoma,Moderate,None,3.6,7.11,7.11,Y,N,Y
+CGPLBR104,Breast Cancer,cfDNA,Preoperative treatment na夫e,68,F,II,T2N0M0,Right Breast,Infiltrating Lobular Carcinoma,Moderate,None,4.7,19.89,19.89,Y,N,Y
+CGPLBR12,Breast Cancer,cfDNA,Preoperative treatment na夫e,NA,F,III,NA,Breast,Ductal Carcinoma insitu with Microinvasion,NA,NA,4.3,4.21,4.21,Y,N,N
+CGPLBR18,Breast Cancer,cfDNA,Preoperative treatment na夫e,NA,F,III,NA,Breast,Infiltrating Lobular Carcinoma,NA,NA,4.1,40.39,30.49,Y,N,N
+CGPLBR23,Breast Cancer,cfDNA,Preoperative treatment na夫e,53,F,II,NA,Breast,Infiltrating Ductal Carcinoma,NA,None,4.7,20.09,20.09,Y,N,N
+CGPLBR24,Breast Cancer,cfDNA,Preoperative treatment na夫e,53,F,II,NA,Breast,Infiltrating Ductal Carcinoma,NA,None,3.6,58.33,34.72,Y,N,N
+CGPLBR28,Breast Cancer,cfDNA,Preoperative treatment na夫e,59,F,III,NA,Breast,Infiltrating Ductal Carcinoma,NA,None,4.2,12.86,12.86,Y,N,N
+CGPLBR30,Breast Cancer,cfDNA,Preoperative treatment na夫e,61,F,II,NA,Breast,Infiltrating Ductal Carcinoma,NA,None,4.1,59.73,30.49,Y,N,N
+CGPLBR31,Breast Cancer,cfDNA,Preoperative treatment na夫e,54,F,II,NA,Breast,Infiltrating Ductal Carcinoma,NA,None,3.4,23.94,23.94,Y,N,N
+CGPLBR32,Breast Cancer,cfDNA,Preoperative treatment na夫e,NA,F,II,NA,Breast,Infiltrating Ductal Carcinoma,NA,None,4.4,71.23,28.41,Y,N,N
+CGPLBR33,Breast Cancer,cfDNA,Preoperative treatment na夫e,47,F,II,NA,Breast,Infiltrating Lobular Carcinoma,NA,None,4.4,11.00,11.00,Y,N,N
+CGPLBR34,Breast Cancer,cfDNA,Preoperative treatment na夫e,60,F,II,NA,Breast,Infiltrating Lobular Carcinoma,NA,None,4.4,23.61,23.61,Y,N,N
+CGPLBR35,Breast Cancer,cfDNA,Preoperative treatment na夫e,43,F,II,NA,Breast,Ductal Carcinoma insitu with Microinvasion,NA,None,4.5,22.58,22.58,Y,N,N
+CGPLBR36,Breast Cancer,cfDNA,Preoperative treatment na夫e,36,F,II,NA,Breast,Infiltrating Ductal Carcinoma,NA,None,4.4,17.73,17.73,Y,N,N
+CGPLBR37,Breast Cancer,cfDNA,Preoperative treatment na夫e,58,F,II,NA,Breast,Infiltrating Ductal Carcinoma,NA,None,4.4,9.39,9.39,Y,N,N
+CGPLBR38,Breast Cancer,cfDNA,Preoperative treatment na夫e,54,F,I,T1N0M0,Left Breast,Infiltrating Ductal Carcinoma,Moderate,None,4.0,5.77,5.77,Y,Y,Y
+CGPLBR40,Breast Cancer,cfDNA,Preoperative treatment na夫e,66,F,III,T2N2M0,Left Breast,Infiltrating Ductal Carcinoma,Poor,None,4.6,15.69,15.69,Y,Y,Y
+CGPLBR41,Breast Cancer,cfDNA,Preoperative treatment na夫e,51,F,III,T3N1M0,Left Breast,Infiltrating Ductal Carcinoma,Moderate,None,4.5,11.56,11.56,Y,N,Y
+CGPLBR45,Breast Cancer,cfDNA,Preoperative treatment na夫e,57,F,II,NA,Breast,Infiltrating Ductal Carcinoma,NA,None,4.5,20.36,20.36,Y,N,N
+CGPLBR46,Breast Cancer,cfDNA,Preoperative treatment na夫e,54,F,III,NA,Breast,Infiltrating Ductal Carcinoma,NA,None,3.5,20.17,20.17,Y,N,N
+CGPLBR47,Breast Cancer,cfDNA,Preoperative treatment na夫e,54,F,I,NA,Breast,Infiltrating Ductal Carcinoma,NA,None,4.5,13.89,13.89,Y,N,N
+CGPLBR48,Breast Cancer,cfDNA,Preoperative treatment na夫e,47,F,II,T2N1M0,Left Breast,Infiltrating Ductal Carcinoma,Poor,None,3.9,7.07,7.07,Y,Y,Y
+CGPLBR49,Breast Cancer,cfDNA,Preoperative treatment na夫e,37,F,II,T2N1M0,Left Breast,Infiltrating Ductal Carcinoma,Poor,None,4.0,5.74,5.74,Y,N,Y
+CGPLBR50,Breast Cancer,cfDNA,Preoperative treatment na夫e,51,F,I,NA,Breast,Infiltrating Ductal Carcinoma,NA,None,4.5,45.58,27.78,Y,N,N
+CGPLBR51,Breast Cancer,cfDNA,Preoperative treatment na夫e,53,F,II,NA,Breast,Infiltrating Ductal Carcinoma,NA,None,4.0,8.83,8.83,Y,N,N
+CGPLBR52,Breast Cancer,cfDNA,Preoperative treatment na夫e,68,F,III,NA,Breast,Infiltrating Ductal Carcinoma,NA,None,4.5,80.71,27.78,Y,N,N
+CGPLBR55,Breast Cancer,cfDNA,Preoperative treatment na夫e,53,F,III,T3N1M0,Right Breast,Infiltrating Ductal Carcinoma,Poor,None,4.3,4.57,4.57,Y,Y,Y
+CGPLBR56,Breast Cancer,cfDNA,Preoperative treatment na夫e,56,F,II,NA,Breast,Infiltrating Ductal Carcinoma,NA,None,4.5,22.16,22.16,Y,N,N
+CGPLBR57,Breast Cancer,cfDNA,Preoperative treatment na夫e,54,F,III,T2N2M0,Left Breast,Infiltrating Ductal Carcinoma,NA,None,4.3,4.02,4.02,Y,N,Y
+CGPLBR59,Breast Cancer,cfDNA,Preoperative treatment na夫e,42,F,I,T1N0M0,Left Breast,Infiltrating Ductal Carcinoma,Moderate,None,4.1,8.24,8.24,Y,N,Y
+CGPLBR60,Breast Cancer,cfDNA,Preoperative treatment na夫e,61,F,II,NA,Left Breast,Infiltrating Ductal Carcinoma,NA,None,4.5,11.09,11.09,Y,N,N
+CGPLBR61,Breast Cancer,cfDNA,Preoperative treatment na夫e,67,F,II,T2N1M0,Left Breast,Infiltrating Ductal Carcinoma,Moderate,None,4.1,13.25,13.25,Y,N,Y
+CGPLBR63,Breast Cancer,cfDNA,Preoperative treatment na夫e,48,F,II,T2N1M0,Left Breast,Infiltrating Ductal Carcinoma,Moderate,None,4.0,6.19,6.19,Y,Y,Y
+CGPLBR65,Breast Cancer,cfDNA,Preoperative treatment na夫e,50,F,II,NA,Left Breast,Infiltrating Ductal Carcinoma,NA,None,3.5,41.75,35.71,Y,N,N
+CGPLBR68,Breast Cancer,cfDNA,Preoperative treatment na夫e,64,F,III,T4N1M0,Breast,Infiltrating Ductal Carcinoma,Poor,None,3.4,10.41,10.41,Y,N,Y
+CGPLBR69,Breast Cancer,cfDNA,Preoperative treatment na夫e,43,F,II,T2N0M0,Breast,Infiltrating Ductal Carcinoma,Moderate,None,4.4,4.07,4.07,Y,Y,Y
+CGPLBR70,Breast Cancer,cfDNA,Preoperative treatment na夫e,60,F,II,T2N1M0,Breast,Infiltrating Ductal Carcinoma,Moderate,None,3.4,11.94,11.94,Y,Y,Y
+CGPLBR71,Breast Cancer,cfDNA,Preoperative treatment na夫e,65,F,II,T2N0M0,Breast,Infiltrating Ductal Carcinoma,Poor,None,3.1,7.64,7.64,Y,Y,Y
+CGPLBR72,Breast Cancer,cfDNA,Preoperative treatment na夫e,67,F,II,T2N0M0,Breast,Infiltrating Ductal Carcinoma,Well,None,3.9,4.43,4.43,Y,Y,Y
+CGPLBR73,Breast Cancer,cfDNA,Preoperative treatment na夫e,60,F,II,T2N1M0,Breast,Infiltrating Ductal Carcinoma,Moderate,None,3.3,14.69,14.69,Y,Y,Y
+CGPLBR76,Breast Cancer,cfDNA,Preoperative treatment na夫e,53,F,II,T2N0M0,Right Breast,Infiltrating Ductal Carcinoma,Well,None,4.9,8.71,8.71,Y,Y,Y
+CGPLBR81,Breast Cancer,cfDNA,Preoperative treatment na夫e,54,F,II,NA,Breast,Infiltrating Ductal Carcinoma,NA,None,2.5,83.14,50.00,Y,N,N
+CGPLBR82,Breast Cancer,cfDNA,Preoperative treatment na夫e,70,F,I ,T1N0M0,Right Breast,Infiltrating Lobular Carcinoma,Moderate,None,4.8,23.39,23.39,Y,N,Y
+CGPLBR83,Breast Cancer,cfDNA,Preoperative treatment na夫e,53,F,II,T2N1M0,Right Breast,Infiltrating Ductal Carcinoma,Moderate,None,3.7,100.17,100.17,Y,Y,Y
+CGPLBR84,Breast Cancer,cfDNA,Preoperative treatment na夫e,NA,F,III,NA,Breast,Infiltrating Ductal Carcinoma,NA,NA,3.6,16.95,16.95,Y,N,N
+CGPLBR87,Breast Cancer,cfDNA,Preoperative treatment na夫e,80,F,II,T2N1M0,Right Breast,Papillary Carcinoma,Well,None,3.6,277.39,69.44,Y,Y,Y
+CGPLBR88,Breast Cancer,cfDNA,Preoperative treatment na夫e,48,F,II,T1N1M0,Left Breast,Infiltrating Ductal Carcinoma,Poor,None,3.6,49.75,49.75,Y,Y,Y
+CGPLBR90,Breast Cancer,cfDNA,Preoperative treatment na夫e,51,F,II,NA,Right Breast,Infiltrating Ductal Carcinoma,NA,None,3.0,14.24,14.24,Y,N,N
+CGPLBR91,Breast Cancer,cfDNA,Preoperative treatment na夫e,62,F,III,T2N2M0,Breast,Infiltrating Lobular Carcinoma,Poor,None,3.2,22.41,22.41,Y,N,Y
+CGPLBR92,Breast Cancer,cfDNA,Preoperative treatment na夫e,58,F,II,T2N1M0,Breast,Infiltrating Medullary Carcinoma,Poor,None,3.1,81.00,81.00,Y,Y,Y
+CGPLBR93,Breast Cancer,cfDNA,Preoperative treatment na夫e,59,F,II,T1N0M0,Breast,Infiltrating Ductal Carcinoma,Moderate,None,3.3,27.94,27.94,Y,N,Y
+CGPLH189,Healthy,cfDNA,Preoperative treatment na夫e,74,M,NA,NA,NA,NA,NA,NA,5.0,5.84,5.84,Y,N,N
+CGPLH190,Healthy,cfDNA,Preoperative treatment na夫e,67,M,NA,NA,NA,NA,NA,NA,4.7,18.07,18.07,Y,N,N
+CGPLH192,Healthy,cfDNA,Preoperative treatment na夫e,74,M,NA,NA,NA,NA,NA,NA,4.7,12.19,12.19,Y,N,N
+CGPLH193,Healthy,cfDNA,Preoperative treatment na夫e,72,F,NA,NA,NA,NA,NA,NA,5.0,5.47,5.47,Y,N,N
+CGPLH194,Healthy,cfDNA,Preoperative treatment na夫e,75,F,NA,NA,NA,NA,NA,NA,5.0,9.98,9.98,Y,N,N
+CGPLH196,Healthy,cfDNA,Preoperative treatment na夫e,64,M,NA,NA,NA,NA,NA,NA,5.0,11.69,11.69,Y,N,N
+CGPLH197,Healthy,cfDNA,Preoperative treatment na夫e,74,M,NA,NA,NA,NA,NA,NA,5.0,5.69,5.69,Y,N,N
+CGPLH198,Healthy,cfDNA,Preoperative treatment na夫e,66,M,NA,NA,NA,NA,NA,NA,5.0,4.36,4.36,Y,N,N
+CGPLH199,Healthy,cfDNA,Preoperative treatment na夫e,75,F,NA,NA,NA,NA,NA,NA,5.0,9.77,9.77,Y,N,N
+CGPLH200,Healthy,cfDNA,Preoperative treatment na夫e,51,M,NA,NA,NA,NA,NA,NA,5.0,5.60,5.60,Y,N,N
+CGPLH201,Healthy,cfDNA,Preoperative treatment na夫e,68,F,NA,NA,NA,NA,NA,NA,5.0,8.82,8.82,Y,N,N
+CGPLH202,Healthy,cfDNA,Preoperative treatment na夫e,73,M,NA,NA,NA,NA,NA,NA,5.0,5.54,5.54,Y,N,N
+CGPLH203,Healthy,cfDNA,Preoperative treatment na夫e,59,M,NA,NA,NA,NA,NA,NA,5.0,9.03,9.03,Y,N,N
+CGPLH205,Healthy,cfDNA,Preoperative treatment na夫e,68,F,NA,NA,NA,NA,NA,NA,5.0,4.74,4.74,Y,N,N
+CGPLH208,Healthy,cfDNA,Preoperative treatment na夫e,75,F,NA,NA,NA,NA,NA,NA,5.0,4.67,4.67,Y,N,N
+CGPLH209,Healthy,cfDNA,Preoperative treatment na夫e,74,M,NA,NA,NA,NA,NA,NA,5.0,5.15,5.15,Y,N,N
+CGPLH210,Healthy,cfDNA,Preoperative treatment na夫e,75,M,NA,NA,NA,NA,NA,NA,5.0,5.41,5.41,Y,N,N
+CGPLH211,Healthy,cfDNA,Preoperative treatment na夫e,75,F,NA,NA,NA,NA,NA,NA,5.0,6.24,6.24,Y,N,N
+CGPLH300,Healthy,cfDNA,Preoperative treatment na夫e,72,F,NA,NA,NA,NA,NA,NA,4.4,6.75,6.75,Y,N,N
+CGPLH307,Healthy,cfDNA,Preoperative treatment na夫e,53,M,NA,NA,NA,NA,NA,NA,4.5,3.50,3.50,Y,N,N
+CGPLH308,Healthy,cfDNA,Preoperative treatment na夫e,60,M,NA,NA,NA,NA,NA,NA,4.5,6.01,6.01,Y,N,N
+CGPLH309,Healthy,cfDNA,Preoperative treatment na夫e,61,F,NA,NA,NA,NA,NA,NA,4.5,5.21,5.21,Y,N,N
+CGPLH310,Healthy,cfDNA,Preoperative treatment na夫e,55,F,NA,NA,NA,NA,NA,NA,4.5,15.25,15.25,Y,N,N
+CGPLH311,Healthy,cfDNA,Preoperative treatment na夫e,50,M,NA,NA,NA,NA,NA,NA,4.5,4.47,4.47,Y,N,N
+CGPLH314,Healthy,cfDNA,Preoperative treatment na夫e,59,M,NA,NA,NA,NA,NA,NA,4.5,9.62,9.62,Y,N,N
+CGPLH314,Healthy,"cfDNA, technical replicate",Preoperative treatment na夫e,59,M,NA,NA,NA,NA,NA,NA,4.4,16.24,16.24,Y,N,N
+CGPLH315,Healthy,cfDNA,Preoperative treatment na夫e,59,F,NA,NA,NA,NA,NA,NA,4.2,11.55,11.55,Y,N,N
+CGPLH316,Healthy,cfDNA,Preoperative treatment na夫e,64,M,NA,NA,NA,NA,NA,NA,4.5,28.92,27.78,Y,N,N
+CGPLH317,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.5,7.62,7.62,Y,N,N
+CGPLH319,Healthy,cfDNA,Preoperative treatment na夫e,60,F,NA,NA,NA,NA,NA,NA,4.2,4.41,4.41,Y,N,N
+CGPLH320,Healthy,cfDNA,Preoperative treatment na夫e,75,F,NA,NA,NA,NA,NA,NA,4.5,6.93,6.93,Y,N,N
+CGPLH322,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.2,8.17,8.17,Y,N,N
+CGPLH324,Healthy,cfDNA,Preoperative treatment na夫e,59,F,NA,NA,NA,NA,NA,NA,5.0,6.63,6.63,Y,N,N
+CGPLH325,Healthy,cfDNA,Preoperative treatment na夫e,54,M,NA,NA,NA,NA,NA,NA,4.6,4.15,4.15,Y,N,N
+CGPLH326,Healthy,cfDNA,Preoperative treatment na夫e,67,F,NA,NA,NA,NA,NA,NA,4.5,6.06,6.06,Y,N,N
+CGPLH327,Healthy,cfDNA,Preoperative treatment na夫e,50,M,NA,NA,NA,NA,NA,NA,4.8,1.24,1.24,Y,N,N
+CGPLH328,Healthy,cfDNA,Preoperative treatment na夫e,68,F,NA,NA,NA,NA,NA,NA,4.4,3.42,3.42,Y,N,N
+CGPLH328,Healthy,"cfDNA, technical replicate",Preoperative treatment na夫e,68,F,NA,NA,NA,NA,NA,NA,4.9,5.47,5.47,Y,N,N
+CGPLH329,Healthy,cfDNA,Preoperative treatment na夫e,59,M,NA,NA,NA,NA,NA,NA,4.5,5.27,5.27,Y,N,N
+CGPLH330,Healthy,cfDNA,Preoperative treatment na夫e,75,M,NA,NA,NA,NA,NA,NA,4.3,10.21,10.21,Y,N,N
+CGPLH331,Healthy,cfDNA,Preoperative treatment na夫e,55,M,NA,NA,NA,NA,NA,NA,4.6,2.63,2.63,Y,N,N
+CGPLH331,Healthy,"cfDNA, technical replicate",Preoperative treatment na夫e,55,M,NA,NA,NA,NA,NA,NA,4.3,4.15,4.15,Y,N,N
+CGPLH333,Healthy,cfDNA,Preoperative treatment na夫e,60,M,NA,NA,NA,NA,NA,NA,4.7,4.06,4.06,Y,N,N
+CGPLH335,Healthy,cfDNA,Preoperative treatment na夫e,74,M,NA,NA,NA,NA,NA,NA,4.4,9.39,9.39,Y,N,N
+CGPLH336,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.6,6.64,6.64,Y,N,N
+CGPLH337,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.2,4.48,4.48,Y,N,N
+CGPLH338,Healthy,cfDNA,Preoperative treatment na夫e,75,M,NA,NA,NA,NA,NA,NA,4.5,59.44,27.78,Y,N,N
+CGPLH339,Healthy,cfDNA,Preoperative treatment na夫e,70,M,NA,NA,NA,NA,NA,NA,4.5,12.27,12.27,Y,N,N
+CGPLH340,Healthy,cfDNA,Preoperative treatment na夫e,62,M,NA,NA,NA,NA,NA,NA,4.5,4.86,4.86,Y,N,N
+CGPLH341,Healthy,cfDNA,Preoperative treatment na夫e,61,F,NA,NA,NA,NA,NA,NA,4.1,7.62,7.62,Y,N,N
+CGPLH342,Healthy,cfDNA,Preoperative treatment na夫e,49,F,NA,NA,NA,NA,NA,NA,4.2,18.29,18.29,Y,N,N
+CGPLH343,Healthy,cfDNA,Preoperative treatment na夫e,58,M,NA,NA,NA,NA,NA,NA,4.5,3.49,3.49,Y,N,N
+CGPLH344,Healthy,cfDNA,Preoperative treatment na夫e,50,M,NA,NA,NA,NA,NA,NA,4.2,8.41,8.41,Y,N,N
+CGPLH345,Healthy,cfDNA,Preoperative treatment na夫e,55,F,NA,NA,NA,NA,NA,NA,4.5,9.73,9.73,Y,N,N
+CGPLH346,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,7.86,7.86,Y,N,N
+CGPLH35,Healthy,cfDNA,Preoperative treatment na夫e,48,F,NA,NA,NA,NA,NA,NA,4.0,13.15,13.15,Y,N,Y
+CGPLH350,Healthy,cfDNA,Preoperative treatment na夫e,65,M,NA,NA,NA,NA,NA,NA,3.5,6.09,6.09,Y,N,N
+CGPLH351,Healthy,cfDNA,Preoperative treatment na夫e,71,M,NA,NA,NA,NA,NA,NA,4.0,15.91,15.91,Y,N,N
+CGPLH352,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.2,6.47,6.47,Y,N,N
+CGPLH353,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.2,4.47,4.47,Y,N,N
+CGPLH354,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.2,17.49,17.49,Y,N,N
+CGPLH355,Healthy,cfDNA,Preoperative treatment na夫e,70,M,NA,NA,NA,NA,NA,NA,4.2,11.58,11.58,Y,N,N
+CGPLH356,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,3.94,3.94,Y,N,N
+CGPLH357,Healthy,cfDNA,Preoperative treatment na夫e,52,F,NA,NA,NA,NA,NA,NA,4.2,11.79,11.79,Y,N,N
+CGPLH358,Healthy,cfDNA,Preoperative treatment na夫e,55,M,NA,NA,NA,NA,NA,NA,4.2,21.06,21.06,Y,N,N
+CGPLH36,Healthy,cfDNA,Preoperative treatment na夫e,36,F,NA,NA,NA,NA,NA,NA,4.0,13.00,13.00,Y,N,Y
+CGPLH360,Healthy,cfDNA,Preoperative treatment na夫e,60,M,NA,NA,NA,NA,NA,NA,4.2,3.48,3.48,Y,N,N
+CGPLH361,Healthy,cfDNA,Preoperative treatment na夫e,50,M,NA,NA,NA,NA,NA,NA,4.3,6.98,6.98,Y,N,N
+CGPLH362,Healthy,cfDNA,Preoperative treatment na夫e,72,F,NA,NA,NA,NA,NA,NA,4.4,8.49,8.49,Y,N,N
+CGPLH363,Healthy,cfDNA,Preoperative treatment na夫e,68,F,NA,NA,NA,NA,NA,NA,4.5,4.44,4.44,Y,N,N
+CGPLH364,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,17.31,17.31,Y,N,N
+CGPLH365,Healthy,cfDNA,Preoperative treatment na夫e,68,F,NA,NA,NA,NA,NA,NA,4.5,0.55,0.55,Y,N,N
+CGPLH366,Healthy,cfDNA,Preoperative treatment na夫e,61,M,NA,NA,NA,NA,NA,NA,4.5,4.88,4.88,Y,N,N
+CGPLH367,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.4,6.48,6.48,Y,N,N
+CGPLH368,Healthy,cfDNA,Preoperative treatment na夫e,50,M,NA,NA,NA,NA,NA,NA,4.3,2.63,2.63,Y,N,N
+CGPLH369,Healthy,cfDNA,Preoperative treatment na夫e,55,F,NA,NA,NA,NA,NA,NA,4.3,10.18,10.18,Y,N,N
+CGPLH369,Healthy,"cfDNA, technical replicate",Preoperative treatment na夫e,55,F,NA,NA,NA,NA,NA,NA,4.4,10.71,10.71,Y,N,N
+CGPLH37,Healthy,cfDNA,Preoperative treatment na夫e,39,F,NA,NA,NA,NA,NA,NA,4.0,9.73,9.73,Y,N,Y
+CGPLH370,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,7.22,7.22,Y,N,N
+CGPLH371,Healthy,cfDNA,Preoperative treatment na夫e,57,F,NA,NA,NA,NA,NA,NA,4.6,5.62,5.62,Y,N,N
+CGPLH380,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.2,6.61,6.61,Y,N,N
+CGPLH381,Healthy,cfDNA,Preoperative treatment na夫e,56,F,NA,NA,NA,NA,NA,NA,4.2,27.38,27.38,Y,N,N
+CGPLH382,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.5,11.58,11.58,Y,N,N
+CGPLH383,Healthy,cfDNA,Preoperative treatment na夫e,62,F,NA,NA,NA,NA,NA,NA,4.5,25.50,25.50,Y,N,N
+CGPLH384,Healthy,cfDNA,Preoperative treatment na夫e,50,M,NA,NA,NA,NA,NA,NA,4.5,15.66,15.66,Y,N,N
+CGPLH385,Healthy,cfDNA,Preoperative treatment na夫e,69,M,NA,NA,NA,NA,NA,NA,4.5,19.35,19.35,Y,N,N
+CGPLH386,Healthy,cfDNA,Preoperative treatment na夫e,62,M,NA,NA,NA,NA,NA,NA,4.5,6.46,6.46,Y,N,N
+CGPLH386,Healthy,"cfDNA, technical replicate",Preoperative treatment na夫e,62,M,NA,NA,NA,NA,NA,NA,4.6,6.54,6.54,Y,N,N
+CGPLH387,Healthy,cfDNA,Preoperative treatment na夫e,71,F,NA,NA,NA,NA,NA,NA,4.5,6.19,6.19,Y,N,N
+CGPLH388,Healthy,cfDNA,Preoperative treatment na夫e,57,F,NA,NA,NA,NA,NA,NA,4.5,6.62,6.62,Y,N,N
+CGPLH389,Healthy,cfDNA,Preoperative treatment na夫e,73,F,NA,NA,NA,NA,NA,NA,4.6,14.78,14.78,Y,N,N
+CGPLH390,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,12.14,12.14,Y,N,N
+CGPLH391,Healthy,cfDNA,Preoperative treatment na夫e,58,M,NA,NA,NA,NA,NA,NA,4.5,8.88,8.88,Y,N,N
+CGPLH391,Healthy,"cfDNA, technical replicate",Preoperative treatment na夫e,58,M,NA,NA,NA,NA,NA,NA,4.5,8.37,8.37,Y,N,N
+CGPLH392,Healthy,cfDNA,Preoperative treatment na夫e,57,F,NA,NA,NA,NA,NA,NA,4.5,8.39,8.39,Y,N,N
+CGPLH393,Healthy,cfDNA,Preoperative treatment na夫e,54,M,NA,NA,NA,NA,NA,NA,4.5,5.27,5.27,Y,N,N
+CGPLH394,Healthy,cfDNA,Preoperative treatment na夫e,55,F,NA,NA,NA,NA,NA,NA,4.4,3.79,3.79,Y,N,N
+CGPLH395,Healthy,cfDNA,Preoperative treatment na夫e,56,F,NA,NA,NA,NA,NA,NA,4.4,9.56,9.56,Y,N,N
+CGPLH395,Healthy,"cfDNA, technical replicate",Preoperative treatment na夫e,56,F,NA,NA,NA,NA,NA,NA,4.4,5.40,5.40,Y,N,N
+CGPLH396,Healthy,cfDNA,Preoperative treatment na夫e,50,M,NA,NA,NA,NA,NA,NA,4.4,20.31,20.31,Y,N,N
+CGPLH398,Healthy,cfDNA,Preoperative treatment na夫e,68,M,NA,NA,NA,NA,NA,NA,4.3,13.01,13.01,Y,N,N
+CGPLH399,Healthy,cfDNA,Preoperative treatment na夫e,62,F,NA,NA,NA,NA,NA,NA,4.4,4.79,4.79,Y,N,N
+CGPLH400,Healthy,cfDNA,Preoperative treatment na夫e,64,M,NA,NA,NA,NA,NA,NA,4.4,7.70,7.70,Y,N,N
+CGPLH400,Healthy,"cfDNA, technical replicate",Preoperative treatment na夫e,64,M,NA,NA,NA,NA,NA,NA,4.4,6.26,6.26,Y,N,N
+CGPLH401,Healthy,cfDNA,Preoperative treatment na夫e,50,M,NA,NA,NA,NA,NA,NA,4.3,13.01,13.01,Y,N,N
+CGPLH401,Healthy,"cfDNA, technical replicate",Preoperative treatment na夫e,50,M,NA,NA,NA,NA,NA,NA,4.4,11.13,11.13,Y,N,N
+CGPLH402,Healthy,cfDNA,Preoperative treatment na夫e,57,F,NA,NA,NA,NA,NA,NA,4.5,2.89,2.89,Y,N,N
+CGPLH403,Healthy,cfDNA,Preoperative treatment na夫e,64,M,NA,NA,NA,NA,NA,NA,4.3,4.41,4.41,Y,N,N
+CGPLH404,Healthy,cfDNA,Preoperative treatment na夫e,50,M,NA,NA,NA,NA,NA,NA,4.2,6.38,6.38,Y,N,N
+CGPLH405,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.4,7.28,7.28,Y,N,N
+CGPLH406,Healthy,cfDNA,Preoperative treatment na夫e,57,M,NA,NA,NA,NA,NA,NA,4.2,5.40,5.40,Y,N,N
+CGPLH407,Healthy,cfDNA,Preoperative treatment na夫e,75,F,NA,NA,NA,NA,NA,NA,4.0,13.30,13.30,Y,N,N
+CGPLH408,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.2,5.18,5.18,Y,N,N
+CGPLH409,Healthy,cfDNA,Preoperative treatment na夫e,53,M,NA,NA,NA,NA,NA,NA,3.7,3.98,3.98,Y,N,N
+CGPLH410,Healthy,cfDNA,Preoperative treatment na夫e,52,M,NA,NA,NA,NA,NA,NA,4.1,6.91,6.91,Y,N,N
+CGPLH411,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.1,3.30,3.30,Y,N,N
+CGPLH412,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.1,5.55,5.55,Y,N,N
+CGPLH413,Healthy,cfDNA,Preoperative treatment na夫e,54,F,NA,NA,NA,NA,NA,NA,4.5,8.18,8.18,Y,N,N
+CGPLH414,Healthy,cfDNA,Preoperative treatment na夫e,56,M,NA,NA,NA,NA,NA,NA,3.8,5.85,5.85,Y,N,N
+CGPLH415,Healthy,cfDNA,Preoperative treatment na夫e,59,M,NA,NA,NA,NA,NA,NA,4.7,10.20,10.20,Y,N,N
+CGPLH416,Healthy,cfDNA,Preoperative treatment na夫e,58,F,NA,NA,NA,NA,NA,NA,4.5,11.73,11.73,Y,N,N
+CGPLH417,Healthy,cfDNA,Preoperative treatment na夫e,70,M,NA,NA,NA,NA,NA,NA,4.2,10.98,10.98,Y,N,N
+CGPLH418,Healthy,cfDNA,Preoperative treatment na夫e,70,F,NA,NA,NA,NA,NA,NA,4.5,10.96,10.96,Y,N,N
+CGPLH419,Healthy,cfDNA,Preoperative treatment na夫e,65,F,NA,NA,NA,NA,NA,NA,4.5,10.17,10.17,Y,N,N
+CGPLH42,Healthy,cfDNA,Preoperative treatment na夫e,54,F,NA,NA,NA,NA,NA,NA,4.0,14.30,14.30,Y,N,Y
+CGPLH420,Healthy,cfDNA,Preoperative treatment na夫e,51,M,NA,NA,NA,NA,NA,NA,4.2,12.32,12.32,Y,N,N
+CGPLH422,Healthy,cfDNA,Preoperative treatment na夫e,68,F,NA,NA,NA,NA,NA,NA,4.6,5.42,5.42,Y,N,N
+CGPLH423,Healthy,cfDNA,Preoperative treatment na夫e,54,M,NA,NA,NA,NA,NA,NA,4.2,2.85,2.85,Y,N,N
+CGPLH424,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.7,1.66,1.66,Y,N,N
+CGPLH425,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.4,5.98,5.98,Y,N,N
+CGPLH426,Healthy,cfDNA,Preoperative treatment na夫e,68,M,NA,NA,NA,NA,NA,NA,4.4,2.84,2.84,Y,N,N
+CGPLH427,Healthy,cfDNA,Preoperative treatment na夫e,68,M,NA,NA,NA,NA,NA,NA,4.4,10.86,10.86,Y,N,N
+CGPLH428,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,6.27,6.27,Y,N,N
+CGPLH429,Healthy,cfDNA,Preoperative treatment na夫e,63,F,NA,NA,NA,NA,NA,NA,4.5,3.89,3.89,Y,N,N
+CGPLH43,Healthy,cfDNA,Preoperative treatment na夫e,49,F,NA,NA,NA,NA,NA,NA,4.0,8.50,8.50,Y,N,Y
+CGPLH430,Healthy,cfDNA,Preoperative treatment na夫e,69,F,NA,NA,NA,NA,NA,NA,4.2,10.33,10.33,Y,N,N
+CGPLH431,Healthy,cfDNA,Preoperative treatment na夫e,59,F,NA,NA,NA,NA,NA,NA,4.8,12.81,12.81,Y,N,N
+CGPLH432,Healthy,cfDNA,Preoperative treatment na夫e,59,F,NA,NA,NA,NA,NA,NA,4.8,2.42,2.42,Y,N,N
+CGPLH434,Healthy,cfDNA,Preoperative treatment na夫e,59,M,NA,NA,NA,NA,NA,NA,4.6,8.83,8.83,Y,N,N
+CGPLH435,Healthy,cfDNA,Preoperative treatment na夫e,50,M,NA,NA,NA,NA,NA,NA,4.5,8.95,8.95,Y,N,N
+CGPLH436,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,4.29,4.29,Y,N,N
+CGPLH437,Healthy,cfDNA,Preoperative treatment na夫e,56,M,NA,NA,NA,NA,NA,NA,4.6,18.07,18.07,Y,N,N
+CGPLH438,Healthy,cfDNA,Preoperative treatment na夫e,69,M,NA,NA,NA,NA,NA,NA,4.8,16.62,16.62,Y,N,N
+CGPLH439,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.7,4.38,4.38,Y,N,N
+CGPLH440,Healthy,cfDNA,Preoperative treatment na夫e,72,M,NA,NA,NA,NA,NA,NA,4.7,4.32,4.32,Y,N,N
+CGPLH441,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.7,7.80,7.80,Y,N,N
+CGPLH442,Healthy,cfDNA,Preoperative treatment na夫e,59,F,NA,NA,NA,NA,NA,NA,4.5,6.15,6.15,Y,N,N
+CGPLH443,Healthy,cfDNA,Preoperative treatment na夫e,52,F,NA,NA,NA,NA,NA,NA,4.4,3.44,3.44,Y,N,N
+CGPLH444,Healthy,cfDNA,Preoperative treatment na夫e,60,F,NA,NA,NA,NA,NA,NA,4.4,4.12,4.12,Y,N,N
+CGPLH445,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.4,4.38,4.38,Y,N,N
+CGPLH446,Healthy,cfDNA,Preoperative treatment na夫e,51,F,NA,NA,NA,NA,NA,NA,4.4,2.92,2.92,Y,N,N
+CGPLH447,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.6,3.87,3.87,Y,N,N
+CGPLH448,Healthy,cfDNA,Preoperative treatment na夫e,51,F,NA,NA,NA,NA,NA,NA,4.4,5.29,5.29,Y,N,N
+CGPLH449,Healthy,cfDNA,Preoperative treatment na夫e,51,F,NA,NA,NA,NA,NA,NA,4.5,3.77,3.77,Y,N,N
+CGPLH45,Healthy,cfDNA,Preoperative treatment na夫e,58,F,NA,NA,NA,NA,NA,NA,4.0,10.85,10.85,Y,N,Y
+CGPLH450,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,5.62,5.62,Y,N,N
+CGPLH451,Healthy,cfDNA,Preoperative treatment na夫e,54,F,NA,NA,NA,NA,NA,NA,4.6,7.24,7.24,Y,N,N
+CGPLH452,Healthy,cfDNA,Preoperative treatment na夫e,69,M,NA,NA,NA,NA,NA,NA,4.4,2.54,2.54,Y,N,N
+CGPLH453,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.6,9.11,9.11,Y,N,N
+CGPLH455,Healthy,cfDNA,Preoperative treatment na夫e,55,F,NA,NA,NA,NA,NA,NA,4.4,2.64,2.64,Y,N,N
+CGPLH455,Healthy,"cfDNA, technical replicate",Preoperative treatment na夫e,55,F,NA,NA,NA,NA,NA,NA,4.5,2.42,2.42,Y,N,N
+CGPLH456,Healthy,cfDNA,Preoperative treatment na夫e,54,F,NA,NA,NA,NA,NA,NA,4.5,3.11,3.11,Y,N,N
+CGPLH457,Healthy,cfDNA,Preoperative treatment na夫e,54,F,NA,NA,NA,NA,NA,NA,4.4,5.92,5.92,Y,N,N
+CGPLH458,Healthy,cfDNA,Preoperative treatment na夫e,52,F,NA,NA,NA,NA,NA,NA,4.5,16.04,16.04,Y,N,N
+CGPLH459,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.4,6.52,6.52,Y,N,N
+CGPLH46,Healthy,cfDNA,Preoperative treatment na夫e,35,F,NA,NA,NA,NA,NA,NA,4.0,8.25,8.25,Y,N,Y
+CGPLH460,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.6,5.24,5.24,Y,N,N
+CGPLH463,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.5,22.77,22.77,Y,N,N
+CGPLH464,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.4,2.90,2.90,Y,N,N
+CGPLH465,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,4.76,4.76,Y,N,N
+CGPLH466,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.6,5.68,5.68,Y,N,N
+CGPLH466,Healthy,"cfDNA, technical replicate",Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,6.75,6.75,Y,N,N
+CGPLH467,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,4.59,4.59,Y,N,N
+CGPLH468,Healthy,cfDNA,Preoperative treatment na夫e,53,M,NA,NA,NA,NA,NA,NA,4.5,11.19,11.19,Y,N,N
+CGPLH469,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,3.25,3.25,Y,N,N
+CGPLH47,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.0,7.43,7.43,Y,N,Y
+CGPLH470,Healthy,cfDNA,Preoperative treatment na夫e,68,F,NA,NA,NA,NA,NA,NA,4.5,13.64,13.64,Y,N,N
+CGPLH471,Healthy,cfDNA,Preoperative treatment na夫e,70,F,NA,NA,NA,NA,NA,NA,4.3,13.00,13.00,Y,N,N
+CGPLH472,Healthy,cfDNA,Preoperative treatment na夫e,69,F,NA,NA,NA,NA,NA,NA,4.2,10.17,10.17,Y,N,N
+CGPLH473,Healthy,cfDNA,Preoperative treatment na夫e,62,M,NA,NA,NA,NA,NA,NA,4.3,2.98,2.98,Y,N,N
+CGPLH474,Healthy,cfDNA,Preoperative treatment na夫e,63,M,NA,NA,NA,NA,NA,NA,4.3,29.15,29.15,Y,N,N
+CGPLH475,Healthy,cfDNA,Preoperative treatment na夫e,67,F,NA,NA,NA,NA,NA,NA,4.0,7.26,7.26,Y,N,N
+CGPLH476,Healthy,cfDNA,Preoperative treatment na夫e,65,F,NA,NA,NA,NA,NA,NA,4.3,6.16,6.16,Y,N,N
+CGPLH477,Healthy,cfDNA,Preoperative treatment na夫e,61,F,NA,NA,NA,NA,NA,NA,4.3,15.21,15.21,Y,N,N
+CGPLH478,Healthy,cfDNA,Preoperative treatment na夫e,51,F,NA,NA,NA,NA,NA,NA,4.4,7.29,7.29,Y,N,N
+CGPLH479,Healthy,cfDNA,Preoperative treatment na夫e,52,M,NA,NA,NA,NA,NA,NA,4.5,8.73,8.73,Y,N,N
+CGPLH48,Healthy,cfDNA,Preoperative treatment na夫e,38,F,NA,NA,NA,NA,NA,NA,4.0,6.38,6.38,Y,N,Y
+CGPLH480,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.4,10.62,10.62,Y,N,N
+CGPLH481,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.3,6.75,6.75,Y,N,N
+CGPLH482,Healthy,cfDNA,Preoperative treatment na夫e,50,M,NA,NA,NA,NA,NA,NA,4.3,23.58,23.58,Y,N,N
+CGPLH483,Healthy,cfDNA,Preoperative treatment na夫e,66,M,NA,NA,NA,NA,NA,NA,4.4,14.44,14.44,Y,N,N
+CGPLH484,Healthy,cfDNA,Preoperative treatment na夫e,72,M,NA,NA,NA,NA,NA,NA,4.2,14.32,14.32,Y,N,N
+CGPLH485,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.3,9.64,9.64,Y,N,N
+CGPLH486,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.3,10.16,10.16,Y,N,N
+CGPLH487,Healthy,cfDNA,Preoperative treatment na夫e,50,M,NA,NA,NA,NA,NA,NA,4.4,6.11,6.11,Y,N,N
+CGPLH488,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,7.88,7.88,Y,N,N
+CGPLH49,Healthy,cfDNA,Preoperative treatment na夫e,39,F,NA,NA,NA,NA,NA,NA,4.0,6.60,6.60,Y,N,Y
+CGPLH490,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,4.18,4.18,Y,N,N
+CGPLH491,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,13.16,13.16,Y,N,N
+CGPLH492,Healthy,cfDNA,Preoperative treatment na夫e,51,F,NA,NA,NA,NA,NA,NA,4.5,3.83,3.83,Y,N,N
+CGPLH493,Healthy,cfDNA,Preoperative treatment na夫e,64,M,NA,NA,NA,NA,NA,NA,4.5,25.06,25.06,Y,N,N
+CGPLH494,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.4,5.24,5.24,Y,N,N
+CGPLH495,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.4,5.03,5.03,Y,N,N
+CGPLH496,Healthy,cfDNA,Preoperative treatment na夫e,74,M,NA,NA,NA,NA,NA,NA,4.5,34.01,27.78,Y,N,N
+CGPLH497,Healthy,cfDNA,Preoperative treatment na夫e,68,F,NA,NA,NA,NA,NA,NA,4.5,8.24,8.24,Y,N,N
+CGPLH497,Healthy,"cfDNA, technical replicate",Preoperative treatment na夫e,68,F,NA,NA,NA,NA,NA,NA,4.4,5.88,5.88,Y,N,N
+CGPLH498,Healthy,cfDNA,Preoperative treatment na夫e,54,F,NA,NA,NA,NA,NA,NA,4.4,5.33,5.33,Y,N,N
+CGPLH499,Healthy,cfDNA,Preoperative treatment na夫e,52,F,NA,NA,NA,NA,NA,NA,4.5,7.85,7.85,Y,N,N
+CGPLH50,Healthy,cfDNA,Preoperative treatment na夫e,55,F,NA,NA,NA,NA,NA,NA,4.0,7.05,7.05,Y,N,Y
+CGPLH500,Healthy,cfDNA,Preoperative treatment na夫e,51,F,NA,NA,NA,NA,NA,NA,4.5,3.49,3.49,Y,N,N
+CGPLH501,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.3,6.29,6.29,Y,N,N
+CGPLH502,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.5,2.24,2.24,Y,N,N
+CGPLH503,Healthy,cfDNA,Preoperative treatment na夫e,67,M,NA,NA,NA,NA,NA,NA,4.5,11.01,11.01,Y,N,N
+CGPLH504,Healthy,cfDNA,Preoperative treatment na夫e,57,F,NA,NA,NA,NA,NA,NA,4.3,6.60,6.60,Y,N,N
+CGPLH504,Healthy,"cfDNA, technical replicate",Preoperative treatment na夫e,57,F,NA,NA,NA,NA,NA,NA,4.2,10.02,10.02,Y,N,N
+CGPLH505,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.1,5.23,5.23,Y,N,N
+CGPLH506,Healthy,cfDNA,Preoperative treatment na夫e,51,F,NA,NA,NA,NA,NA,NA,4.5,12.23,12.23,Y,N,N
+CGPLH507,Healthy,cfDNA,Preoperative treatment na夫e,56,M,NA,NA,NA,NA,NA,NA,4.1,9.89,9.89,Y,N,N
+CGPLH508,Healthy,cfDNA,Preoperative treatment na夫e,54,F,NA,NA,NA,NA,NA,NA,4.5,8.68,8.68,Y,N,N
+CGPLH508,Healthy,"cfDNA, technical replicate",Preoperative treatment na夫e,54,F,NA,NA,NA,NA,NA,NA,4.4,9.55,9.55,Y,N,N
+CGPLH509,Healthy,cfDNA,Preoperative treatment na夫e,60,M,NA,NA,NA,NA,NA,NA,4.0,9.79,9.79,Y,N,N
+CGPLH51,Healthy,cfDNA,Preoperative treatment na夫e,48,F,NA,NA,NA,NA,NA,NA,4.0,7.85,7.85,Y,N,Y
+CGPLH510,Healthy,cfDNA,Preoperative treatment na夫e,67,M,NA,NA,NA,NA,NA,NA,4.2,14.20,14.20,Y,N,N
+CGPLH511,Healthy,cfDNA,Preoperative treatment na夫e,75,M,NA,NA,NA,NA,NA,NA,4.5,12.94,12.94,Y,N,N
+CGPLH512,Healthy,cfDNA,Preoperative treatment na夫e,52,M,NA,NA,NA,NA,NA,NA,4.3,8.60,8.60,Y,N,N
+CGPLH513,Healthy,cfDNA,Preoperative treatment na夫e,57,M,NA,NA,NA,NA,NA,NA,4.3,6.54,6.54,Y,N,N
+CGPLH514,Healthy,cfDNA,Preoperative treatment na夫e,55,F,NA,NA,NA,NA,NA,NA,4.4,10.94,10.94,Y,N,N
+CGPLH515,Healthy,cfDNA,Preoperative treatment na夫e,68,F,NA,NA,NA,NA,NA,NA,4.5,8.71,8.71,Y,N,N
+CGPLH516,Healthy,cfDNA,Preoperative treatment na夫e,65,F,NA,NA,NA,NA,NA,NA,4.5,7.32,7.32,Y,N,N
+CGPLH517,Healthy,cfDNA,Preoperative treatment na夫e,54,F,NA,NA,NA,NA,NA,NA,4.6,5.16,5.16,Y,N,N
+CGPLH517,Healthy,"cfDNA, technical replicate",Preoperative treatment na夫e,54,F,NA,NA,NA,NA,NA,NA,4.5,9.74,9.74,Y,N,N
+CGPLH518,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.4,5.92,5.92,Y,N,N
+CGPLH519,Healthy,cfDNA,Preoperative treatment na夫e,54,M,NA,NA,NA,NA,NA,NA,4.4,6.96,6.96,Y,N,N
+CGPLH52,Healthy,cfDNA,Preoperative treatment na夫e,40,F,NA,NA,NA,NA,NA,NA,4.0,9.90,9.90,Y,N,Y
+CGPLH520,Healthy,cfDNA,Preoperative treatment na夫e,51,F,NA,NA,NA,NA,NA,NA,4.3,8.27,8.27,Y,N,N
+CGPLH54,Healthy,cfDNA,Preoperative treatment na夫e,47,F,NA,NA,NA,NA,NA,NA,4.0,14.18,14.18,Y,N,Y
+CGPLH55,Healthy,cfDNA,Preoperative treatment na夫e,46,F,NA,NA,NA,NA,NA,NA,4.0,7.35,7.35,Y,N,Y
+CGPLH56,Healthy,cfDNA,Preoperative treatment na夫e,42,F,NA,NA,NA,NA,NA,NA,4.0,5.20,5.20,Y,N,Y
+CGPLH57,Healthy,cfDNA,Preoperative treatment na夫e,39,F,NA,NA,NA,NA,NA,NA,4.0,7.15,7.15,Y,N,Y
+CGPLH59,Healthy,cfDNA,Preoperative treatment na夫e,34,F,NA,NA,NA,NA,NA,NA,4.0,6.03,6.03,Y,N,Y
+CGPLH625,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.5,2.64,2.64,Y,N,N
+CGPLH625,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.5,2.69,2.69,Y,N,N
+CGPLH626,Healthy,"cfDNA, technical replicate",Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.0,11.12,11.12,Y,N,N
+CGPLH63,Healthy,cfDNA,Preoperative treatment na夫e,47,F,NA,NA,NA,NA,NA,NA,4.0,10.10,10.10,Y,N,Y
+CGPLH639,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,2.00,2.00,Y,N,N
+CGPLH64,Healthy,cfDNA,Preoperative treatment na夫e,55,F,NA,NA,NA,NA,NA,NA,4.0,8.03,8.03,Y,N,Y
+CGPLH640,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.5,9.36,9.36,Y,N,N
+CGPLH642,Healthy,cfDNA,Preoperative treatment na夫e,54,F,NA,NA,NA,NA,NA,NA,4.5,4.99,4.99,Y,N,N
+CGPLH643,Healthy,cfDNA,Preoperative treatment na夫e,55,F,NA,NA,NA,NA,NA,NA,4.4,7.12,7.12,Y,N,N
+CGPLH644,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.4,5.06,5.06,Y,N,N
+CGPLH646,Healthy,cfDNA,Preoperative treatment na夫e,50,F,NA,NA,NA,NA,NA,NA,4.4,6.75,6.75,Y,N,N
+CGPLH75,Healthy,cfDNA,Preoperative treatment na夫e,46,F,NA,NA,NA,NA,NA,NA,4.0,3.87,3.87,Y,N,Y
+CGPLH76,Healthy,cfDNA,Preoperative treatment na夫e,53,F,NA,NA,NA,NA,NA,NA,4.0,4.03,4.03,Y,N,Y
+CGPLH77,Healthy,cfDNA,Preoperative treatment na夫e,46,F,NA,NA,NA,NA,NA,NA,4.0,5.89,5.89,Y,N,Y
+CGPLH78,Healthy,cfDNA,Preoperative treatment na夫e,34,F,NA,NA,NA,NA,NA,NA,4.0,2.51,2.51,Y,N,Y
+CGPLH79,Healthy,cfDNA,Preoperative treatment na夫e,37,F,NA,NA,NA,NA,NA,NA,4.0,3.68,3.68,Y,N,Y
+CGPLH80,Healthy,cfDNA,Preoperative treatment na夫e,37,F,NA,NA,NA,NA,NA,NA,4.0,1.94,1.94,Y,N,Y
+CGPLH81,Healthy,cfDNA,Preoperative treatment na夫e,54,F,NA,NA,NA,NA,NA,NA,4.0,5.16,5.16,Y,N,Y
+CGPLH82,Healthy,cfDNA,Preoperative treatment na夫e,38,F,NA,NA,NA,NA,NA,NA,4.0,3.30,3.30,Y,N,Y
+CGPLH83,Healthy,cfDNA,Preoperative treatment na夫e,60,F,NA,NA,NA,NA,NA,NA,4.0,5.04,5.04,Y,N,Y
+CGPLH84,Healthy,cfDNA,Preoperative treatment na夫e,45,F,NA,NA,NA,NA,NA,NA,4.0,3.33,3.33,Y,N,Y
+CGPLLU13,Lung Cancer,cfDNA,"Pre-treatment, Day -2",72,F,IV,T1BN2bM1a,Right Lung,Adenocarcinoma,NA,Bone,5.0,7.67,7.67,Y,N,Y
+CGPLLU13,Lung Cancer,cfDNA,"Post-treatment, Day 5",72,F,IV,T1BN2bM1a,Right Lung,Adenocarcinoma,NA,Bone,4.5,8.39,8.39,Y,N,Y
+CGPLLU13,Lung Cancer,cfDNA,"Post-treatment, Day 28",72,F,IV,T1BN2bM1a,Right Lung,Adenocarcinoma,NA,Bone,3.2,8.66,8.66,Y,N,Y
+CGPLLU13,Lung Cancer,cfDNA,"Post-treatment, Day 91",72,F,IV,T1BN2bM1a,Right Lung,Adenocarcinoma,NA,Bone,5.0,5.97,5.97,Y,N,Y
+CGPLLU14,Lung Cancer,cfDNA,"Pre-treatment, Day -38",55,F,IV,T1N1M0,Right Lower Lobe of Lung,Adenocarcinoma,Moderate,NA,2.0,2.55,2.55,Y,N,Y
+CGPLLU14,Lung Cancer,cfDNA,"Pre-treatment, Day -16",55,F,IV,T1N1M0,Right Lower Lobe of Lung,Adenocarcinoma,Moderate,NA,2.0,2.55,2.55,Y,N,Y
+CGPLLU14,Lung Cancer,cfDNA,"Pre-treatment, Day -3",55,F,IV,T1N1M0,Right Lower Lobe of Lung,Adenocarcinoma,Moderate,NA,2.0,2.55,2.55,Y,N,Y
+CGPLLU14,Lung Cancer,cfDNA,"Pre-treatment, Day 0",55,F,IV,T1N1M0,Right Lower Lobe of Lung,Adenocarcinoma,Moderate,NA,2.0,2.55,2.55,Y,N,Y
+CGPLLU14,Lung Cancer,cfDNA,"Post-treatment, Day 0.33",55,F,IV,T1N1M0,Right Lower Lobe of Lung,Adenocarcinoma,Moderate,NA,2.0,2.55,2.55,Y,N,Y
+CGPLLU14,Lung Cancer,cfDNA,"Post-treatment, Day 7",55,F,IV,T1N1M0,Right Lower Lobe of Lung,Adenocarcinoma,Moderate,NA,2.0,2.55,2.55,Y,N,Y
+CGPLLU144,Lung Cancer,cfDNA,Preoperative treatment na夫e,52,M,II,T2aN1M0,Lung,Adenocarcinoma,Poor,None,3.5,31.51,31.51,Y,Y,Y
+CGPLLU147,Lung Cancer,cfDNA,Preoperative treatment na夫e,60,M,III,T3N2M0,Lung,Adenosquamous Carcinoma,Poor,None,3.8,6.72,6.72,Y,Y,Y
+CGPLLU161,Lung Cancer,cfDNA,Preoperative treatment na夫e,41,F,II,T3N0M0,Lung,Adenocarcinoma,Well,None,4.0,83.04,83.04,Y,N,Y
+CGPLLU162,Lung Cancer,cfDNA,Preoperative treatment na夫e,38,M,II,T1N1M0,Right Lung,Adenocarcinoma,Moderate,None,3.1,40.32,40.32,Y,Y,Y
+CGPLLU163,Lung Cancer,cfDNA,Preoperative treatment na夫e,66,M,II,T1N1M0,Left Lung,Adenocarcinoma,Poor,None,5.0,54.03,54.03,Y,Y,Y
+CGPLLU165,Lung Cancer,cfDNA,Preoperative treatment na夫e,68,F,II,T1N1M0,Right Lung,Adenocarcinoma,Well,None,4.5,20.13,20.13,Y,Y,Y
+CGPLLU168,Lung Cancer,cfDNA,Preoperative treatment na夫e,70,F,I,T2aN0M0,Lung,Adenocarcinoma,Poor,None,4.3,19.38,19.38,Y,Y,Y
+CGPLLU169,Lung Cancer,cfDNA,Preoperative treatment na夫e,64,M,I,T1bN0M0,Lung,Squamous Cell Carcinoma,Moderate,None,4.2,13.70,13.70,Y,N,Y
+CGPLLU175,Lung Cancer,cfDNA,Preoperative treatment na夫e,47,M,I,T2N0M0,Lung,Squamous Cell Carcinoma,Moderate,None,4.4,16.84,16.84,Y,Y,Y
+CGPLLU176,Lung Cancer,cfDNA,Preoperative treatment na夫e,58,M,I,T2N0M0,Lung,Adenosquamous Carcinoma,Moderate,None,3.2,7.86,7.86,Y,Y,Y
+CGPLLU177,Lung Cancer,cfDNA,Preoperative treatment na夫e,45,M,II,T3N0M0,Right Lung,Adenocarcinoma,NA,None,3.9,19.07,19.07,Y,Y,Y
+CGPLLU180,Lung Cancer,cfDNA,Preoperative treatment na夫e,57,M,I,T2N0M0,Right Lung,Large Cell Carcinoma  ,Poor,None,3.2,19.31,19.31,Y,Y,Y
+CGPLLU198,Lung Cancer,cfDNA,Preoperative treatment na夫e,49,F,I,T2N0M0,Left Lung,Adenocarcinoma,Moderate,None,4.2,14.09,14.09,Y,Y,Y
+CGPLLU202,Lung Cancer,cfDNA,Preoperative treatment na夫e,68,M,I,T2aN0M0,Right Lung,Adenocarcinoma,NA,None,4.4,24.72,24.72,Y,Y,Y
+CGPLLU203,Lung Cancer,cfDNA,Preoperative treatment na夫e,66,M,II,T3N0M0,Right Lung,Squamous Cell Carcinoma,Well,None,4.2,26.24,26.24,Y,N,Y
+CGPLLU205,Lung Cancer,cfDNA,Preoperative treatment na夫e,65,M,II,T3N0M0,Left Lung,Adenocarcinoma,Poor,None,4.0,18.56,18.56,Y,Y,Y
+CGPLLU206,Lung Cancer,cfDNA,Preoperative treatment na夫e,55,M,III,T3N1M0,Right Lung,Squamous Cell Carcinoma,Poor,None,3.5,18.24,18.24,Y,Y,Y
+CGPLLU207,Lung Cancer,cfDNA,Preoperative treatment na夫e,60,F,II,T2N1M0,Lung,Adenocarcinoma,Well,None,4.0,17.29,17.29,Y,Y,Y
+CGPLLU208,Lung Cancer,cfDNA,Preoperative treatment na夫e,56,F,II,T2N1M0,Lung,Adenocarcinoma,Moderate,None,3.0,24.34,24.34,Y,Y,Y
+CGPLLU209,Lung Cancer,cfDNA,Preoperative treatment na夫e,65,M,II,T2aN0M0,Lung,Large Cell Carcinoma  ,Poor,None,5.5,53.95,53.95,Y,Y,Y
+CGPLLU244,Lung Cancer,cfDNA,"Pre-treatment, Day -7",66,F,IV,NA,Right Upper Lobe of Lung,Adenocarcinoma,Moderate/Poor,"Liver, Rib, Brain, Pleura",4.5,17.84,17.84,Y,N,Y
+CGPLLU244,Lung Cancer,cfDNA,"Pre-treatment, Day -1",66,F,IV,NA,Right Upper Lobe of Lung,Adenocarcinoma,Moderate/Poor,"Liver, Rib, Brain, Pleura",4.5,17.84,17.84,Y,N,Y
+CGPLLU244,Lung Cancer,cfDNA,"Post-treatment, Day 6",66,F,IV,NA,Right Upper Lobe of Lung,Adenocarcinoma,Moderate/Poor,"Liver, Rib, Brain, Pleura",4.5,17.84,17.84,Y,N,Y
+CGPLLU244,Lung Cancer,cfDNA,"Post-treatment, Day 62",66,F,IV,NA,Right Upper Lobe of Lung,Adenocarcinoma,Moderate/Poor,"Liver, Rib, Brain, Pleura",4.5,17.84,17.84,Y,N,Y
+CGPLLU245,Lung Cancer,cfDNA,"Pre-treatment, Day -32",49,M,IV,T2aN2M1B,Left Upper Lobe of Lung,Adenocarcinoma,NA,Brain,4.7,19.42,19.42,Y,N,Y
+CGPLLU245,Lung Cancer,cfDNA,"Pre-treatment, Day 0",49,M,IV,T2aN2M1B,Left Upper Lobe of Lung,Adenocarcinoma,NA,Brain,4.7,19.42,19.42,Y,N,Y
+CGPLLU245,Lung Cancer,cfDNA,"Post-treatment, Day 7",49,M,IV,T2aN2M1B,Left Upper Lobe of Lung,Adenocarcinoma,NA,Brain,4.7,19.42,19.42,Y,N,Y
+CGPLLU245,Lung Cancer,cfDNA,"Post-treatment, Day 21",49,M,IV,T2aN2M1B,Left Upper Lobe of Lung,Adenocarcinoma,NA,Brain,4.7,19.42,19.42,Y,N,Y
+CGPLLU246,Lung Cancer,cfDNA,"Pre-treatment, Day -21",65,F,IV,NA,Right Lower Lobe of Lung,Adenocarcinoma,Poor,Pleura,5.5,18.51,18.51,Y,N,Y
+CGPLLU246,Lung Cancer,cfDNA,"Pre-treatment, Day 0",65,F,IV,NA,Right Lower Lobe of Lung,Adenocarcinoma,Poor,Pleura,5.5,18.51,18.51,Y,N,Y
+CGPLLU246,Lung Cancer,cfDNA,"Post-treatment, Day 9",65,F,IV,NA,Right Lower Lobe of Lung,Adenocarcinoma,Poor,Pleura,5.5,18.51,18.51,Y,N,Y
+CGPLLU246,Lung Cancer,cfDNA,"Post-treatment, Day 42",65,F,IV,NA,Right Lower Lobe of Lung,Adenocarcinoma,Poor,Pleura,5.5,18.51,18.51,Y,N,Y
+CGPLLU264,Lung Cancer,cfDNA,"Pre-treatment, Day -1",84,M,IV,T4N2BM1,Left Middle Lung,Adenocarcinoma,NA,Lung,4.0,22.97,22.97,Y,N,Y
+CGPLLU264,Lung Cancer,cfDNA,"Post-treatment, Day 6",84,M,IV,T4N2BM1,Left Middle Lung,Adenocarcinoma,NA,Lung,4.5,10.53,10.53,Y,N,Y
+CGPLLU264,Lung Cancer,cfDNA,"Post-treatment, Day 27",84,M,IV,T4N2BM1,Left Middle Lung,Adenocarcinoma,NA,Lung,3.0,7.15,7.15,Y,N,Y
+CGPLLU264,Lung Cancer,cfDNA,"Post-treatment, Day 69",84,M,IV,T4N2BM1,Left Middle Lung,Adenocarcinoma,NA,Lung,4.0,9.60,9.60,Y,N,Y
+CGPLLU265,Lung Cancer,cfDNA,"Pre-treatment, Day 0",71,F,IV,T1N0Mx,Left Lower Lobe of Lung,Adenocarcinoma,NA,None,4.2,7.16,7.16,Y,N,Y
+CGPLLU265,Lung Cancer,cfDNA,"Post-treatment, Day 3",71,F,IV,T1N0Mx,Left Lower Lobe of Lung,Adenocarcinoma,NA,None,4.0,8.11,8.11,Y,N,Y
+CGPLLU265,Lung Cancer,cfDNA,"Post-treatment, Day 7",71,F,IV,T1N0Mx,Left Lower Lobe of Lung,Adenocarcinoma,NA,None,4.2,7.53,7.53,Y,N,Y
+CGPLLU265,Lung Cancer,cfDNA,"Post-treatment, Day 84",71,F,IV,T1N0Mx,Left Lower Lobe of Lung,Adenocarcinoma,NA,None,5.0,16.17,16.17,Y,N,Y
+CGPLLU266,Lung Cancer,cfDNA,"Pre-treatment, Day 0",78,M,IV,T2aN1,Left Lower Lobe of Lung,Adenocarcinoma,Moderate,None,5.0,5.32,5.32,Y,N,Y
+CGPLLU266,Lung Cancer,cfDNA,"Post-treatment, Day 16",78,M,IV,T2aN1,Left Lower Lobe of Lung,Adenocarcinoma,Moderate,None,3.5,6.31,6.31,Y,N,Y
+CGPLLU266,Lung Cancer,cfDNA,"Post-treatment, Day 83",78,M,IV,T2aN1,Left Lower Lobe of Lung,Adenocarcinoma,Moderate,None,5.0,7.64,7.64,Y,N,Y
+CGPLLU266,Lung Cancer,cfDNA,"Post-treatment, Day 328",78,M,IV,T2aN1,Left Lower Lobe of Lung,Adenocarcinoma,Moderate,None,5.0,14.39,14.39,Y,N,Y
+CGPLLU267,Lung Cancer,cfDNA,"Pre-treatment, Day -1",55,F,IV,T3NxM1a,Right Upper Lobe of Lung,Squamous Cell Carcinoma,Poor,Lung,4.5,2.87,2.87,Y,N,Y
+CGPLLU267,Lung Cancer,cfDNA,"Post-treatment, Day 34",55,F,IV,T3NxM1a,Right Upper Lobe of Lung,Squamous Cell Carcinoma,Poor,Lung,4.5,3.34,3.34,Y,N,Y
+CGPLLU267,Lung Cancer,cfDNA,"Post-treatment, Day 90",55,F,IV,T3NxM1a,Right Upper Lobe of Lung,Squamous Cell Carcinoma,Poor,Lung,3.5,3.00,3.00,Y,N,Y
+CGPLLU269,Lung Cancer,cfDNA,"Pre-treatment, Day 0",52,F,IV,T1CNxM1C,Right Paratracheal Lesion,Adenocarcinoma,NA,"Brain, Liver, Bone, Pleura",5.0,11.40,11.40,Y,N,Y
+CGPLLU269,Lung Cancer,cfDNA,"Post-treatment, Day 9",52,F,IV,T1CNxM1C,Right Paratracheal Lesion,Adenocarcinoma,NA,"Brain, Liver, Bone, Pleura",5.0,8.35,8.35,Y,N,Y
+CGPLLU269,Lung Cancer,cfDNA,"Post-treatment, Day 28",52,F,IV,T1CNxM1C,Right Paratracheal Lesion,Adenocarcinoma,NA,"Brain, Liver, Bone, Pleura",3.5,17.79,17.79,Y,N,Y
+CGPLLU271,Lung Cancer,cfDNA,"Post-treatment, Day 259",73,M,IV,T1aNxM1,Left Upper Lobe of Lung,Adenocarcinoma,NA,Pleura,4.0,4.70,4.70,Y,N,Y
+CGPLLU271,Lung Cancer,cfDNA,"Pre-treatment, Day 0",73,M,IV,T1aNxM1,Left Upper Lobe of Lung,Adenocarcinoma,NA,Pleura,5.0,18.86,18.86,Y,N,Y
+CGPLLU271,Lung Cancer,cfDNA,"Post-treatment, Day 6",73,M,IV,T1aNxM1,Left Upper Lobe of Lung,Adenocarcinoma,NA,Pleura,4.5,13.84,13.84,Y,N,Y
+CGPLLU271,Lung Cancer,cfDNA,"Post-treatment, Day 20",73,M,IV,T1aNxM1,Left Upper Lobe of Lung,Adenocarcinoma,NA,Pleura,3.5,13.46,13.46,Y,N,Y
+CGPLLU271,Lung Cancer,cfDNA,"Post-treatment, Day 104",73,M,IV,T1aNxM1,Left Upper Lobe of Lung,Adenocarcinoma,NA,Pleura,4.0,13.77,13.77,Y,N,Y
+CGPLLU43,Lung Cancer,cfDNA,"Pre-treatment, Day -1",57,F,IV,T1BN0M0,Right Lower Lobe of Lung,Adenocarcinoma,Moderate,None,4.9,2.17,2.17,Y,N,Y
+CGPLLU43,Lung Cancer,cfDNA,"Post-treatment, Day 6",57,F,IV,T1BN0M0,Right Lower Lobe of Lung,Adenocarcinoma,Moderate,None,3.7,3.26,3.26,Y,N,Y
+CGPLLU43,Lung Cancer,cfDNA,"Post-treatment, Day 27",57,F,IV,T1BN0M0,Right Lower Lobe of Lung,Adenocarcinoma,Moderate,None,4.0,4.12,4.12,Y,N,Y
+CGPLLU43,Lung Cancer,cfDNA,"Post-treatment, Day 83",57,F,IV,T1BN0M0,Right Lower Lobe of Lung,Adenocarcinoma,Moderate,None,3.7,8.20,8.20,Y,N,Y
+CGPLLU86,Lung Cancer,cfDNA,"Pre-treatment, Day 0",55,M,IV,NA,Left Upper Lobe of Lung,Adenocarcinoma,NA,Lung,4.0,7.90,7.90,Y,N,Y
+CGPLLU86,Lung Cancer,cfDNA,"Post-treatment, Day 0.5",55,M,IV,NA,Left Upper Lobe of Lung,Adenocarcinoma,NA,Lung,4.0,7.90,7.90,Y,N,Y
+CGPLLU86,Lung Cancer,cfDNA,"Post-treatment, Day 7",55,M,IV,NA,Left Upper Lobe of Lung,Adenocarcinoma,NA,Lung,4.0,7.90,7.90,Y,N,Y
+CGPLLU86,Lung Cancer,cfDNA,"Post-treatment, Day 17",55,M,IV,NA,Left Upper Lobe of Lung,Adenocarcinoma,NA,Lung,4.0,7.90,7.90,Y,N,Y
+CGPLLU88,Lung Cancer,cfDNA,"Pre-treatment, Day 0",59,M,IV,NA,Right Middle Lobe of Lung,Adenocarcinoma,NA,None,5.0,27.66,27.66,Y,N,Y
+CGPLLU88,Lung Cancer,cfDNA,"Post-treatment, Day 7",59,M,IV,NA,Right Middle Lobe of Lung,Adenocarcinoma,NA,None,5.0,6.49,6.49,Y,N,Y
+CGPLLU88,Lung Cancer,cfDNA,"Post-treatment, Day 297",59,M,IV,NA,Right Middle Lobe of Lung,Adenocarcinoma,NA,None,4.0,3.04,3.04,Y,N,Y
+CGPLLU89,Lung Cancer,cfDNA,"Pre-treatment, Day 0",54,F,IV,NA,Right Upper Lobe of Lung,Adenocarcinoma,NA,"Brain, Bone, Lung",8.0,8.43,8.43,Y,N,Y
+CGPLLU89,Lung Cancer,cfDNA,"Post-treatment, Day 7",54,F,IV,NA,Right Upper Lobe of Lung,Adenocarcinoma,NA,"Brain, Bone, Lung",8.0,8.43,8.43,Y,N,Y
+CGPLLU89,Lung Cancer,cfDNA,"Post-treatment, Day 22",54,F,IV,NA,Right Upper Lobe of Lung,Adenocarcinoma,NA,"Brain, Bone, Lung",8.0,8.43,8.43,Y,N,Y
+CGPLOV11,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,51,F,IV,T3cN0M1,Right Ovary,Endometrioid Adenoarcinoma,Moderate,Omentum,3.4,17.35,17.35,Y,Y,Y
+CGPLOV12,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,45,F,I,T1aN0MX,Ovary,Endometrioid Adenoarcinoma,NA,None,3.2,12.44,12.44,Y,N,Y
+CGPLOV13,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,62,F,IV,T1bN0M1,Right Ovary,Endometrioid Adenoarcinoma,Poor,Omentum,3.8,27.00,27.00,Y,Y,Y
+CGPLOV15,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,54,F,III,T3N1M0,Ovary,Adenocarcinoma,Poor,None,5.0,4.77,4.77,Y,Y,Y
+CGPLOV16,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,40,F,III,T3aN0M0,Ovary,Serous Adenocarcinoma,Moderate,None,4.5,27.28,27.28,Y,N,Y
+CGPLOV19,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,52,F,II,T2aN0M0,Ovary,Endometrioid Adenoarcinoma,Moderate,None,5.0,23.46,23.46,Y,Y,Y
+CGPLOV20,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,52,F,II,T2aN0M0,Left Ovary,Endometrioid Adenoarcinoma,Poor,None,4.2,5.67,5.67,Y,Y,Y
+CGPLOV21,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,51,M,IV,TanyN1M1,Ovary,Serous Adenocarcinoma,Poor,"Omentum, Appendix",4.3,56.32,56.32,Y,Y,Y
+CGPLOV22,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,64,F,III,T1cNXMX,Left Ovary,Serous Adenocarcinoma,Well,None,4.6,17.42,17.42,Y,Y,Y
+CGPLOV23,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,47,F,I,T1aN0M0,Ovary,Serous Adenocarcinoma,Poor,None,5.0,26.73,26.73,Y,N,Y
+CGPLOV24,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,14,F,I,T1aN0M0,Ovary,Germ Cell Tumor,Poor,None,4.2,10.71,10.71,Y,N,Y
+CGPLOV25,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,18,F,I,T1aN0M0,Ovary,Germ Cell Tumor,Poor,None,4.8,6.78,6.78,Y,N,Y
+CGPLOV26,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,35,F,I,T1aN0M0,Ovary,Germ Cell Tumor,Poor,None,4.5,27.90,27.90,Y,N,Y
+CGPLOV28,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,63,F,I,T1aNxM0,Right Ovary,Serous Carcinoma,NA,None,3.2,10.74,10.74,Y,N,Y
+CGPLOV31,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,45,F,III,T3aNxM0,Right Ovary,Clear Cell adenocarcinoma,NA,None,4.0,14.45,14.45,Y,N,Y
+CGPLOV32,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,53,F,I,T1aNxM0,Left Ovary,Mucinous Cystadenoma,NA,None,3.2,27.36,27.36,Y,N,Y
+CGPLOV37,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,40,F,I,T1cN0M0,Ovary,Serous Carcinoma,NA,None,3.2,46.88,46.88,Y,N,Y
+CGPLOV38,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,46,F,I,T1cN0M0,Ovary,Serous Carcinoma,NA,None,2.4,34.29,34.29,Y,N,Y
+CGPLOV40,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,53,F,IV,T3N0M1,Ovary,Serous Carcinoma,NA," Omentum, Uterus, Appendix",1.6,193.60,156.25,Y,N,Y
+CGPLOV41,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,57,F,IV,T3N0M1,Ovary,Serous Carcinoma,NA,"Omentum, Uterus, Cervix",4.4,10.03,10.03,Y,N,Y
+CGPLOV42,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,52,F,I,T3aN0M0,Ovary,Serous Carcinoma,NA,None,4.2,49.51,49.51,Y,N,Y
+CGPLOV43,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,30,F,I,T1aN0M0,Ovary,Mucinous Cystadenocarcinoma,NA,None,4.4,9.09,9.09,Y,N,Y
+CGPLOV44,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,69,F,I,T1aN0M0,Ovary,Mucinous Adenocarcinoma,NA,None,4.5,8.79,8.79,Y,N,Y
+CGPLOV46,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,58,F,I,T1bN0M0,Ovary,Serous Carcinoma,NA,None,4.1,8.97,8.97,Y,N,Y
+CGPLOV47,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,41,F,I,T1aN0M0,Ovary,Serous Cystadenoma,NA,None,4.5,19.35,19.35,Y,N,Y
+CGPLOV48,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,52,F,I,T1bN0M0,Ovary,Serous Carcinoma,NA,None,3.5,22.80,22.80,Y,N,Y
+CGPLOV49,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,68,F,III,T3bN0M0,Ovary,Serous Carcinoma,NA,None,4.2,16.48,16.48,Y,N,Y
+CGPLOV50,Ovarian Cancer,cfDNA,Preoperative treatment na夫e,30,F,III,T3cN0M0,Ovary,Serous Carcinoma,NA,None,4.5,8.89,8.89,Y,N,Y
+CGPLPA112,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,58,M,II,NA,Intra Pancreatic Bile Duct,NA,NA,None,3.5,18.52,18.52,Y,N,N
+CGPLPA113,Duodenal Cancer,cfDNA,Preoperative treatment na夫e,71,M,I,NA,Intra Pancreatic Bile Duct,NA,NA,None,4.8,8.24,8.24,Y,N,N
+CGPLPA114,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,NA,F,II,NA,Intra Pancreatic Bile Duct,NA,NA,None,4.8,26.43,26.43,Y,N,N
+CGPLPA115,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,NA,M,IV,NA,Intra Hepatic Bile Duct,NA,NA,NA,5.0,31.41,31.41,Y,N,N
+CGPLPA117,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,NA,M,II,NA,Intra Pancreatic Bile Duct,NA,NA,None,3.4,2.29,2.29,Y,N,N
+CGPLPA118,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,68,F,I,NA,Bile Duct,Intra-Ampullary Bile Duct,NA,None,3.8,9.93,9.93,Y,N,Y
+CGPLPA122,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,62,F,II,NA,Bile Duct,Intra-Pancreatic Bile Duct,NA,None,3.8,66.54,32.89,Y,N,Y
+CGPLPA124,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,83,F,II,NA,Bile Duct,Intra-Ampullary Bile Duct,moderate,None,4.6,29.24,27.17,Y,N,Y
+CGPLPA125,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,58,M,II,NA,Bile Duct,Intra-Pancreatic Bile Duct,poor,None,2.7,8.31,8.31,Y,N,N
+CGPLPA126,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,60,M,II,NA,Bile Duct,Intra-Pancreatic Bile Duct,NA,None,4.3,80.56,29.07,Y,N,Y
+CGPLPA127,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,71,F,IV,NA,Bile Duct,Extra-Pancreatic Bile Duct,NA,NA,3.0,20.60,20.60,Y,N,N
+CGPLPA128,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,67,M,II,NA,Bile Duct,Intra-Pancreatic Bile Duct,NA,None,3.9,5.91,5.91,Y,N,Y
+CGPLPA129,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,56,F,II,NA,Bile Duct,Intra-Pancreatic Bile Duct,NA,None,4.6,27.07,27.07,Y,N,Y
+CGPLPA130,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,82,F,II,NA,Bile Duct,Intra-Ampullary Bile Duct,well,None,4.0,4.34,4.34,Y,N,Y
+CGPLPA131,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,71,M,II,NA,Bile Duct,Intra-Pancreatic Bile Duct,NA,None,3.9,68.95,32.05,Y,N,Y
+CGPLPA134,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,68,M,II,NA,Bile Duct,Intra-Pancreatic Bile Duct,NA,None,4.1,58.08,30.49,Y,N,Y
+CGPLPA135,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,67,F,I,NA,Bile Duct,Intra-Pancreatic Bile Duct,NA,NA,3.9,4.22,4.22,Y,N,N
+CGPLPA136,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,69,F,II,NA,Bile Duct,Intra-Pancreatic Bile Duct,NA,None,4.1,20.23,20.23,Y,N,Y
+CGPLPA137,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,NA,M,II,NA,Bile Duct,NA,NA,NA,4.0,5.75,5.75,Y,N,N
+CGPLPA139,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,NA,M,IV,NA,Bile Duct,NA,NA,NA,4.0,14.89,14.89,Y,N,N
+CGPLPA14,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,68,M,II,NA,Pancreas,Ductal Adenocarcinoma,Poor,None,4.0,1.30,1.30,Y,N,N
+CGPLPA140,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,52,M,II,NA,Extra Hepatic Bile Duct ,Intra-Pancreatic Bile Duct,Poor,None,4.7,29.34,26.60,Y,N,Y
+CGPLPA141,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,68,F,II,NA,Extra Hepatic Bile Duct ,Intra-Pancreatic Bile Duct,Moderate,None,2.8,53.67,44.64,Y,N,N
+CGPLPA15,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,70,F,II,NA,Pancreas,Ductal Adenocarcinoma,Well,Lymph Node,4.0,1.92,1.92,Y,N,N
+CGPLPA155,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,NA,F,II,NA,NA,NA,NA,NA,4.0,25.72,25.72,Y,N,N
+CGPLPA156,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,73,F,II,NA,Pancreas,Ductal Adenocarcinoma,Poor,Lymph Node,4.5,7.54,7.54,Y,N,N
+CGPLPA165,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,42,M,I,NA,Bile Duct,Intra-Pancreatic Bile Duct with Medullary Features,well,None,3.9,10.48,10.48,Y,N,N
+CGPLPA168,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,58,M,II,NA,Bile Duct,Extra-Pancreatic Bile Duct,NA,NA,3.6,139.12,34.72,Y,N,N
+CGPLPA17,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,65,M,II,NA,Pancreas,Ductal Adenocarcinoma,Well,Lymph Node,4.0,13.08,13.08,Y,N,N
+CGPLPA184,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,75,F,II,NA,Bile Duct,Intra-Pancreatic Bile Duct,NA,None,NA,NA,NA,Y,N,N
+CGPLPA187,Bile Duct Cancer,cfDNA,Preoperative treatment na夫e,67,F,II,NA,Bile Duct,Intra-Pancreatic Bile Duct,NA,None,NA,NA,NA,Y,N,N
+CGPLPA23,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,58,F,II,NA,Pancreas,Ductal Adenocarcinoma,Moderate,Lymph Node,4.0,16.62,16.62,Y,N,N
+CGPLPA25,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,69,F,II,NA,Pancreas,Ductal Adenocarcinoma,Poor,Lymph Node,4.0,8.71,8.71,Y,N,N
+CGPLPA26,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,64,M,II,NA,Pancreas,Ductal Adenocarcinoma,Well,Lymph Node,4.0,6.97,6.97,Y,N,N
+CGPLPA28,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,79,F,II,NA,Pancreas,Ductal Adenocarcinoma,Well,Lymph Node,4.0,18.13,18.13,Y,N,N
+CGPLPA33,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,67,F,II,NA,Pancreas,Ductal Adenocarcinoma,Well,Lymph Node,4.0,1.80,1.80,Y,N,N
+CGPLPA34,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,73,M,II,NA,Pancreas,Ductal Adenocarcinoma,Well,Lymph Node,4.0,3.36,3.36,Y,N,N
+CGPLPA37,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,67,F,II,NA,Pancreas,Ductal Adenocarcinoma,NA,Lymph Node,4.0,21.83,21.83,Y,N,N
+CGPLPA38,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,65,M,II,NA,Pancreas,Ductal Adenocarcinoma,Moderate,None,4.0,5.29,5.29,Y,N,N
+CGPLPA39,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,67,F,II,NA,Pancreas,Ductal Adenocarcinoma,Well,Lymph Node,4.0,11.73,11.73,Y,N,N
+CGPLPA40,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,64,M,II,NA,Pancreas,Ductal Adenocarcinoma,Well,Lymph Node,4.0,4.78,4.78,Y,N,N
+CGPLPA42,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,73,M,II,NA,Pancreas,Ductal Adenocarcinoma,Moderate,Lymph Node,4.0,3.41,3.41,Y,N,N
+CGPLPA46,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,59,F,II,NA,Pancreas,Ductal Adenocarcinoma,Poor,Lymph Node,4.0,0.74,0.74,Y,N,N
+CGPLPA47,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,67,M,II,NA,Pancreas,Ductal Adenocarcinoma,Well,Lymph Node,4.0,6.01,6.01,Y,N,N
+CGPLPA48,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,72,F,I,NA,Pancreas,Ductal Adenocarcinoma,Well,None,NA,NA,NA,Y,N,N
+CGPLPA52,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,63,M,II,NA,Pancreas,Ductal Adenocarcinoma,Moderate,None,2.5,9.86,9.86,Y,N,N
+CGPLPA53,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,46,M,I,NA,Pancreas,Ductal Adenocarcinoma,Poor,Lymph Node,3.0,14.48,14.48,Y,N,N
+CGPLPA58,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,74,F,II,NA,Pancreas,Ductal Adenocarcinoma,NA,None,3.0,6.87,6.87,Y,N,N
+CGPLPA59,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,59,F,II,NA,Pancreas,Ductal Adenocarcinoma or Adenoma,Well,Lymph Node,NA,NA,NA,Y,N,N
+CGPLPA67,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,55,M,III,NA,Pancreas,Ductal Adenocarcinoma,Well,Lymph Node,3.2,9.72,9.72,Y,N,N
+CGPLPA69,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,70,M,I,NA,Pancreas,Ductal Adenocarcinoma,Well,None,2.0,1.72,1.72,Y,N,N
+CGPLPA71,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,64,M,II,NA,Pancreas,Ductal Adenocarcinoma,Well,Lymph Node,2.2,39.07,39.07,Y,N,N
+CGPLPA74,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,71,F,II,NA,Pancreas,Ductal Adenocarcinoma,Moderate,Lymph Node,2.5,4.99,4.99,Y,N,N
+CGPLPA76,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,69,M,II,NA,Pancreas,Ductal Adenocarcinoma,Poor,None,2.5,23.19,23.19,Y,N,N
+CGPLPA85,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,77,F,II,NA,Pancreas,Ductal Adenocarcinoma,Poor,Lymph Node,3.0,152.46,41.67,Y,N,N
+CGPLPA86,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,66,M,II,NA,Pancreas,Ductal Adenocarcinoma,Moderate,Lymph Node,2.5,11.02,11.02,Y,N,N
+CGPLPA92,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,72,M,II,NA,Pancreas,Ductal Adenocarcinoma,NA,Lymph Node,2.0,5.34,5.34,Y,N,N
+CGPLPA93,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,48,M,II,NA,Pancreas,Ductal Adenocarcinoma,Poor,None,3.0,96.28,41.67,Y,N,N
+CGPLPA94,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,72,F,II,NA,Pancreas,Ductal Adenocarcinoma,NA,Lymph Node,3.0,29.66,29.66,Y,N,N
+CGPLPA95,Pancreatic Cancer,cfDNA,Preoperative treatment na夫e,64,F,II,NA,Pancreas,Ductal Adenocarcinoma,Well,Lymph Node,NA,NA,NA,Y,N,N
+CGST102,Gastric cancer,cfDNA,Preoperative treatment na夫e,76,F,II,T3N0M0,Stomach,Tubular Adenocarcinoma,Moderate,None,4.1,8.03,8.03,Y,N,Y
+CGST11,Gastric cancer,cfDNA,Preoperative treatment na夫e,49,M,IV,TXNXM1,Stomach,Mixed Carcinoma,Moderate,None,3.8,3.57,3.57,Y,N,N
+CGST110,Gastric cancer,cfDNA,Preoperative treatment na夫e,77,M,III,T4AN3aM0,Stomach,Tubular Adenocarcinoma,Moderate,None,3.8,5.00,5.00,Y,N,Y
+CGST114,Gastric cancer,cfDNA,Preoperative treatment na夫e,65,M,III,T4AN1M0,Stomach,Tubular Adenocarcinoma,Poor,None,4.4,10.35,10.35,Y,N,Y
+CGST13,Gastric cancer,cfDNA,Preoperative treatment na夫e,72,F,II,T1AN2M0,Stomach,Signet Ring Cell Carcinoma,Poor,None,4.4,24.33,24.33,Y,N,Y
+CGST131,Gastric cancer,cfDNA,Preoperative treatment na夫e,63,M,III,T2N3aM0,Stomach,Signet ring cell carcinoma,Poor,None,4.0,4.28,4.28,Y,N,N
+CGST141,Gastric cancer,cfDNA,Preoperative treatment na夫e,33,F,III,T3N2M0,Stomach,Signet Ring Cell Carcinoma,Poor,None,4.4,10.84,10.84,Y,N,Y
+CGST16,Gastric cancer,cfDNA,Preoperative treatment na夫e,78,M,III,T4AN3aM0,Stomach,Tubular Adenocarcinoma,Poor,None,4.0,40.69,40.69,Y,N,Y
+CGST18,Gastric cancer,cfDNA,Preoperative treatment na夫e,56,M,II,T3N0M0,Stomach,Mucinous Adenocarcinoma,Well,None,4.3,9.78,9.78,Y,N,Y
+CGST21,Gastric cancer,cfDNA,Preoperative treatment na夫e,39,M,II,T2N1 (mi)M0,Stomach,Papillary Adenocarcinoma,Moderate,None,4.0,0.83,0.83,Y,N,N
+CGST26,Gastric cancer,cfDNA,Preoperative treatment na夫e,51,M,IV,TXNXM1,Stomach,Signet ring cell carcinoma,Poor,None,3.5,5.56,5.56,Y,N,N
+CGST28,Gastric cancer,cfDNA,Preoperative treatment na夫e,55,M,X,TXNXMx,Stomach,Undifferentiated Carcinoma,Poor,None,4.0,5.86,5.86,Y,N,Y
+CGST30,Gastric cancer,cfDNA,Preoperative treatment na夫e,64,F,III,T3N2M0,Stomach,Signet Ring Cell Carcinoma,Poor,None,3.0,4.22,4.22,Y,N,Y
+CGST32,Gastric cancer,cfDNA,Preoperative treatment na夫e,67,M,II,T3N1M0,Stomach,Tubular Adenocarcinoma,Moderate,None,4.0,11.49,11.49,Y,N,Y
+CGST33,Gastric cancer,cfDNA,Preoperative treatment na夫e,61,M,I,T2N0M0,Stomach,Tubular Adenocarcinoma,Moderate,None,3.5,5.71,5.71,Y,N,Y
+CGST38,Gastric cancer,cfDNA,Preoperative treatment na夫e,71,F,0,T0N0M0,Stomach,Mucinous adenocarcinoma,NA,None,4.0,NA,NA,Y,N,N
+CGST39,Gastric cancer,cfDNA,Preoperative treatment na夫e,51,M,IV,TXNXM1,Stomach,Signet Ring Cell Carcinoma,Poor,None,3.5,20.69,20.69,Y,N,Y
+CGST41,Gastric cancer,cfDNA,Preoperative treatment na夫e,66,F,IV,TXNXM1,Stomach,Signet Ring Cell Carcinoma,Poor,None,3.5,7.83,7.83,Y,N,Y
+CGST45,Gastric cancer,cfDNA,Preoperative treatment na夫e,41,F,II,T3N0M0,Stomach,Signet Ring Cell Carcinoma,Poor,None,3.8,7.14,7.14,Y,N,Y
+CGST47,Gastric cancer,cfDNA,Preoperative treatment na夫e,74,F,I,T1AN0M0,Stomach,Tubular Adenocarcinoma,Moderate,None,4.0,4.55,4.55,Y,N,Y
+CGST48,Gastric cancer,cfDNA,Preoperative treatment na夫e,62,M,IV,TXNXM1,Stomach,Tubular Adenocarcinoma,Poor,None,4.5,8.79,8.79,Y,N,Y
+CGST53,Gastric cancer,cfDNA,Preoperative treatment na夫e,70,M,0,T0N0M0,Stomach,NA,NA,None,3.8,15.82,15.82,Y,N,N
+CGST58,Gastric cancer,cfDNA,Preoperative treatment na夫e,58,M,III,T4AN3bM0,Stomach,Signet Ring Cell Carcinoma,Poor,None,3.8,19.81,19.81,Y,N,Y
+CGST67,Gastric cancer,cfDNA,Preoperative treatment na夫e,69,M,I,T1BN0M0,Stomach,Tubular adenocarcinoma,Moderate,None,3.0,23.01,23.01,Y,N,N
+CGST77,Gastric cancer,cfDNA,Preoperative treatment na夫e,70,M,IV,TXNXM1,Stomach,Tubular adenocarcinoma,Moderate,None,4.5,15.09,15.09,Y,N,N
+CGST80,Gastric cancer,cfDNA,Preoperative treatment na夫e,58,M,III,T3N3aM0,Stomach,Mucinous Adenocarcinoma,Poor,None,4.5,8.56,8.56,Y,N,Y
+CGST81,Gastric cancer,cfDNA,Preoperative treatment na夫e,64,F,I,T2N0Mx,Stomach,Signet Ring Cell Carcinoma,Poor,None,3.5,37.32,37.32,Y,N,Y
+CGH14,Healthy,Human adult elutriated lymphocytes,NA,NA,M,NA,NA,NA,NA,NA,NA,NA,NA,NA,Y,N,N
+CGH15,Healthy,Human adult elutriated lymphocytes,NA,NA,F,NA,NA,NA,NA,NA,NA,NA,NA,NA,Y,N,N

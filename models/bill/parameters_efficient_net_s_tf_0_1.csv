@@ -1,0 +1,25 @@
+input_data_path:  /scratchc/nrlab/wang04/ulyses/cnn_model/cnn_strat/finalize/tp1/
+tf_label:  0_1
+model_name:  efficient_net_s
+remove_problem_bin:  True
+output_path:  /home/nrlab/wang04/ulyses/models/bill/
+scale_pixel_to_255:  True
+num_classes:  1
+model_learning_rate:  0.009
+model_finetune_learning_rate:  1e-05
+num_repeats:  20
+num_folds:  5
+train_val_split_fold:  3
+model_epochs:  40
+model_batch_size:  60
+model_fine_tune_epochs:  4
+set_sample_weight_for_testing:  False
+x_file_path:  x_clean_n_isize_n_motif_s1_C_n_motif_s1_T_TF_0_1_.npy
+y_file_path:  y_clean_n_isize_n_motif_s1_C_n_motif_s1_T_TF_0_1_.npy
+z_file_path:  z_clean_n_isize_n_motif_s1_C_n_motif_s1_T_TF_0_1_.npy
+performance_csv_path:  /home/nrlab/wang04/ulyses/models/bill/performance_efficient_net_s_tf_0_1.csv
+roc_curve_csv_path:  /home/nrlab/wang04/ulyses/models/bill/roc_curve_efficient_net_s_tf_0_1/
+seed 42
+x shape:  (1178, 464, 201, 3)
+y shape:  (1178,)
+z shape:  (1178,)

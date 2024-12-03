@@ -1,0 +1,437 @@
+# Obtain tensor and label
+## parameters 
+
+```{r params}
+layers <- c("n_isize", "n_motif_s1_C", "n_motif_s1_T")
+authors <- c("S.C. et al", "V.A. et al", "F.M. et al")
+cohorts <- c("Healthy")
+timepoints <- c(1)
+mae_file <- "multiassayexperiment/MAE.rds"
+
+```
+
+
+## libs 
+
+```{r libs}
+
+library(MultiAssayExperiment)
+library(tidyverse)
+
+```
+
+## Functions
+
+```{r funcs}
+
+func_tibble_to_matrix <- function(x){
+  
+  # split the rowname column
+  ans <- x %>%
+    dplyr::mutate(bin = stringr::str_extract(rowname, "\\d+(p|q)_\\d+")) %>%
+    dplyr::mutate(isize = stringr::str_extract(rowname, "isize_\\d+$")) %>%
+    select(-rowname)
+  
+  # convert to matrix
+  ans <- ans %>%
+    pivot_wider(names_from = isize, values_from = value) %>%
+    map_df(rev) %>%
+    column_to_rownames("bin") %>% 
+    as.matrix()
+  
+  return(ans)
+  
+}
+
+
+func_split_by_assay <- function(x){
+  
+  ans <- x %>% 
+    group_by(assay) 
+  nms <- group_keys(ans)
+  
+  result <- ans %>%  
+    group_split(.keep = FALSE) %>%
+    purrr::set_names(nms[["assay"]])
+  
+  
+  final <- purrr::map(result, func_tibble_to_matrix)
+  return(final)
+  
+}
+
+
+func_set_tensor_dimname <- function(x, dimname_to_set){
+  dimnames(x) <- dimname_to_set
+  return(x)
+}
+
+
+func_get_label <- function(bam_id, col_Data){
+  
+  ans <- col_Data[rownames(col_Data) == bam_id, ]$"cohort"
+  return(ans)
+  
+}
+
+
+# developed by: https://github.com/anderslaunerbaek/homemade
+
+class_weights <- function(labels, case = 1, mu = 0.15) {
+  # do bin count
+  weights <- table(labels)
+  if (case == 1){
+    # sklearn.utils.class_weight.compute_class_weight approach
+    # http://scikit-learn.org/stable/modules/generated/sklearn.utils.class_weight.compute_class_weight.html
+    weights <- sum(weights) / (length(weights) * weights)
+  } else if (case == 2) {
+    weights <- log(mu * sum(weights) / weights)
+    weights <- ifelse(weights < 1, 1, weights)
+  } else if (case == 3) {
+    weights <- ceiling(max(weights) / weights)
+  } else {
+    weights <- weights / sum(weights)
+  }
+  # create and return list
+  setNames(as.list(weights), names(weights))
+}
+
+
+```
+
+
+## Get layers
+
+```{r layers}
+
+mae <- readRDS(mae_file)
+ans <- mae[, mae$author %in% authors & (mae$timepoint %in% timepoints | is.na(mae$timepoint)), layers]
+ans_long <- longFormat(ans, colDataCols = "cohort")
+
+
+```
+
+## Prepare tensors for CNN
+
+```{r}
+
+# get sample tensor
+
+# group by primary
+
+ans_tibble<- ans_long %>%
+  as_tibble() %>%
+  select(-colname) %>%
+  select(-cohort) %>%
+  group_by(primary) 
+
+ans_primary <- ans_tibble %>%
+  group_split(.keep = FALSE) %>%
+  set_names(group_keys(ans_tibble)[["primary"]])
+
+
+# use future map to speed up
+ans_primary_assay <- purrr::map(ans_primary, func_split_by_assay)
+ans_primary_assay_tensor <- purrr::map(ans_primary_assay, EBImage::combine)
+
+dimnames_to_set <- list(ans_primary_assay_tensor[[1]]  %>% dimnames() %>% pluck(1), 
+                        ans_primary_assay_tensor[[1]]  %>% dimnames() %>% pluck(2),
+                        names(ans_primary_assay[[1]])
+                        )
+
+ans_primary_assay_tensor_set_names <-  purrr::map(ans_primary_assay_tensor, 
+                                                  .f = func_set_tensor_dimname, 
+                                                  dimname_to_set = dimnames_to_set)
+
+tensors <- ans_primary_assay_tensor_set_names
+
+
+
+
+# get labels
+bam_ids <- names(ans_primary_assay_tensor_set_names)
+mae_coldata <- colData(mae)
+
+labels <- purrr::map(bam_ids, .f = func_get_label, col_Data  = mae_coldata)
+
+
+saveRDS(tensors, "tensors.rds")
+saveRDS(labels, "labels.rds")
+
+```
+
+
+# move to cuda partition
+
+```{r cuda}
+
+library(tidyverse)
+library(keras)
+library(tidyverse)
+
+
+tensors <- readRDS("/mnt/scratchc/nrlab/wang04/ulyses/tensors.rds")
+labels <- readRDS("/mnt/scratchc/nrlab/wang04/ulyses/labels.rds")
+
+tmp <- sample(1:length(labels))
+
+tensors <- tensors[tmp]
+labels <- labels[tmp]
+
+
+train_x <- abind::abind(tensors, along = 0)
+
+
+
+
+labels <- unlist(labels) %>%
+  as_tibble() %>%
+  mutate(cohort = case_when(
+    value == "Healthy" ~ 0L,
+    TRUE ~ 1L
+  )) %>%
+  purrr::pluck("cohort")
+
+
+train_y <- labels %>%
+  keras::to_categorical(num_classes = 2)
+
+
+
+
+
+
+# convolutional layer
+
+model <- keras_model_sequential() %>% 
+  
+  layer_conv_2d(filters = 32, kernel_size = c(3, 3), activation = "relu", 
+                input_shape = c(465, 201, 3)) %>% 
+  #layer_conv_2d(filters = 32, kernel_size = c(3, 3), activation = "relu") %>% 
+  layer_max_pooling_2d(pool_size = c(3,2)) %>% 
+  
+  layer_conv_2d(filters = 32, kernel_size = c(3, 3), activation = "relu") %>% 
+  #layer_conv_2d(filters = 32, kernel_size = c(3, 3), activation = "relu") %>% 
+  layer_max_pooling_2d(pool_size = c(2,2)) %>%
+
+  layer_conv_2d(filters = 32, kernel_size = c(3, 3), activation = "relu") %>% 
+  #layer_conv_2d(filters = 32, kernel_size = c(3, 3), activation = "relu") %>% 
+  layer_max_pooling_2d(pool_size = c(2,2)) %>%
+
+  layer_conv_2d(filters = 16, kernel_size = c(3, 3), activation = "relu") %>% 
+  #layer_conv_2d(filters = 32, kernel_size = c(3, 3), activation = "relu") %>% 
+  layer_max_pooling_2d(pool_size = c(2,2)) 
+
+  #layer_conv_2d(filters = 32, kernel_size = c(3, 3), activation = "relu") %>% 
+  #layer_conv_2d(filters = 32, kernel_size = c(3, 3), activation = "relu") %>% 
+  #layer_max_pooling_2d(pool_size = c(2,2))  
+
+
+# add dense layer
+
+model %>% 
+  layer_flatten() %>% 
+  #layer_dense(units = 256, activation = "relu") %>% 
+  #layer_dense(units = 128, activation = "relu") %>% 
+  layer_dense(units = 32, activation = "relu") %>% 
+  # layer_dropout(rate = 0.2) %>%
+  layer_dense(units = 1, activation = "sigmoid")
+
+# try multi class classification, change the input label and the units of softmax layer.
+# Copula (probability theory), external multiplication of bin dist and frag lenth dist, this might be less complex than the flattened layer output
+# tried on lower-depth, noiser
+# tried on higher depth, less sample number. 
+# could also train on deeper one, then apply on shallower ones.
+summary(model)
+
+# Compile and train the model
+
+model %>% compile(
+  optimizer = "adam",
+  loss = "binary_crossentropy",
+  metrics = "accuracy"
+)
+
+# fit the model
+history <- model %>% 
+  fit(
+    x = train_x, y = labels,
+    epochs = 30,
+    batch_size = 30,
+    verbose = 1,
+    callbacks = callback_tensorboard(),
+    validation_split = 0.3
+  )
+
+history <- model %>% 
+  fit(
+    x = train_x, y = labels,
+    epochs = 40,
+    batch_size = 30,
+    verbose = 1,
+    callbacks = callback_tensorboard(),
+    validation_split = 0.4
+  )
+
+
+history <- model %>% 
+  fit(
+    x = train_x, y = labels,
+    epochs = 40,
+    batch_size = 30,
+    verbose = 1,
+    callbacks = callback_tensorboard(),
+    validation_split = 0.2
+  )
+
+
+model %>% compile(
+  optimizer = optimizer_adam(learning_rate = 0.000001),
+  loss = "binary_crossentropy",
+  metrics = c('accuracy', 'AUC')
+)
+history <- model %>% 
+  fit(
+    x = train_x, y = labels,
+    epochs = 40,
+    batch_size = 30,
+    verbose = 1,
+    callbacks = callback_tensorboard(),
+    validation_split = 0.2
+  )
+
+
+model %>% compile(
+  optimizer = optimizer_adam(learning_rate = 0.0005),
+  loss = "binary_crossentropy",
+  metrics = c('accuracy', 'AUC')
+)
+
+history <- model %>% 
+  fit(
+    x = train_x, y = labels,
+    epochs = 35,
+    batch_size = 40,
+    verbose = 1,
+    callbacks = callback_tensorboard(),
+    validation_split = 0.3,
+    shuffle = TRUE
+  )
+
+# set class weight
+class_weight <- list("0" = 5, "1" = 1)
+
+model %>% compile(
+  optimizer = optimizer_adam(learning_rate = 0.0005),
+  loss = "binary_crossentropy",
+  metrics = c('accuracy', 'AUC')
+)
+
+history <- model %>% 
+  fit(
+    x = train_x, y = labels,
+    epochs = 35,
+    batch_size = 40,
+    verbose = 1,
+    callbacks = callback_tensorboard(),
+    validation_split = 0.3,
+    shuffle = TRUE,
+    class_weight = class_weight
+  )
+
+
+#set metrics
+model %>% compile(
+  optimizer = optimizer_adam(learning_rate = 0.0005),
+  loss = "binary_crossentropy",
+  metrics = list("accuracy", 
+                 metric_auc(), 
+                 metric_sensitivity_at_specificity(specificity = 0.95), 
+                 metric_precision(), 
+                 metric_recall())
+)
+
+history <- model %>% 
+  fit(
+    x = train_x, y = labels,
+    epochs = 35,
+    batch_size = 40,
+    verbose = 1,
+    callbacks = callback_tensorboard(),
+    validation_split = 0.3,
+    shuffle = TRUE,
+    class_weight = class_weight
+  )
+
+##### tweek batch size 
+
+
+model %>% compile(
+  optimizer = optimizer_adam(learning_rate = 0.0005),
+  loss = "binary_crossentropy",
+  metrics = list("accuracy", 
+                 "AUC", 
+                 metric_sensitivity_at_specificity(specificity = 0.95), 
+                 metric_precision(), 
+                 metric_recall())
+)
+
+history <- model %>% 
+  fit(
+    x = train_x, y = labels,
+    epochs = 40,
+    batch_size = 30,
+    verbose = 1,
+    callbacks = callback_tensorboard(),
+    validation_split = 0.2,
+    shuffle = TRUE,
+    class_weight = class_weight
+  )
+
+
+
+
+
+#plot the history
+plot_path <- "/mnt/scratchc/nrlab/wang04/ulyses"
+
+plot_file_name <-file.path(plot_path, "cnn_training_history.pdf")
+
+pdf(file = plot_file_name )
+
+plot(history)
+
+dev.off()
+
+
+```
+
+
+
+```{r}
+
+model <- application_vgg19(weights = NULL, classes = 2, include_top = TRUE, input_shape = c(465, 201, 3) )
+
+model <- application_resnet50(weights = NULL, classes = 2, include_top = TRUE, input_shape = c(465, 201, 3) )
+
+model <- application_resnet152(weights = NULL, classes = 2, include_top = TRUE, input_shape = c(465, 201, 3) )
+
+model %>% compile(
+  optimizer = "adam",
+  loss = "categorical_crossentropy",
+  metrics = "accuracy"
+)
+
+history <- model %>% 
+  fit(
+    x = train_x, y = train_y,
+    epochs = 30,
+    batch_size = 50,
+    verbose = 1,
+    callbacks = callback_tensorboard(),
+    validation_split = 0.4
+    
+  )
+
+```
+
