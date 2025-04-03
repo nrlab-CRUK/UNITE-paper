@@ -60,8 +60,14 @@ Enter the directory containing the UNITE result files, then run the code below:
 sbatch --time=1-0 --mem=8G -J QC --partition=epyc --wrap="bash /home/nrlab/wang04/ulyses/ulyses_scale_up_scripts/QC_ulyses_results.sh"
 ```
 
+# using the best model to exam the test data
+
+```bash
+
+```
+
 #################################################################################
-#archived codes below
+#archived codes below, please ignore
 #################################################################################
 
 
