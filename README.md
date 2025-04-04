@@ -64,8 +64,10 @@ sbatch --time=1-0 --mem=8G -J QC --partition=epyc --wrap="bash /home/nrlab/wang0
 
 ```bash
 # best CNN model trained using 0-3% TF
-/scratchc/nrlab/wang04/ulyses_results_iteration/iteration_3_merge_below_3/cnn_model/cnn14/plasma_tp1_0.1x_model_C4/roc_curve_resnet18_tf_0_0.03/ind_test_random/resnet18
+# model was saved using this code: https://github.com/hw538/ulyses/blob/7117a73b9c5490f40c69a2550040e75cda5c8c33/models/cnn_binary_timm_skorch_train_and_test.py#L620
+/scratchc/nrlab/wang04/ulyses_results_iteration/iteration_3_merge_below_3/cnn_model/cnn14/plasma_tp1_0.1x_model_C4/roc_curve_resnet18_tf_0_0.03/ind_test_random/resnet18/repeat_0_fold_0_best_model_from_CV.pkl
 # best CNN model trained using all TF
+/scratchc/nrlab/wang04/ulyses_results_iteration/iteration_3_merge_below_3/cnn_model/cnn14/plasma_tp1_0.1x_model_C4/roc_curve_resnet18_tf_0_1/ind_test_random/resnet18/repeat_0_fold_0_best_model_from_CV.pkl
 
 
 ```
