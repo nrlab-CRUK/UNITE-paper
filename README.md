@@ -60,9 +60,13 @@ Enter the directory containing the UNITE result files, then run the code below:
 sbatch --time=1-0 --mem=8G -J QC --partition=epyc --wrap="bash /home/nrlab/wang04/ulyses/ulyses_scale_up_scripts/QC_ulyses_results.sh"
 ```
 
-# using the best model to exam the test data
+# using the best model to examine the test data
 
 ```bash
+# best CNN model trained using 0-3% TF
+/scratchc/nrlab/wang04/ulyses_results_iteration/iteration_3_merge_below_3/cnn_model/cnn14/plasma_tp1_0.1x_model_C4/roc_curve_resnet18_tf_0_0.03/ind_test_random/resnet18
+# best CNN model trained using all TF
+
 
 ```
 
