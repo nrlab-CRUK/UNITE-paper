@@ -1,6 +1,8 @@
+The data of the UNITE paper is deposited in the `raw_data` folder in this repository.
+The meta data of each sample is in the `Table S12` in the manuscript. (Aslso see the meta_for_samples_to_upload.xlsx file in the repository)
 
-This working flow runs on `epyc` node on `clust1-sub`
-
+The snippets/steps of running the UNITE pipeline are as follows:
+# Prepare model input features/arrays
 
 ## Step 1: index bam files (when needed)
 ```bash
