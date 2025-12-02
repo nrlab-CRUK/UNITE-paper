@@ -9,6 +9,7 @@ The data (.tsv.gz) are in formats compatable with FinaleDB (http://finaledb.rese
 | mapq     | 30      | Fragment mapping quality (min of forward and reverse reads)  |
 | strand   | +       | Strand                               |
 
+The data and codes are for research purpose only.
 
 The snippets/steps used in the UNITE paper are as follows:
 # Prepare model input features/arrays
