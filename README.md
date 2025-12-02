@@ -6,7 +6,7 @@ The data (.tsv.gz) are in formats compatable with FinaleDB (http://finaledb.rese
 | seqname  | chr1    | Chromosome                                                   |
 | start    | 1782520 | Start position                                               |
 | end      | 1782770 | End position                                                 |
-| mapq     | 30      | Fragment mapping quality (min of forward and reverse reads)  |
+| mapq     | 60      | Fragment mapping quality (min of forward and reverse reads)  |
 | strand   | +       | Strand                               |
 
 The data and codes are for research purpose only.
