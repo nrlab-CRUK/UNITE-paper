@@ -8,7 +8,7 @@ The raw data format is compressed tsv files, with columns compatable with Finale
 | start    | 1782520 | Start position                                               |
 | end      | 1782770 | End position                                                 |
 | mapq     | 30      | Fragment mapping quality (min of forward and reverse reads)  |
-| strand   | +       | Strand of fragments mapped to                                |
+| strand   | +       | Strand                               |
 
 
 The snippets/steps of running the UNITE pipeline are as follows:
