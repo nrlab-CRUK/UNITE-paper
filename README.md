@@ -1,7 +1,6 @@
-The data of the UNITE paper is deposited in the `raw_data` folder in this repository.
-The meta data of each sample is in the `Table S12` in the manuscript. (Aslso see the meta_for_samples_to_upload.xlsx file in the repository)
-
-The raw data format is compressed tsv files, with columns compatable with FinaleDB (http://finaledb.research.cchmc.org/):
+The sample sequencing data of the UNITE paper is deposited in the `raw_data` folder in this repository.
+The meta data of each sample is in the `Table S12` in the manuscript. (ALso see the meta_for_samples_to_upload.xlsx file in the repository)
+The data format is compressed tsv files, with columns compatable with FinaleDB (http://finaledb.research.cchmc.org/):
 | Column   | Example | Description                                                  |
 |----------|---------|--------------------------------------------------------------|
 | seqname  | chr1    | Chromosome                                                   |
