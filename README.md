@@ -1,6 +1,16 @@
 The data of the UNITE paper is deposited in the `raw_data` folder in this repository.
 The meta data of each sample is in the `Table S12` in the manuscript. (Aslso see the meta_for_samples_to_upload.xlsx file in the repository)
 
+The raw data format is compressed tsv files, with columns compatable with FinaleDB (http://finaledb.research.cchmc.org/):
+| Column   | Example | Description                                                  |
+|----------|---------|--------------------------------------------------------------|
+| seqname  | chr1    | Chromosome                                                   |
+| start    | 1782520 | Start position                                               |
+| end      | 1782770 | End position                                                 |
+| mapq     | 30      | Fragment mapping quality (min of forward and reverse reads)  |
+| strand   | +       | Strand of fragments mapped to                                |
+
+
 The snippets/steps of running the UNITE pipeline are as follows:
 # Prepare model input features/arrays
 
