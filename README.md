@@ -1,5 +1,5 @@
-The sample sequencing data of the UNITE paper is deposited in the `raw_data` folder in this repository.
-The meta data of each sample is in the `Table S12` in the manuscript. (ALso see the meta_for_samples_to_upload.xlsx file in the repository)
+The sample sequencing data of the UNITE paper is deposited in the `raw_data` folder in this repository.  
+The meta data of each sample is in the `Table S12` in the manuscript. (ALso see the meta_for_samples_to_upload.xlsx file in the repository).  
 The data (.tsv.gz) are in formats compatable with FinaleDB (http://finaledb.research.cchmc.org/), the columns are described as follows:
 | Column   | Example | Description                                                  |
 |----------|---------|--------------------------------------------------------------|
