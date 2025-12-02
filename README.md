@@ -10,7 +10,7 @@ The data (.tsv.gz) are in formats compatable with FinaleDB (http://finaledb.rese
 | strand   | +       | Strand                               |
 
 
-The snippets/steps of running the UNITE pipeline are as follows:
+The snippets/steps used in the UNITE paper are as follows:
 # Prepare model input features/arrays
 
 ## Step 1: index bam files (when needed)
