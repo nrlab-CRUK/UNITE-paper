@@ -1,7 +1,7 @@
 The sample sequencing data of the UNITE paper is deposited in the `raw_data` folder in this repository.  
 The meta data of each sample is in the `Table S12` in the manuscript. (ALso see the meta_for_samples_to_upload.xlsx file in the repository).  
 The data (.tsv.gz) are derived from 0.1x bam files, paired reads were merged into fragments using cfDNAPro developed by the lab (Wang et al, Genome Biology, 2025).  
-The files are in formats compatable with FinaleDB (http://finaledb.research.cchmc.org/), the columns are described as follows:
+The files are in formats compatable with FinaleDB by Zheng et al, 2021 (http://finaledb.research.cchmc.org/), the columns are described as follows:
 | Column   | Example | Description                                                  |
 |----------|---------|--------------------------------------------------------------|
 | seqname  | chr1    | Chromosome                                                   |
