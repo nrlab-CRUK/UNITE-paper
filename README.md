@@ -1,4 +1,4 @@
-The data of the samples newly sequenced (n =  470) in the UNITE paper is deposited in the `raw_data` folder in this repository.  
+The data of the samples newly sequenced (n =  470) in the UNITE paper are deposited in the `raw_data` folder in this repository.  
 The meta data of each sample is in the `Table S12` in the manuscript. (ALso see the meta_for_samples_to_upload.xlsx file in the repository).  
 The data (.tsv.gz) are derived from 0.1x bam (hg19) files, paired reads were merged into fragments using cfDNAPro developed by the lab (Wang et al, Genome Biology, 2025).  
 The files are in formats compatable with FinaleDB by Zheng et al, Bioinformatics, 2021 (http://finaledb.research.cchmc.org/), the columns are described as follows:
